@@ -1,6 +1,24 @@
 {
-  "home": "Kodu",
-  "housing": "Majutus",
+  "home": {
+    "home": "Kodu",
+    "title": "Tere tulemast meie veebisaidile",
+    "intro": "Meil on hea meel, et olete siin. Meie veebisait pakub mitmesuguseid funktsioone ja teavet, mis aitavad teid.",
+    "section1": {
+      "header": "Meist",
+      "content": "Meie ettevõte on olnud juhtival kohal üle 20 aasta..."
+    },
+    "section2": {
+      "header": "Meie teenused",
+      "content": "Pakume laia valikut teenuseid, et rahuldada teie vajadusi..."
+    }
+  },
+  "housing": {
+    "housing": "Majutus",
+    "rooms": "Toad",
+    "pricing": "Hinnakiri",
+    "extra_services": "Lisateenused",
+    "booking_policies": "Broneerimispoliitikad"
+  },
   "location": "Asukoht",
   "wineRegion": "Veinipiirkond",
   "activities": "Tegevused",

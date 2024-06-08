@@ -1,8 +1,26 @@
 {
-  "home": "Home",
-  "housing": "Housing",
+  "home": {
+    "home": "Home",
+    "title": "Welcome to Our Website",
+    "intro": "We are glad to have you here. Our website offers a variety of features and information to help you.",
+    "section1": {
+      "header": "About Us",
+      "content": "Our company has been leading the industry for over 20 years..."
+    },
+    "section2": {
+      "header": "Our Services",
+      "content": "We offer a wide range of services to meet your needs..."
+    }
+  },
+  "housing": {
+    "housing": "Housing",
+    "rooms": "Rooms",
+    "pricing": "Pricing",
+    "extra_services": "Extra Services",
+    "booking_policies": "Booking Policies"
+  },
   "location": "Location",
-  "wineRegion": "Wine region",
+  "wineRegion": "Wine Region",
   "activities": "Activities",
   "gallery": "Gallery",
   "contact": "Contact"

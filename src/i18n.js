@@ -1,22 +1,16 @@
 import { createI18n } from 'vue-i18n'
+import en from './locales/en.json'
+import et from './locales/et.json'
 
-function loadLocaleMessages() {
-    const locales = import.meta.glob('./locales/*.json', { eager: true })
-    const messages = {}
-    for (const key in locales) {
-        const matched = key.match(/([A-Za-z0-9-_]+)\./i)
-        if (matched && matched.length > 1) {
-            const locale = matched[1]
-            messages[locale] = locales[key].default
-        }
-    }
-    return messages
+const messages = {
+    en,
+    et
 }
 
 const i18n = createI18n({
-    locale: 'en', // set default locale
+    locale: 'en', // set locale
     fallbackLocale: 'en', // set fallback locale
-    messages: loadLocaleMessages() // set locale messages
+    messages, // set locale messages
 })
 
 export default i18n
