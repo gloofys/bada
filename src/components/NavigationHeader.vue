@@ -2,21 +2,32 @@
   <header class="navigation-header">
     <nav>
       <ul>
-        <li><router-link to="/">Home</router-link></li>
-        <li><router-link to="/housing">Housing</router-link></li>
-        <li><router-link to="/contact">Location</router-link></li>
-        <li><router-link to="/wineRegion">Wine region</router-link></li>
-        <li><router-link to="/activities">Activities</router-link></li>
-        <li><router-link to="/gallery">Gallery</router-link></li>
-        <li><router-link to="/contact">Contact</router-link></li>
+        <li><router-link to="/">{{ $t('home') }}</router-link></li>
+        <li><router-link to="/housing">{{ $t('housing') }}</router-link></li>
+        <li><router-link to="/location">{{ $t('location') }}</router-link></li>
+        <li><router-link to="/wineRegion">{{ $t('wineRegion') }}</router-link></li>
+        <li><router-link to="/activities">{{ $t('activities') }}</router-link></li>
+        <li><router-link to="/gallery">{{ $t('gallery') }}</router-link></li>
+        <li><router-link to="/contact">{{ $t('contact') }}</router-link></li>
       </ul>
     </nav>
+    <div class="navigation-content">
+      <div>
+        <button @click="changeLanguage('en')">English</button>
+        <button @click="changeLanguage('et')">Eesti</button>
+      </div>
+    </div>
   </header>
 </template>
 
 <script>
 export default {
-  name: 'NavigationHeader'
+  name: 'NavigationHeader',
+  methods: {
+    changeLanguage(lang) {
+      this.$i18n.locale = lang
+    }
+  }
 }
 </script>
 
