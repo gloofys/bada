@@ -3,15 +3,12 @@
 <template>
   <div id="app">
     <NavigationHeader />
-    <main>
-      <router-view />
-    </main>
+    <router-view />
   </div>
 </template>
 
-
 <script>
-import NavigationHeader from './components/NavigationHeader.vue'
+import NavigationHeader from './components/NavigationHeader.vue';
 
 export default {
   name: 'App',
@@ -26,10 +23,6 @@ header {
   line-height: 1.5;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
 
 @media (min-width: 1024px) {
   header {
@@ -38,14 +31,5 @@ header {
     padding-right: calc(var(--section-gap) / 2);
   }
 
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
 }
 </style>

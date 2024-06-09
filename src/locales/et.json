@@ -19,14 +19,26 @@
     "extra_services": "Lisateenused",
     "booking_policies": "Broneerimispoliitikad"
   },
-  "location": "Asukoht",
+  "location": {
+    "location": "Asukoht",
+    "how_to_get_here": "Kuidas kohale jõuda"
+  },
   "wineRegion": {
     "wine_region": "Veinipiirkond",
     "biggest_wine_producers": "Suurimad veinivalmistajad",
     "small_wine_producers": "Väikesed veinivalmistajad",
     "our_favourites": "Meie lemmikud"
   },
-  "activities": "Tegevused",
+  "activities": {
+    "activities": "Tegevused",
+    "hiking": "Matkamine",
+    "cycling": "Jalgrattasõit",
+    "lakeBalaton": "Balatoni järv",
+    "beaches": "Rannad",
+    "nearby_cities": "Lähedal asuvad linnad",
+    "spa": "Spa",
+    "badacsonyEvents": "Badacsony sündmused"
+  },
   "gallery": "Galerii",
   "contact": "Kontakt"
 }
