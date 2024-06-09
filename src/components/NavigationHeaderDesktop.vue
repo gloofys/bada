@@ -43,9 +43,11 @@
       </ul>
     </nav>
     <div class="navigation-content">
-      <div>
-        <button @click="changeLanguage('en')">English</button>
-        <button @click="changeLanguage('et')">Eesti</button>
+      <div class="language-selector">
+        <select @change="changeLanguage($event.target.value)">
+          <option value="en">🇬🇧 English</option>
+          <option value="et">🇪🇪 Eesti</option>
+        </select>
       </div>
     </div>
   </header>
@@ -113,5 +115,15 @@ nav li {
 
 .dropdown-content li:hover {
   background-color: #f1f1f1;
+}
+.language-selector select {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 </style>

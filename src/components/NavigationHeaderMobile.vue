@@ -52,9 +52,11 @@
       <li @click="closeDropdown"><router-link to="/contact">{{ $t('contact') }}</router-link></li>
     </ul>
     <div class="navigation-content">
-      <div>
-        <button @click="changeLanguage('en')">English</button>
-        <button @click="changeLanguage('et')">Eesti</button>
+      <div class="language-selector">
+        <select @change="changeLanguage($event.target.value)">
+          <option value="en">🇬🇧 English</option>
+          <option value="et">🇪🇪 Eesti</option>
+        </select>
       </div>
     </div>
   </header>
@@ -85,15 +87,14 @@ export default {
 <style scoped>
 .navigation-header-mobile {
   width: 100%;
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: space-between;
-  padding: 1rem;
+  justify-content: space-evenly;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   z-index: 1000;
 }
@@ -138,5 +139,16 @@ details summary {
 
 .navigation-content {
   margin-top: 1rem;
+}
+.language-selector select {
+  display: flex;
+  background: none;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 </style>
