@@ -1,19 +1,15 @@
-
 <template>
   <div>
-    <router-view></router-view>
+    <h1>Biggest wine producers</h1>
   </div>
 </template>
 
 
 <script>
 export default {
-  name: 'WineRegion'
+  name: 'BiggestWineProducers'
 }
 </script>
-
-
-
 
 <style scoped>
 

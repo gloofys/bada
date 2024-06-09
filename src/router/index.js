@@ -10,6 +10,9 @@ import Rooms from '@/views/Rooms.vue'
 import Pricing from '@/views/Pricing.vue'
 import ExtraServices from '@/views/ExtraServices.vue'
 import BookingPolicies from '@/views/BookingPolicies.vue'
+import BiggestWineProducers from "@/views/BiggestWineProducers.vue";
+import SmallWineProducers from "@/views/SmallWineProducers.vue";
+import OurFavourites from "@/views/OurFavourites.vue";
 
 const routes = [
     {
@@ -73,7 +76,24 @@ const routes = [
             {
                 path: 'wineRegion',
                 name: 'WineRegion',
-                component: WineRegion
+                component: WineRegion,
+                children: [
+                    {
+                        path: 'biggest-Wine-Producers',
+                        name: 'BiggestWineProducers',
+                        component: BiggestWineProducers
+                    },
+                    {
+                        path: 'small-Wine-Producers',
+                        name: 'SmallWineProducers',
+                        component: SmallWineProducers
+                    },
+                    {
+                        path: 'our-Favourites',
+                        name: 'OurFavourites',
+                        component: OurFavourites
+                    }
+                ]
             }
         ]
     }

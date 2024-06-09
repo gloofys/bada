@@ -20,7 +20,12 @@
     "booking_policies": "Broneerimispoliitikad"
   },
   "location": "Asukoht",
-  "wineRegion": "Veinipiirkond",
+  "wineRegion": {
+    "wine_region": "Veinipiirkond",
+    "biggest_wine_producers": "Suurimad veinivalmistajad",
+    "small_wine_producers": "Väikesed veinivalmistajad",
+    "our_favourites": "Meie lemmikud"
+  },
   "activities": "Tegevused",
   "gallery": "Galerii",
   "contact": "Kontakt"

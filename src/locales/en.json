@@ -20,7 +20,14 @@
     "booking_policies": "Booking Policies"
   },
   "location": "Location",
-  "wineRegion": "Wine Region",
+  "wineRegion": {
+    "wine_region": "Wine Region",
+    "biggest_wine_producers": "Biggest wine producers",
+    "small_wine_producers": "Small wine producers",
+    "our_favourites": "Our favourites"
+
+
+  },
   "activities": "Activities",
   "gallery": "Gallery",
   "contact": "Contact"

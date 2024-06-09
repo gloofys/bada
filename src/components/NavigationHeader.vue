@@ -12,8 +12,15 @@
             <li><router-link to="/housing/booking-policies">{{ $t('housing.booking_policies') }}</router-link></li>
           </ul>
         </li>
+        <li class="dropdown">
+          <router-link to="/wineRegion">{{ $t('wineRegion.wine_region') }}</router-link>
+          <ul class="dropdown-content">
+            <li><router-link to="/wineRegion/biggest-wine-producers">{{ $t('wineRegion.biggest_wine_producers') }}</router-link></li>
+            <li><router-link to="/wineRegion/small-wine-producers">{{ $t('wineRegion.small_wine_producers') }}</router-link></li>
+            <li><router-link to="/wineRegion/our-favourites">{{ $t('wineRegion.our_favourites') }}</router-link></li>
+          </ul>
+        </li>
         <li><router-link to="/location">{{ $t('location') }}</router-link></li>
-        <li><router-link to="/wineRegion">{{ $t('wineRegion') }}</router-link></li>
         <li><router-link to="/activities">{{ $t('activities') }}</router-link></li>
         <li><router-link to="/gallery">{{ $t('gallery') }}</router-link></li>
         <li><router-link to="/contact">{{ $t('contact') }}</router-link></li>
@@ -33,7 +40,7 @@ export default {
   name: 'NavigationHeader',
   methods: {
     changeLanguage(lang) {
-      this.$i18n.locale = lang
+      this.$i18n.locale = lang;
     }
   }
 }

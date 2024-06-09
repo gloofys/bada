@@ -1,19 +1,15 @@
-
 <template>
   <div>
-    <router-view></router-view>
+    <h1>small wine producers Page</h1>
   </div>
 </template>
 
 
 <script>
 export default {
-  name: 'WineRegion'
+  name: 'SmallWineProducers'
 }
 </script>
-
-
-
 
 <style scoped>
 

@@ -1,19 +1,15 @@
-
 <template>
   <div>
-    <router-view></router-view>
+    <h1>Our favourites Page</h1>
   </div>
 </template>
 
 
 <script>
 export default {
-  name: 'WineRegion'
+  name: 'OurFavourites'
 }
 </script>
-
-
-
 
 <style scoped>
 
