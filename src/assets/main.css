@@ -1,4 +1,6 @@
 @import './base.css';
+@import './dropdowns.css';
+@import './navigation-header.css';
 
 #app {
   max-width: 1280px;
@@ -17,19 +19,7 @@
     font-weight: normal;
   }
 }
-.navigation-header {
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
-}
+
 
 main {
   padding-top: 60px; /* Adjust this value based on your header height */

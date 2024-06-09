@@ -55,7 +55,7 @@
 
 <script>
 export default {
-  name: 'NavigationHeader',
+  name: 'NavigationHeaderDesktop',
   methods: {
     changeLanguage(lang) {
       this.$i18n.locale = lang;
@@ -65,65 +65,7 @@ export default {
 </script>
 
 <style scoped>
-.navigation-header {
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
-}
 
-nav ul {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
 
-nav li {
-  margin-left: 1rem;
-  position: relative;
-}
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-  min-width: 160px;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropdown-content li {
-  padding: 12px 16px;
-}
-
-.dropdown-content li a {
-  text-decoration: none;
-  color: #333;
-}
-
-.dropdown-content li:hover {
-  background-color: #f1f1f1;
-}
-.language-selector select {
-  background: none;
-  border: none;
-  font-size: 1rem;
-  cursor: pointer;
-  padding: 0.5rem;
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-}
 </style>

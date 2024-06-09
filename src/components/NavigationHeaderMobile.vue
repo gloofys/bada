@@ -85,70 +85,11 @@ export default {
 </script>
 
 <style scoped>
-.navigation-header-mobile {
-  width: 100%;
-  position: sticky;
-  top: 0;
-  left: 0;
-  background-color: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-evenly;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
-}
 
-.dropdown-button {
-  background: none;
-  border: none;
-  font-size: 1.2rem;
-  cursor: pointer;
-}
 
-.dropdown-content {
-  display: block;
-  background-color: #f9f9f9;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-  width: 100%;
-}
 
-.dropdown-content li {
-  padding: 12px 16px;
-  list-style: none;
-}
 
-.dropdown-content li a {
-  text-decoration: none;
-  color: #333;
-}
 
-.dropdown-subcontent {
-  display: none;
-  padding-left: 1rem;
-}
 
-details[open] > .dropdown-subcontent {
-  display: block;
-}
 
-details summary {
-  cursor: pointer;
-}
-
-.navigation-content {
-  margin-top: 1rem;
-}
-.language-selector select {
-  display: flex;
-  background: none;
-  border: none;
-  font-size: 1rem;
-  cursor: pointer;
-  padding: 0.5rem;
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-}
 </style>
