@@ -19,7 +19,11 @@
     "extra_services": "Extra Services",
     "booking_policies": "Booking Policies"
   },
-  "location": "Location",
+  "location": {
+    "location": "Location",
+    "how_to_get_here": "How to get here"
+
+  },
   "wineRegion": {
     "wine_region": "Wine Region",
     "biggest_wine_producers": "Biggest wine producers",
@@ -32,7 +36,7 @@
     "cycling": "Cycling",
     "lakeBalaton": "Lake Balaton",
     "beaches": "Beaches",
-    "nearbyCities": "Nearby Cities",
+    "nearby_cities": "Nearby Cities",
     "spa": "Spa",
     "badacsonyEvents": "Badacsony events"
   },

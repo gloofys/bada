@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import {createRouter, createWebHistory} from 'vue-router'
 import Home from '@/views/Home.vue'
 import Housing from '@/views/Housing.vue'
 import Activities from '@/views/Activities.vue'
@@ -20,6 +20,7 @@ import NearbyCities from "@/views/NearbyCities.vue";
 import Spa from "@/views/Spa.vue";
 import BadacsonyEvents from "@/views/BadacsonyEvents.vue";
 import Beaches from "@/views/Beaches.vue";
+import HowToGetHere from "@/views/HowToGetHere.vue";
 
 const routes = [
     {
@@ -86,7 +87,7 @@ const routes = [
                         component: Beaches
                     },
                     {
-                        path: 'nearbyCities',
+                        path: 'nearby-cities',
                         name: 'NearbyCities',
                         component: NearbyCities
                     },
@@ -100,7 +101,7 @@ const routes = [
                         name: 'BadacsonyEvents',
                         component: BadacsonyEvents
                     },
-                    ]
+                ]
             },
             {
                 path: 'contact',
@@ -115,7 +116,14 @@ const routes = [
             {
                 path: 'location',
                 name: 'Location',
-                component: Location
+                component: Location,
+                children: [
+                    {
+                        path: 'how-To-Get-Here',
+                        name: 'HowToGetHere',
+                        component: HowToGetHere
+                    },
+                ]
             },
             {
                 path: 'wineRegion',
