@@ -13,6 +13,13 @@ import BookingPolicies from '@/views/BookingPolicies.vue'
 import BiggestWineProducers from "@/views/BiggestWineProducers.vue";
 import SmallWineProducers from "@/views/SmallWineProducers.vue";
 import OurFavourites from "@/views/OurFavourites.vue";
+import Hiking from "@/views/Hiking.vue";
+import Cycling from "@/views/Cycling.vue";
+import LakeBalaton from "@/views/LakeBalaton.vue";
+import NearbyCities from "@/views/NearbyCities.vue";
+import Spa from "@/views/Spa.vue";
+import BadacsonyEvents from "@/views/BadacsonyEvents.vue";
+import Beaches from "@/views/Beaches.vue";
 
 const routes = [
     {
@@ -56,7 +63,44 @@ const routes = [
             {
                 path: 'activities',
                 name: 'Activities',
-                component: Activities
+                component: Activities,
+                children: [
+                    {
+                        path: 'hiking',
+                        name: 'Hiking',
+                        component: Hiking
+                    },
+                    {
+                        path: 'cycling',
+                        name: 'Cycling',
+                        component: Cycling
+                    },
+                    {
+                        path: 'lakeBalaton',
+                        name: 'LakeBalaton',
+                        component: LakeBalaton
+                    },
+                    {
+                        path: 'beaches',
+                        name: 'Beaches',
+                        component: Beaches
+                    },
+                    {
+                        path: 'nearbyCities',
+                        name: 'NearbyCities',
+                        component: NearbyCities
+                    },
+                    {
+                        path: 'spa',
+                        name: 'Spa',
+                        component: Spa
+                    },
+                    {
+                        path: 'badacsonyEvents',
+                        name: 'BadacsonyEvents',
+                        component: BadacsonyEvents
+                    },
+                    ]
             },
             {
                 path: 'contact',

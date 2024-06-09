@@ -1,15 +1,13 @@
-
-
 <template>
   <div>
-    <router-view></router-view>
+    <h1>Nearby Cities Page</h1>
   </div>
 </template>
 
 
 <script>
 export default {
-  name: 'Activities'
+  name: 'NearbyCities',
 }
 </script>
 

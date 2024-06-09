@@ -25,10 +25,17 @@
     "biggest_wine_producers": "Biggest wine producers",
     "small_wine_producers": "Small wine producers",
     "our_favourites": "Our favourites"
-
-
   },
-  "activities": "Activities",
+  "activities": {
+    "activities": "Activities",
+    "hiking": "Hiking",
+    "cycling": "Cycling",
+    "lakeBalaton": "Lake Balaton",
+    "beaches": "Beaches",
+    "nearbyCities": "Nearby Cities",
+    "spa": "Spa",
+    "badacsonyEvents": "Badacsony events"
+  },
   "gallery": "Gallery",
   "contact": "Contact"
 }

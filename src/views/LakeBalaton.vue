@@ -1,15 +1,13 @@
-
-
 <template>
   <div>
-    <router-view></router-view>
+    <h1>Balaton Page</h1>
   </div>
 </template>
 
 
 <script>
 export default {
-  name: 'Activities'
+  name: 'LakeBalaton'
 }
 </script>
 

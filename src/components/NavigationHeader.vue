@@ -21,7 +21,18 @@
           </ul>
         </li>
         <li><router-link to="/location">{{ $t('location') }}</router-link></li>
-        <li><router-link to="/activities">{{ $t('activities') }}</router-link></li>
+        <li class="dropdown">
+          <router-link to="/activities">{{ $t('activities.activities') }}</router-link>
+          <ul class="dropdown-content">
+            <li><router-link to="/activities/hiking">{{ $t('activities.hiking') }}</router-link></li>
+            <li><router-link to="/activities/cycling">{{ $t('activities.cycling') }}</router-link></li>
+            <li><router-link to="/activities/lakeBalaton">{{ $t('activities.lakeBalaton') }}</router-link></li>
+            <li><router-link to="/activities/beaches">{{ $t('activities.beaches') }}</router-link></li>
+            <li><router-link to="/activities/nearbyCities">{{ $t('activities.nearbyCities') }}</router-link></li>
+            <li><router-link to="/activities/spa">{{ $t('activities.spa') }}</router-link></li>
+            <li><router-link to="/activities/badacsonyEvents">{{ $t('activities.badacsonyEvents') }}</router-link></li>
+          </ul>
+        </li>
         <li><router-link to="/gallery">{{ $t('gallery') }}</router-link></li>
         <li><router-link to="/contact">{{ $t('contact') }}</router-link></li>
       </ul>
