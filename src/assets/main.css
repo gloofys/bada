@@ -1,6 +1,7 @@
 @import './base.css';
 @import './dropdowns.css';
 @import './navigation-header.css';
+@import "icons.css";
 
 #app {
   margin: 0 auto;

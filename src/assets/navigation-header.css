@@ -1,36 +1,47 @@
-.navigation-header {
-    width: 100%;
-    position: sticky;
-    top: 0;
-    left: 0;
-    background-color: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
-}
-
+/* Common header styles */
+.navigation-header,
 .navigation-header-mobile {
     width: 100%;
     position: sticky;
     top: 0;
     left: 0;
-    background-color: transparent;
+    background-color: #fff;
     display: flex;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    font-size: 25px;
+}
+
+/* Desktop-specific navigation header */
+.navigation-header {
+    justify-content: space-between;
+}
+
+/* Mobile-specific navigation header */
+.navigation-header-mobile {
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-evenly;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
 }
-
+/* Navigation content */
 .navigation-content {
     margin-top: 1rem;
 }
-.language-selector select {
+.nav-container {
+    flex: 1;
     display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+/* Language selector */
+.language-selector {
+    margin-left: auto;
+}
+
+.language-selector select {
     background: none;
     border: none;
     font-size: 1rem;
@@ -41,14 +52,58 @@
     -moz-appearance: none;
 }
 
+/* Navigation list */
 nav ul {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
+    justify-content: center;
 }
 
 nav li {
-    margin-left: 1rem;
     position: relative;
+    padding-left: 3rem;
+}
+
+@media (max-width: 767px) {
+    .navigation-header {
+        display: none;
+    }
+}
+
+details[open] summary {
+    background-color: #e0e0e0;
+}
+
+/* Hide the default arrow for all browsers */
+details summary {
+    list-style: none;
+}
+
+/* Webkit browsers (Chrome, Safari) */
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+/* Additional universal rules */
+details summary {
+    ::-webkit-details-marker {
+        display: none;
+    }
+    ::marker {
+        display: none;
+    }
+    ::-moz-list-bullet {
+        display: none;
+    }
+    ::before {
+        display: none;
+    }
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
 }

@@ -1,18 +1,16 @@
-/* Dropdown button styles */
-.dropdown-button {
-    background: none;
-    border: none;
-    font-size: 1.2rem;
-    cursor: pointer;
-}
+/* Dropdown button styles
 
 /* Common dropdown content styles */
 .dropdown-content {
     background-color: #f9f9f9;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    width: 100%;
+    top: 100%;
+    width: 50%;
+    position: absolute;
+    padding: 0;
+    border-radius: 10px;
 }
+
 
 /* Desktop-specific dropdown content styles */
 .navigation-header .dropdown-content {
@@ -27,8 +25,9 @@
 
 /* List styles for dropdown content */
 .dropdown-content li {
-    padding: 12px 16px;
+    padding: 12px 16px 12px 0;
     list-style: none;
+    left: 0;
 }
 
 .dropdown-content li a {
@@ -46,9 +45,6 @@
     padding-left: 1rem;
 }
 
-details summary {
-    cursor: pointer;
-}
 
 details[open] > .dropdown-subcontent {
     display: block;
@@ -66,4 +62,19 @@ details[open] > .dropdown-subcontent {
 
 details[open] > .dropdown-subcontent {
     display: block;
+}
+
+details summary {
+    margin: 0;
+    padding: 0; /* Match padding with other li items */
+    cursor: pointer;
+    display: flex;
+    align-items: center; /* Vertically center the text */
+    justify-content: space-between; /* Align arrow to the right */
+}
+
+@media (max-width: 767px) {
+    .navigation-header-mobile .dropdown-content {
+        left: 0;
+    }
 }
