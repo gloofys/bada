@@ -5,13 +5,14 @@
     position: sticky;
     top: 0;
     left: 0;
-    background-color: #fff;
+    background-color: #d5e4dd;
     display: flex;
     align-items: center;
     padding: 1rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     z-index: 1000;
     font-size: 25px;
+    font-family: "Baskerville Old Face", Serif, serif;
 }
 
 /* Desktop-specific navigation header */
@@ -63,7 +64,7 @@ nav ul {
 
 nav li {
     position: relative;
-    padding-left: 3rem;
+    padding-left: 5rem;
 }
 
 @media (max-width: 767px) {
