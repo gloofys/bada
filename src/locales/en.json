@@ -45,5 +45,10 @@
   "hikingExperiences": {
     "heading": "Hiking Experiences",
     "description": "Badacsony hiking offers breathtaking views of Lake Balaton and lush vineyards, making it a picturesque and rewarding outdoor adventure."
+  },
+  "cyclingExperiences": {
+    "heading": "Cycling Experiences",
+    "description": "Cycling in Badacsony and around Lake Balaton provides a unique blend of stunning vineyard landscapes, historic landmarks, and serene lakeside views, making it a perfect destination for a memorable and scenic biking adventure."
+
   }
 }

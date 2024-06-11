@@ -2,7 +2,7 @@
     position: relative;
     width: 100%;
     overflow: hidden;
-    height: 50vh; /* Set the height relative to the viewport */
+    height: 40vh; /* Set the height relative to the viewport */
 }
 
 .banner-image {

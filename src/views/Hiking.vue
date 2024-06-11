@@ -1,15 +1,15 @@
 <template>
   <div class="banner-container">
     <img
-        src="/hiking_pic/badahike_1500.jpg"
+        src="/hiking_images/badahike_1500.jpg"
         srcset="
-        /hiking_pic/badahike_375.jpg 375w,
-        /hiking_pic/badahike_550.jpg 550w,
-        /hiking_pic/badahike_750.jpg 750w,
-        /hiking_pic/badahike_1100.jpg 1100w,
-        /hiking_pic/badahike_1500.jpg 1500w,
-        /hiking_pic/badahike_2000.jpg 2000w,
-        /hiking_pic/badahike_3000.jpg 3000w
+        /hiking_images/badahike_375.jpg 375w,
+        /hiking_images/badahike_550.jpg 550w,
+        /hiking_images/badahike_750.jpg 750w,
+        /hiking_images/badahike_1100.jpg 1100w,
+        /hiking_images/badahike_1500.jpg 1500w,
+        /hiking_images/badahike_2000.jpg 2000w,
+        /hiking_images/badahike_3000.jpg 3000w
       "
         sizes="(max-width: 375px) 375w,
              (max-width: 550px) 550w,

@@ -44,5 +44,9 @@
   "hikingExperiences": {
     "heading": "Matkakogemused",
     "description": "Badacsony's matkamine pakub hingematvaid vaateid Balatoni järvele ja lopsakatele viinamarjaistandustele, muutes selle maaliliseks ja tasuvaks väliseikluseks."
+  },
+  "cyclingExperiences": {
+    "heading": "Jalgrattasõidu Elamused",
+    "description": "Jalgrattasõit Badacsonys ja Balatoni järve ümbruses pakub ainulaadset segu kaunitest viinamarjaistandustest, ajaloolistest maamärkidest ja järveäärsetest vaadetest, muutes selle ideaalseks sihtkohaks meeldejäävaks ja maaliliseks rattaseikluseks."
   }
 }
