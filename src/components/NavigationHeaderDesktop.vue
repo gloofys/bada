@@ -27,16 +27,10 @@
             <span>{{ $t('wineRegion.wine_region') }}</span>
             <ul class="dropdown-content">
               <li>
-                <router-link to="/wineRegion/biggest-wine-producers">{{
-                    $t('wineRegion.biggest_wine_producers')
-                  }}
-                </router-link>
+                <router-link to="/wineRegion/biggest-wine-producers">{{ $t('wineRegion.biggest_wine_producers') }}</router-link>
               </li>
               <li>
-                <router-link to="/wineRegion/small-wine-producers">{{
-                    $t('wineRegion.small_wine_producers')
-                  }}
-                </router-link>
+                <router-link to="/wineRegion/small-wine-producers">{{ $t('wineRegion.small_wine_producers') }}</router-link>
               </li>
               <li>
                 <router-link to="/wineRegion/our-favourites">{{ $t('wineRegion.our_favourites') }}</router-link>
@@ -86,12 +80,12 @@
         </ul>
       </nav>
     </div>
-      <div class="language-selector">
-        <select @change="changeLanguage($event.target.value)">
-          <option value="en">🇬🇧 English</option>
-          <option value="et">🇪🇪 Eesti</option>
-        </select>
-      </div>
+    <div class="language-selector">
+      <select @change="changeLanguage($event.target.value)">
+        <option value="en">🇬🇧 English</option>
+        <option value="et">🇪🇪 Eesti</option>
+      </select>
+    </div>
   </header>
 </template>
 

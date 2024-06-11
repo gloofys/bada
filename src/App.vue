@@ -3,7 +3,9 @@
 <template>
   <div id="app">
     <NavigationHeader />
-    <router-view />
+    <main>
+      <router-view />
+    </main>
   </div>
 </template>
 

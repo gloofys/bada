@@ -41,5 +41,9 @@
     "badacsonyEvents": "Badacsony events"
   },
   "gallery": "Gallery",
-  "contact": "Contact"
+  "contact": "Contact",
+  "hikingExperiences": {
+    "heading": "Hiking Experiences",
+    "description": "Badacsony hiking offers breathtaking views of Lake Balaton and lush vineyards, making it a picturesque and rewarding outdoor adventure."
+  }
 }

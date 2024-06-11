@@ -40,5 +40,9 @@
     "badacsonyEvents": "Badacsony sündmused"
   },
   "gallery": "Galerii",
-  "contact": "Kontakt"
+  "contact": "Kontakt",
+  "hikingExperiences": {
+    "heading": "Matkakogemused",
+    "description": "Badacsony matkamine pakub hingematvaid vaateid Balatoni järvele ja lopsakatele viinamarjaistandustele, muutes selle maaliliseks ja tasuvaks väliseikluseks."
+  }
 }

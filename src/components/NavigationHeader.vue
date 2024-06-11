@@ -3,6 +3,7 @@
   <div>
     <NavigationHeaderDesktop v-if="!isMobile" />
     <NavigationHeaderMobile v-else />
+
   </div>
 </template>
 
