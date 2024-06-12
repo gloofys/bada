@@ -84,11 +84,13 @@ nav li {
 }
 
 
-/* Media queries for responsive design */
 @media (max-width: 1024px) {
     .navigation-header {
-        flex-direction: column;
-        align-items: flex-start;
+        display: none;
+    }
+
+    .navigation-header-mobile {
+       display: flex;
     }
 
     nav ul {
@@ -106,6 +108,32 @@ nav li {
     .language-selector {
         margin-top: 1rem;
         align-self: flex-end;
+    }
+
+    /* Mobile-specific dropdown content styles */
+    .navigation-header-mobile .dropdown-content {
+        display: block;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        transform: none; /* Reset transform for mobile */
+        padding: 0;
+        z-index: 1000; /* Ensure it appears above other content */
+        top: 100%; /* Position it below the header */
+    }
+
+    .navigation-header-mobile .dropdown-subcontent {
+        display: none;
+        padding-left: 1rem;
+    }
+
+    details[open] > .dropdown-subcontent {
+        display: block;
+    }
+
+    /* Remove the dropdown arrow for mobile view */
+    .dropdown-content::before {
+        display: none;
     }
 }
 

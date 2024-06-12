@@ -1,40 +1,37 @@
-/* Dropdown button styles
+/* Dropdown button styles */
 
 /* Common dropdown content styles */
 .dropdown-content {
     background-color: #f9f9f9;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    top: 100%;
-    width: 50%;
+    width: calc(100% - 32px); /* Adjust width to account for padding */
     position: absolute;
     padding: 0;
     border-radius: 10px;
-
+    left: -32px; /* Move to the left to align with the li */
 }
 
-
-/* Desktop-specific dropdown content styles */
-.navigation-header .dropdown-content {
-    display: none;
+/* Dropdown arrow */
+.dropdown-content::before {
+    content: "";
     position: absolute;
-    min-width: 160px;
-}
-
-.navigation-header .dropdown:hover .dropdown-content {
-    display: block;
+    top: -0.3rem;
+    left: 32px; /* Center the arrow */
+    width: 1rem;
+    height: 1rem;
+    background-color: #f9f9f9;
+    transform: translateX(-50%) rotate(45deg);
 }
 
 /* List styles for dropdown content */
 .dropdown-content li {
     padding: 12px 16px 12px 16px;
     list-style: none;
-    left: 0;
-    border-bottom: 1px solid;
-    border-bottom-color: #9a8888;
+    border-bottom: 1px solid #9a8888;
     display: block;
     width: 100%;
-
 }
+
 .dropdown-content li:last-child {
     border-bottom: none;
 }
@@ -42,7 +39,7 @@
 .dropdown-content li a {
     display: block;
     width: 100%;
-    padding: 12px 16px;
+    padding: 8px 16px;
     text-decoration: none;
     color: #333;
 }
@@ -57,36 +54,41 @@
     padding-left: 1rem;
 }
 
+details summary {
+    padding: 12px 16px; /* Ensure summary padding matches dropdown items */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
 
 details[open] > .dropdown-subcontent {
     display: block;
 }
 
-/* Mobile-specific dropdown content styles */
 .navigation-header-mobile .dropdown-content {
     display: block;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    transform: none; /* Reset transform for mobile */
+    padding: 0;
+    z-index: 1000; /* Ensure it appears above other content */
+    top: 100%; /* Position it below the header */
 }
 
 .navigation-header-mobile .dropdown-subcontent {
     display: none;
     padding-left: 1rem;
 }
-
 details[open] > .dropdown-subcontent {
     display: block;
-}
-
-details summary {
-    margin: 0;
-    padding: 0; /* Match padding with other li items */
-    cursor: pointer;
-    display: flex;
-    align-items: center; /* Vertically center the text */
-    justify-content: space-between; /* Align arrow to the right */
 }
 
 @media (max-width: 767px) {
     .navigation-header-mobile .dropdown-content {
         left: 0;
+    }
+    .dropdown-content::before {
+        display: none;
     }
 }

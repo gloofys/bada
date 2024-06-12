@@ -22,7 +22,7 @@ export default {
     const isMobile = ref(false);
 
     const checkIsMobile = () => {
-      isMobile.value = window.innerWidth <= 768; // Adjust the width as needed
+      isMobile.value = window.innerWidth <= 1024; // Adjust the width as needed
     };
 
     onMounted(() => {
