@@ -1,0 +1,13 @@
+@media (max-width: 1024px) {
+    .text-image-wrapper {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .text-content, .content-image {
+        width: 100%;
+    }
+    .container{
+        padding: 10px;
+    }
+}

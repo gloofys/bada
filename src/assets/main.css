@@ -3,6 +3,8 @@
 @import './navigation-header.css';
 @import "icons.css";
 @import "images.css";
+@import "desktop.css";
+@import "mobile.css";
 #app {
   display: flex;
   flex-direction: column;
@@ -28,11 +30,5 @@ main {
 
 }
 
-.container {
-  width: 100%;
-  padding-right: 2rem;
-  padding-left: 2rem;
-  margin-right: auto;
-  margin-left: auto;
-}
+
 

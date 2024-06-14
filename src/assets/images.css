@@ -19,10 +19,13 @@
     color: white;
     text-align: center;
     /*background-color: rgba(0, 0, 0, 0.5);*/
-    padding: 1rem;
+    padding: 0;
     border-radius: 10px;
     font-family: 'Seasons', serif;
+    font-size: 2rem;
     z-index: 2;
+    font-weight: 400;
+
 }
 .banner-container::before {
     content: "";
@@ -38,23 +41,50 @@
 .banner-content h1 {
     margin: 0;
     font-size: 3.5rem;
+    color: #ffffff;
 }
 
 .banner-content p {
     margin: 0.5rem 0 0;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
 }
 
 @media (max-width: 767px) {
     .banner-content h1 {
         font-size: 2rem;
+        line-height: 1.2rem;
     }
 
     .banner-content p {
         font-size: 1rem;
+        line-height: 1.2rem;
     }
 
     .banner-container {
         height: 30vh; /* Adjust the height for smaller screens */
     }
+}
+
+.text-image-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.text-content {
+    flex: 1;
+    padding: 10px;
+}
+
+.content-image {
+    flex: 1;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+.content-full-image{
+    width: 100%;
+    padding: 0 00px 0 100px;
 }

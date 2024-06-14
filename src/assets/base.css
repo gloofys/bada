@@ -1,10 +1,100 @@
+:root {
+  /* Section spacing */
+  --spaced-section: 80px;
 
+  /* Body font */
+  --font-body-family: "Avenir Next Rounded", sans-serif;
+  --font-body-style: normal;
+  --font-body-weight: 500;
+  --font-body-size: 14px;
+  --font-body-line-height: 169%;
+
+  /* Heading font */
+  --font-heading-family: "Playfair Display", serif;
+  --font-heading-style: normal;
+  --font-heading-weight: 400;
+  --font-heading-letter-spacing: -0.05em;
+  --font-heading-line-height: 1.1;
+
+  /* Heading sizes */
+  --font-heading-h1-size: 71px;
+  --font-heading-h2-size: 61px;
+  --font-heading-h3-size: 44px;
+  --font-heading-h4-size: 30px;
+  --font-heading-h5-size: 20px;
+  --font-heading-h6-size: 16px;
+
+  /* Text colors */
+  --color-base-text: #131010;
+  --color-title-text: #000;
+  --color-secondary-text: #666;
+  --color-base-background-1: #f2f7f5;
+
+  --color-foreground: var(--color-base-text);
+  --color-foreground-title: var(--color-title-text);
+  --color-foreground-secondary: var(--color-secondary-text);
+  --color-background: var(--color-base-background-1);
+}
 
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  box-sizing: inherit;
   margin: 0;
-  font-weight: normal;
+  padding: 0;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-body-family), serif;
+  font-style: var(--font-body-style);
+  font-weight: var(--font-body-weight);
+  font-size: var(--font-body-size);
+  line-height: var(--font-body-line-height);
+  color: var(--color-foreground);
+  background-color: var(--color-background);
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading-family), serif;
+  font-style: var(--font-heading-style);
+  font-weight: var(--font-heading-weight);
+  letter-spacing: var(--font-heading-letter-spacing);
+  line-height: var(--font-heading-line-height);
+  color: var(--color-foreground-title);
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: var(--font-heading-h1-size);
+}
+
+h2 {
+  font-size: var(--font-heading-h2-size);
+}
+
+h3 {
+  font-size: var(--font-heading-h3-size);
+}
+
+h4 {
+  font-size: var(--font-heading-h4-size);
+  margin-bottom: 0;
+}
+
+h5 {
+  font-size: var(--font-heading-h5-size);
+}
+
+h6 {
+  font-size: var(--font-heading-h6-size);
+}
+
+p {
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,28 @@
+@media (min-width: 1025px) {
+    .text-image-wrapper {
+        flex-direction: row;
+        margin-top: 60px;
+    }
+
+    .text-content, .content-image {
+        width: 50%;
+    }
+
+
+    .container {
+        padding: 5rem 5rem 0;
+        margin: 0 5rem;
+    ;
+    }
+    body {
+        font-size: 20px; /* Increase font size for desktop */
+    }
+    .text-content {
+        order: 2; /* Ensure text content appears after the image */
+    }
+
+    .content-image {
+        order: 1; /* Ensure image appears first */
+    }
+
+}
