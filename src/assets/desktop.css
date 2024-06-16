@@ -19,10 +19,12 @@
     }
     .text-content {
         order: 2; /* Ensure text content appears after the image */
+        width: 100%;
     }
 
     .content-image {
         order: 1; /* Ensure image appears first */
+        width: 100%;
     }
 
 }

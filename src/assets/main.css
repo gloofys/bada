@@ -5,6 +5,7 @@
 @import "images.css";
 @import "desktop.css";
 @import "mobile.css";
+@import "rooms-layout.css";
 #app {
   display: flex;
   flex-direction: column;
