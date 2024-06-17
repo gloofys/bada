@@ -1,11 +1,15 @@
 @media (min-width: 1025px) {
     .text-image-wrapper {
-        flex-direction: row;
-        margin-top: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 20px;
+        padding: 3vw 5vw;
     }
 
+
     .text-content, .content-image {
-        width: 50%;
+        width: 70%;
     }
 
 
@@ -17,14 +21,11 @@
     body {
         font-size: 20px; /* Increase font size for desktop */
     }
-    .text-content {
-        order: 2; /* Ensure text content appears after the image */
-        width: 100%;
-    }
 
-    .content-image {
-        order: 1; /* Ensure image appears first */
-        width: 100%;
+    .text-image-wrapper .content-image{
+        order: 1;
+        width: 50%;
+
     }
 
 }

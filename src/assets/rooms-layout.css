@@ -1,11 +1,11 @@
 .floor-plan {
     position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vw;
 }
 
-.content-image {
-    width: 100%;
-    height: auto;
-}
 
 .hotspot {
     position: absolute;
@@ -62,6 +62,11 @@
 .room-image {
     max-width: 10vw; /* Adjust size as needed */
     max-height: 10vw; /* Adjust size as needed */
+}
+.container h4{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    align-self: flex-start;
 }
 
 @media (max-width: 768px) {
