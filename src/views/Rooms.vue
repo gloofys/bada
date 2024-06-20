@@ -1,10 +1,6 @@
 <template>
   <div class="container">
     <div class="floor-plan">
-      <h4>Main Structure</h4>
-      <p>The house boasts three floors, with the third floor being an expansive, empty attic space, providing ample
-        opportunity for future customization or storage.</p>
-
       <h4>First Floor</h4>
       <p>The first floor is the heart of the home, with a spacious living room furnished with sofas that can easily be
         converted into beds, ideal for hosting guests. This floor also includes a series of cellar rooms and a unique
@@ -36,11 +32,11 @@
         has access to a charming balcony, providing a serene outdoor retreat.</p>
       <div class="image-container">
         <img
-            src="/rooms_images/1st_layout_transparent_png.png"
+            src="/rooms_images/2nd_layout_trans.png"
             srcset="
-            /rooms_images/1st_layout_transparent_png_550.png 550w,
-            /rooms_images/1st_layout_transparent_png_1100.png 1100w,
-            /rooms_images/1st_layout_transparent_png_1500.png 1500w
+            /rooms_images/2nd_layout_trans_550.png 550w,
+            /rooms_images/2nd_layout_trans_1100.png 1100w,
+            /rooms_images/2nd_layout_trans_1500.png 1500w
           "
             sizes="
             (max-width: 550px) 550px,

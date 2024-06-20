@@ -11,4 +11,4 @@ export default {
 </script>
 
 
-magick ./public/rooms_images/1st_layout_transparent_png.png -resize 550x ./public/rooms_images/1st_layout_transparent_png_1500.png
+magick ./public/rooms_images/1st_layout_transparent_png.png -resize 550x ./public/rooms_images/1st_layout_transparent_png_550.png
