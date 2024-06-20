@@ -32,7 +32,7 @@
     <!-- Wrapper for the first text and image pair -->
     <div class="text-image-wrapper">
       <div class="text-content">
-        <h3>The Badacsony Hill Trail</h3>
+        <h3>{{ $t('hikingExperiences.heading_trail') }}</h3>
         <p>{{ $t('hikingExperiences.main_content') }}</p>
       </div>
       <img
