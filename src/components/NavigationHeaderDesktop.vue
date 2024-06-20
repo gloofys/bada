@@ -1,5 +1,10 @@
 <template>
   <header class="navigation-header">
+    <div class="logo-container">
+      <router-link to="/">
+        <img src="/LOGO.png" alt="logo" class="logo-image" />
+      </router-link>
+    </div>
     <div class="nav-container">
       <nav>
         <ul>
@@ -83,11 +88,13 @@
         </ul>
       </nav>
     </div>
-    <div class="language-selector">
-      <select @change="changeLanguage($event.target.value)">
-        <option value="en">🇬🇧 English</option>
-        <option value="et">🇪🇪 Eesti</option>
-      </select>
+    <div class="language-selector-container">
+      <div class="language-selector">
+        <select @change="changeLanguage($event.target.value)">
+          <option value="en">🇬🇧 English</option>
+          <option value="et">🇪🇪 Eesti</option>
+        </select>
+      </div>
     </div>
   </header>
 </template>

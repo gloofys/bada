@@ -7,6 +7,11 @@
         <div class="menu-icon"></div>
       </div>
     </div>
+    <div class="logo-container">
+      <router-link to="/">
+        <img src="/LOGO.png" alt="logo" class="logo-image" />
+      </router-link>
+    </div>
     <ul v-if="showDropdown" class="dropdown-content">
       <li @click="closeDropdown">
         <router-link to="/">{{ $t('home.home') }}</router-link>
@@ -15,6 +20,9 @@
         <details>
           <summary>{{ $t('housing.housing') }}</summary>
           <ul class="dropdown-subcontent">
+            <li @click="closeDropdown">
+              <router-link to="/housing/layout">{{ $t('housing.layout') }}</router-link>
+            </li>
             <li @click="closeDropdown">
               <router-link to="/housing/rooms">{{ $t('housing.rooms') }}</router-link>
             </li>
@@ -35,16 +43,10 @@
           <summary>{{ $t('wineRegion.wine_region') }}</summary>
           <ul class="dropdown-subcontent">
             <li @click="closeDropdown">
-              <router-link to="/wineRegion/biggest-wine-producers">{{
-                  $t('wineRegion.biggest_wine_producers')
-                }}
-              </router-link>
+              <router-link to="/wineRegion/biggest-wine-producers">{{ $t('wineRegion.biggest_wine_producers') }}</router-link>
             </li>
             <li @click="closeDropdown">
-              <router-link to="/wineRegion/small-wine-producers">{{
-                  $t('wineRegion.small_wine_producers')
-                }}
-              </router-link>
+              <router-link to="/wineRegion/small-wine-producers">{{ $t('wineRegion.small_wine_producers') }}</router-link>
             </li>
             <li @click="closeDropdown">
               <router-link to="/wineRegion/our-favourites">{{ $t('wineRegion.our_favourites') }}</router-link>
@@ -96,8 +98,8 @@
       <li @click="closeDropdown">
         <router-link to="/contact">{{ $t('contact') }}</router-link>
       </li>
-            <li @click="changeLanguage('en')">🇬🇧 English</li>
-            <li @click="changeLanguage('et')">🇪🇪 Eesti</li>
+      <li @click="changeLanguage('en')">🇬🇧 English</li>
+      <li @click="changeLanguage('et')">🇪🇪 Eesti</li>
     </ul>
   </header>
 </template>
@@ -123,7 +125,6 @@ export default {
   }
 }
 </script>
-
 <style scoped>
 
 

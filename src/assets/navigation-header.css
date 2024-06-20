@@ -15,29 +15,28 @@
     font-family: "Baskerville Old Face", Serif, serif;
 }
 
-/* Desktop-specific navigation header */
-.navigation-header {
-    justify-content: space-between;
-}
-
-/* Mobile-specific navigation header */
-.navigation-header-mobile {
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-evenly;
-}
-
-/* Navigation container */
-.nav-container {
-    flex: 1;
+/* Container for logo, navigation, and language selector */
+.logo-container, .nav-container, .language-selector-container {
     display: flex;
+    align-items: center;
+}
+
+/* Specific container alignments */
+.logo-container {
+    justify-content: flex-start;
+}
+
+.nav-container {
     justify-content: center;
-    padding: 1rem;
+    flex: 1;
+}
+
+.language-selector-container {
+    justify-content: flex-end;
 }
 
 /* Language selector */
 .language-selector {
-    margin-left: auto;
     display: flex;
     align-items: center;
 }
@@ -61,16 +60,17 @@
 /* Navigation list */
 nav ul {
     display: flex;
+    align-items: center;
     list-style: none;
     margin: 0;
     padding: 0;
-    justify-content: center;
-    gap: 5rem; /* Add gap between items */
+    gap: 2rem; /* Add gap between items */
 }
 
 nav li {
     position: relative;
 }
+
 /* Override link colors */
 nav a {
     color: #000; /* Change to desired color */
@@ -92,6 +92,11 @@ nav a:visited {
     display: block;
 }
 
+.navigation-header .logo-container img.logo-image {
+    height: 4rem;  /* Adjust to your exact logo height */
+    width: auto;
+    max-width: 12rem; /* Maintain max-width */
+}
 
 @media (max-width: 1024px) {
     .navigation-header {
@@ -99,7 +104,10 @@ nav a:visited {
     }
 
     .navigation-header-mobile {
-       display: flex;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
     }
 
     nav ul {
@@ -144,6 +152,11 @@ nav a:visited {
     .dropdown-content::before {
         display: none;
     }
+    .logo-container img {
+        max-height: 4rem; /* Adjust as needed for smaller mobile screens */
+        width: auto;
+        object-fit: contain;
+    }
 }
 
 @media (max-width: 767px) {
@@ -152,8 +165,9 @@ nav a:visited {
     }
 
     .navigation-header-mobile {
-        flex-direction: column;
-        align-items: flex-start;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
     }
 
     nav ul {
@@ -166,6 +180,11 @@ nav a:visited {
         padding-left: 1rem;
         padding-right: 1rem;
         width: 100%;
+    }
+    .logo-container img {
+        max-height: 30px; /* Adjust as needed for smaller mobile screens */
+        width: auto;
+        object-fit: contain;
     }
 }
 
