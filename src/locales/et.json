@@ -13,6 +13,7 @@
     }
   },
   "housing": {
+    "layout" : "Majaplaan",
     "housing": "Majutus",
     "rooms": "Toad",
     "pricing": "Hinnakiri",
@@ -51,5 +52,23 @@
   "cyclingExperiences": {
     "heading": "Jalgrattasõidu Elamused",
     "description": "Jalgrattasõit Badacsonys ja Balatoni järve ümbruses pakub ainulaadset segu kaunitest viinamarjaistandustest, ajaloolistest maamärkidest ja järveäärsetest vaadetest, muutes selle ideaalseks sihtkohaks meeldejäävaks ja maaliliseks rattaseikluseks."
+  },
+  "layout":{
+    "firstFloor": {
+      "heading": "Esimene korrus",
+      "content": "Esimene korrus on kodu süda, kus on avar elutuba, mis on sisustatud diivanitega, mida saab hõlpsasti vooditeks muuta, ideaalne külaliste vastuvõtmiseks. Sellel korrusel on ka mitmeid keldriruume ja ainulaadne 16-meetri pikkune veinikeldri tunnel, mis on uuristatud Badacsony mäe vulkaanilisse pinnasesse, pakkudes veinientusiastidele erilist omadust. Lisaks asub sellel korrusel garaaž ja abiruum, tagades praktilisuse ja elamise lihtsuse."
+    },
+    "upperFloor": {
+      "heading": "Ülemine korrus",
+      "content": "Ülemine korrus on mõeldud privaatsuseks ja lõõgastumiseks, kus on kolm hubast magamistuba. Üks neist magamistubadest pääseb võluvale rõdule, pakkudes rahulikku välituba."
+    },
+    "entrances": {
+      "heading": "Sissepääsud",
+      "content": "Kaks peamist sissepääsu, üks kummalgi esimesel kahel korrusel, pakuvad mugavat juurdepääsu ja lisavad paindlikkust erinevatele elukorraldustele."
+    },
+    "kitchensAndBathrooms": {
+      "heading": "Köögid ja vannitoad",
+      "content": "Mõlemal esimesel kahel korrusel on kaasaegne köök ja täielik vannituba dušiga. Ülemise korruse köögis on ka söögituba, mis on ideaalne peretoidukordade ja koosviibimiste jaoks."
+    }
   }
 }

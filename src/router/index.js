@@ -6,7 +6,7 @@ import Contact from '@/views/Contact.vue'
 import Gallery from '@/views/Gallery.vue'
 import WineRegion from '@/views/WineRegion.vue'
 import Location from '@/views/Location.vue'
-import Rooms from '@/views/Rooms.vue'
+import Rooms from '@/views/Layout.vue'
 import Pricing from '@/views/Pricing.vue'
 import ExtraServices from '@/views/ExtraServices.vue'
 import BookingPolicies from '@/views/BookingPolicies.vue'
@@ -21,6 +21,7 @@ import Spa from "@/views/Spa.vue";
 import BadacsonyEvents from "@/views/BadacsonyEvents.vue";
 import Beaches from "@/views/Beaches.vue";
 import HowToGetHere from "@/views/HowToGetHere.vue";
+import Layout from '@/views/Layout.vue'
 
 const routes = [
     {
@@ -39,6 +40,11 @@ const routes = [
                 name: 'Housing',
                 component: Housing,
                 children: [
+                    {
+                        path: 'layout',
+                        name: 'Layout',
+                        component: Layout
+                    },
                     {
                         path: 'rooms',
                         name: 'Rooms',

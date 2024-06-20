@@ -10,6 +10,9 @@
             <span>{{ $t('housing.housing') }}</span>
             <ul class="dropdown-content">
               <li>
+                <router-link to="/housing/layout">{{ $t('housing.layout') }}</router-link>
+              </li>
+              <li>
                 <router-link to="/housing/rooms">{{ $t('housing.rooms') }}</router-link>
               </li>
               <li>

@@ -13,6 +13,7 @@
     }
   },
   "housing": {
+    "layout": "House Layout",
     "housing": "Housing",
     "rooms": "Rooms",
     "pricing": "Pricing",
@@ -22,7 +23,6 @@
   "location": {
     "location": "Location",
     "how_to_get_here": "How to get here"
-
   },
   "wineRegion": {
     "wine_region": "Wine Region",
@@ -52,6 +52,24 @@
   "cyclingExperiences": {
     "heading": "Cycling Experiences",
     "description": "Cycling in Badacsony and around Lake Balaton provides a unique blend of stunning vineyard landscapes, historic landmarks, and serene lakeside views, making it a perfect destination for a memorable and scenic biking adventure."
-
+  },
+  "layout": {
+    "firstFloor": {
+      "heading": "First Floor",
+      "content": "The first floor is the heart of the home, with a spacious living room furnished with sofas that can easily be converted into beds, ideal for hosting guests. This floor also includes a series of cellar rooms and a unique 16-meter-long wine cellar tunnel, carved into the volcanic soil of Badacsony Hill, offering a distinctive feature for wine enthusiasts. Additionally, this floor houses a garage and a utility room, ensuring practicality and ease of living."
+    },
+    "upperFloor": {
+      "heading": "Upper Floor",
+      "content": "The upper floor is designed for privacy and relaxation, featuring three cozy bedrooms. One of these bedrooms has access to a charming balcony, providing a serene outdoor retreat."
+    },
+    "entrances": {
+      "heading": "Entrances",
+      "content": "There are two main entrances, one on each of the first two floors, offering convenient access and added flexibility for different living arrangements."
+    },
+    "kitchensAndBathrooms": {
+      "heading": "Kitchens and Bathrooms",
+      "content": "Each of the first two floors is equipped with a modern kitchen and a full bathroom with a shower. The kitchen on the upper floor also includes a dining area, perfect for family meals and gatherings."
+    }
   }
 }
+
