@@ -1,86 +1,26 @@
+
+
 .floor-plan {
-    position: relative;
-    align-items: center;
+
     display: flex;
     flex-direction: column;
     margin-top: 1vw;
 }
 
+.image-container {
+    position: relative;
+    width: 100%;
 
-.hotspot {
-    position: absolute;
-    cursor: pointer;
-    background-color: rgba(255, 0, 0, 0.5); /* Example color */
-}
-
-.hotspot.kitchen {
-    width: 12vw; /* Specific size for kitchen */
-    height: 7vw; /* Specific size for kitchen */
-    top: 31%; /* Example positioning */
-    left: 18%; /* Example positioning */
-}
-.hotspot.kitchen1 {
-    width: 5vw; /* Specific size for kitchen */
-    height: 7vw; /* Specific size for kitchen */
-    top: 45%; /* Example positioning */
-    left: 18%; /* Example positioning */
 }
 
-.hotspot.wine-cellar {
-    width: 47vw; /* Specific size for bedroom */
-    height: 10vw; /* Specific size for bedroom */
-    top: 24%; /* Example positioning */
-    left: 46%; /* Example positioning */
+.content-image {
+    width: 100%;
+    height: auto;
+    align-items: center;
 }
 
-.hover-image {
-    display: none;
-    position: absolute;
-    top: 22vw; /* Adjust position as needed */
-    left: 52vw; /* Adjust position as needed */
-    z-index: 1000;
-}
-
-.hover-image img {
-    max-width: 40vw; /* Adjust size as needed */
-    max-height: 40vw; /* Adjust size as needed */
-}
-
-/* Show the hover image when the corresponding hotspot is hovered */
-.hotspot.kitchen:hover ~ .hover-image.kitchen,
-.hotspot.kitchen1:hover ~ .hover-image.kitchen {
-    display: block;
-}
-
-.hotspot.wine-cellar:hover ~ .hover-image.wine-cellar {
-    display: block;
-}
-
-.hotspot.bedroom:hover ~ .hover-image.bedroom {
-    display: block;
-}
-.room-image {
-    max-width: 10vw; /* Adjust size as needed */
-    max-height: 10vw; /* Adjust size as needed */
-}
-.container h4{
+.container h4 {
     margin-top: 1vw;
     margin-bottom: 1vw;
     align-self: flex-start;
-}
-
-@media (max-width: 768px) {
-    .hover-image {
-        display: none;
-    }
-    .hover-image.active {
-        display: block;
-    }
-}
-@media (min-width: 1500px) {
-    .hover-image img,
-    .room-image {
-        max-width: 28vw; /* Adjust size as needed */
-        max-height: 28vw; /* Adjust size as needed */
-    }
 }
