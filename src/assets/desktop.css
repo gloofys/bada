@@ -4,7 +4,7 @@
         flex-wrap: wrap;
         align-items: center;
         margin-bottom: 20px;
-        padding: 3vw 5vw;
+        padding: 4vw 0;
     }
 
 
@@ -23,8 +23,8 @@
     }
 
     .text-image-wrapper .content-image{
-        order: 1;
+        order: -1;
         width: 50%;
-
+        height: auto;
     }
 }

@@ -50,8 +50,15 @@
     "heading_trail": "The Badacsony Hill Trail"
   },
   "cyclingExperiences": {
+    "description": "Cycling in Badacsony and around Lake Balaton provides a unique blend of stunning vineyard landscapes, historic landmarks, and serene lakeside views, making it a perfect destination for a memorable and scenic biking adventure.",
     "heading": "Cycling Experiences",
-    "description": "Cycling in Badacsony and around Lake Balaton provides a unique blend of stunning vineyard landscapes, historic landmarks, and serene lakeside views, making it a perfect destination for a memorable and scenic biking adventure."
+    "main_introduction": "<p><strong>Badacsony Hill Routes:</strong> The volcanic hill of Badacsony provides a challenging yet rewarding experience for cyclists. The routes here meander through lush vineyards, charming villages, and offer breathtaking views of Lake Balaton. The terrain can be steep and rugged, making it ideal for mountain biking enthusiasts seeking an adrenaline rush.</p><p><strong>Lake Balaton Cycle Path:</strong> The most popular route is the Lake Balaton Cycle Path (Balatoni Bringakörút), a 200-kilometer loop that circles the entire lake. This path is well-marked and mostly flat, making it accessible for families and casual cyclists. The route passes through quaint towns, beaches, and numerous attractions, allowing cyclists to explore the rich history and culture of the region.</p><p><strong>Nature Trails:</strong> Beyond the main cycle path, there are numerous nature trails that venture into the scenic countryside. These trails take riders through forests, wetlands, and nature reserves, offering a closer look at the local flora and fauna.</p>",
+    "main_introduction_header": "Cycling Routes and Trails",
+    "main_rental_header": "Bike Rentals and Services",
+    "main_rental": "There are numerous bike rental shops around Lake Balaton, including in Badacsony. These shops offer a range of bicycles, from mountain bikes to e-bikes, and provide essential repair services. We also have 2 bicycles in our house that you can use.",
+    "main_events_header": "Events and Tours",
+    "main_events": "Throughout the year, various cycling events and guided tours are organized in the region. These events cater to different levels of cyclists and provide a great way to explore the area with expert guidance."
+
   },
   "layout": {
     "firstFloor": {
