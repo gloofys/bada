@@ -28,7 +28,9 @@
   </div>
   <div class="container">
     <h4>{{ $t('cyclingExperiences.main_introduction_header') }}</h4>
-    <div v-html="$t('cyclingExperiences.main_introduction')"></div>
+    <p><strong>{{ $t('cyclingExperiences.main_introduction.part1_title') }}</strong> {{ $t('cyclingExperiences.main_introduction.part1') }}</p>
+    <p><strong>{{ $t('cyclingExperiences.main_introduction.part2_title') }}</strong> {{ $t('cyclingExperiences.main_introduction.part2') }}</p>
+    <p><strong>{{ $t('cyclingExperiences.main_introduction.part3_title') }}</strong> {{ $t('cyclingExperiences.main_introduction.part3') }}</p>
     <!-- Wrapper for the first text and image pair -->
     <div class="text-image-wrapper">
       <div class="text-content">
