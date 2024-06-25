@@ -34,30 +34,28 @@
     <!-- Wrapper for the first text and image pair -->
     <div class="text-image-wrapper">
       <div class="text-content">
-        <h4>{{ $t('hikingExperiences.heading_trail') }}</h4>
-        <p>{{ $t('hikingExperiences.main_content') }}</p>
+        <h4>{{ $t('cyclingExperiences.main_balaton_route_header') }}</h4>
+        <p><strong>{{ $t('cyclingExperiences.main_balaton_route.part1_title') }}</strong> {{ $t('cyclingExperiences.main_balaton_route.part1') }}</p>
+        <p><strong>{{ $t('cyclingExperiences.main_balaton_route.part2_title') }}</strong> {{ $t('cyclingExperiences.main_balaton_route.part2') }}</p>
+        <p><strong>{{ $t('cyclingExperiences.main_balaton_route.part3_title') }}</strong> {{ $t('cyclingExperiences.main_balaton_route.part3') }}</p>
+        <p><strong>{{ $t('cyclingExperiences.main_balaton_route.part4_title') }}</strong> {{ $t('cyclingExperiences.main_balaton_route.part4') }}</p>
+
       </div>
       <img
-          src="/hiking_images/badahikingtrail_1500.jpg"
+          src="/cycling_images/balaton_full_lap_1500.png"
           srcset="
-          /hiking_images/badahikingtrail_375.jpg 375w,
-          /hiking_images/badahikingtrail_550.jpg 550w,
-          /hiking_images/badahikingtrail_750.jpg 750w,
-          /hiking_images/badahikingtrail_1100.jpg 1100w,
-          /hiking_images/badahikingtrail_1500.jpg 1500w,
-          /hiking_images/badahikingtrail_2000.jpg 2000w,
-          /hiking_images/badahikingtrail_3000.jpg 3000w
-        "
-          sizes="(max-width: 375px) 375w,
-               (max-width: 550px) 550w,
-               (max-width: 750px) 750w,
-               (max-width: 1100px) 1100w,
-               (max-width: 1500px) 1500w,
-               (max-width: 2000px) 2000w,
-               100vw"
-          alt="Badacsony hiking trail pictures"
+    /cycling_images/balaton_full_lap_550.png 550w,
+    /cycling_images/balaton_full_lap_1100.png 1100w,
+    /cycling_images/balaton_full_lap_1500.png 1500w
+  "
+          sizes="(max-width: 550px) 550w,
+         (max-width: 1100px) 1100w,
+         (max-width: 1500px) 1500w,
+         100vw"
+          alt="Balaton full lap pictures"
           class="content-image"
       />
+
     </div>
     <div>
     <h4>{{ $t('cyclingExperiences.main_rental_header') }}</h4>

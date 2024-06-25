@@ -11,4 +11,10 @@ export default {
 </script>
 
 
-magick ./public/rooms_images/1st_layout_transparent_png.png -resize 550x ./public/rooms_images/1st_layout_transparent_png_550.png
+magick ./public/cycling_images/balaton_full_lap.jpg -resize 550x ./public/cycling_images/balaton_full_lap_550.png
+
+
+magick ./public/cycling_images/balaton_full_lap.png -resize 550x ./public/cycling_images/balaton_full_lap_550.png
+magick ./public/cycling_images/balaton_full_lap.png -resize 1100x ./public/cycling_images/balaton_full_lap_1100.png
+magick ./public/cycling_images/balaton_full_lap.png -resize 1500x ./public/cycling_images/balaton_full_lap_1500.png
+
