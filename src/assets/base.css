@@ -5,8 +5,8 @@
   /* Body font */
   --font-body-family: "Avenir Next Rounded", sans-serif;
   --font-body-style: normal;
-  --font-body-weight: 500;
-  --font-body-size: 14px;
+  --font-body-weight: 200;
+  --font-body-size: 12px;
   --font-body-line-height: 169%;
 
   /* Heading font */
@@ -20,15 +20,16 @@
   --font-heading-h1-size: 71px;
   --font-heading-h2-size: 61px;
   --font-heading-h3-size: 44px;
-  --font-heading-h4-size: 36px;
+  --font-heading-h4-size: 32px;
   --font-heading-h5-size: 20px;
   --font-heading-h6-size: 16px;
 
   /* Text colors */
   --color-base-text: #131010;
-  --color-title-text: #000;
-  --color-secondary-text: #666;
+  --color-title-text:#2F4F4F;
+  --color-secondary-text: #9a8080;
   --color-base-background-1: #f2f7f5;
+  --color-bold-text: #5c5252;
 
   --color-foreground: var(--color-base-text);
   --color-foreground-title: var(--color-title-text);
@@ -97,4 +98,10 @@ h6 {
 
 p {
   margin-bottom: 1rem;
+}
+
+strong,
+b {
+  color: var(--color-bold-text);
+  font-weight: bold;
 }

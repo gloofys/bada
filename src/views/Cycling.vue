@@ -34,7 +34,7 @@
     <!-- Wrapper for the first text and image pair -->
     <div class="text-image-wrapper">
       <div class="text-content">
-        <h3>{{ $t('hikingExperiences.heading_trail') }}</h3>
+        <h4>{{ $t('hikingExperiences.heading_trail') }}</h4>
         <p>{{ $t('hikingExperiences.main_content') }}</p>
       </div>
       <img

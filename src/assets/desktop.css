@@ -4,7 +4,7 @@
         flex-wrap: wrap;
         align-items: center;
         margin-bottom: 20px;
-        padding: 4vw 0;
+        padding: 2vw 0;
     }
 
 
@@ -14,12 +14,12 @@
 
 
     .container {
-        padding: 5rem 12rem 5rem;
-        margin: 0 12rem;
+        padding: 3rem 9rem 3rem;
+        margin: 0 9rem;
     ;
     }
     body {
-        font-size: 20px; /* Increase font size for desktop */
+        font-size: 14px; /* Increase font size for desktop */
     }
 
     .text-image-wrapper .content-image{
