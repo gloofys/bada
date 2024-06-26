@@ -57,6 +57,12 @@
       />
 
     </div>
+    <h4>{{ $t('cyclingExperiences.main_3days') }}</h4>
+    <div class="image-gallery">
+      <img src="/cycling_images/cycle_day_left.png" alt="Cycling Image 1" class="gallery-image" />
+      <img src="/cycling_images/cycle_day_center.png" alt="Cycling Image 2" class="gallery-image" />
+      <img src="/cycling_images/cycle_day_right.png" alt="Cycling Image 3" class="gallery-image" />
+    </div>
     <div>
     <h4>{{ $t('cyclingExperiences.main_rental_header') }}</h4>
     <div v-html="$t('cyclingExperiences.main_rental')"></div>

@@ -13,7 +13,7 @@
     }
   },
   "housing": {
-    "layout" : "Majaplaan",
+    "layout": "Majaplaan",
     "housing": "Majutus",
     "rooms": "Toad",
     "pricing": "Hinnakiri",
@@ -51,16 +51,41 @@
   },
   "cyclingExperiences": {
     "heading": "Jalgrattasõidu Elamused",
-    "description": "Jalgrattasõit Badacsonys ja Balatoni järve ümbruses pakub ainulaadset segu kaunitest viinamarjaistandustest, ajaloolistest maamärkidest ja järveäärsetest vaadetest, muutes selle ideaalseks sihtkohaks meeldejäävaks ja maaliliseks rattaseikluseks."
+    "description": "Jalgrattasõit Badacsonys ja Balatoni järve ümbruses pakub ainulaadset segu kaunitest viinamarjaistandustest, ajaloolistest maamärkidest ja järveäärsetest vaadetest, muutes selle ideaalseks sihtkohaks meeldejäävaks ja maaliliseks rattaseikluseks.",
+    "main_introduction": {
+      "part1_title": "Badacsony mäerajad:",
+      "part1": "Badacsony vulkaaniline mägi pakub ratturitele väljakutsuvat, kuid tasuvat kogemust. Rattarajad looklevad läbi lopsakate viinamarjaistanduste ja võluvate külade, pakkudes hingematvaid vaateid Balatoni järvele. Maastik võib olla järsk ja karm, muutes selle ideaalseks mägirattasõidu entusiastidele, kes otsivad adrenaliinilaksu.",
+      "part2_title": "Balatoni jalgrattatee:",
+      "part2": "Kõige populaarsem marsruut on Balatoni jalgrattatee (Balatoni Bringakörút), 200-kilomeetrine ring, mis ümbritseb kogu järve. See tee on hästi märgistatud ja enamasti tasane, muutes selle ligipääsetavaks peredele ja juhuslikele ratturitele. Marsruut läbib maalilisi linnu, randu ja arvukalt vaatamisväärsusi, võimaldades ratturitel avastada piirkonna rikkalikku ajalugu ja kultuuri.",
+      "part3_title": "Loodusrajad:",
+      "part3": "Peale peamise jalgrattatee on palju loodusrajad, mis viivad ratturid maalilisse maapiirkonda. Need rajad viivad läbi metsade, märgalade ja looduskaitsealade, pakkudes lähemat pilku kohalikele taime- ja loomaliikidele."
+    },
+    "main_balaton_route_header": "Balatoni jalgrattatee",
+    "main_balaton_route": {
+      "part1_title": "Marsruudi ülevaade:",
+      "part1": "Balatoni järve ümbritsev jalgrattatee on üle 200 kilomeetri pikk, pakkudes põhjalikku reisi kaunite maastike kaudu, mis ümbritsevad järve. Marsruut kombineerib spetsiaalseid jalgrattateid ja vaikseid kõrvalteid, tagades meeldiva sõidu kõikidele ratturitasemetele.",
+      "part2_title": "Maastiku üksikasjad:",
+      "part2": "Järve lõuna- ja lääneosa marsruut on üsna tasane, pakkudes lõõgastavat sõitu, mis sobib ideaalselt peredele. Järve põhja- ja idaosa on üsna mägine, pakkudes rohkem väljakutseid ja mitmesuguseid maalilisi vaatepunkte neile, kes otsivad kosutavat sõitu.",
+      "part3_title": "Jalgrattasõidu juhised:",
+      "part3": "Ratturitel soovitatakse kasutada märgistatud jalgrattateid alati, kui need on olemas, kuna need on ohutumad ja mugavamad kui põhiteed. Suuremaid autoteid tuleks võimaluse korral vältida, eriti kui olemas on spetsiaalsed jalgrattateed. See tagab ohutuma ja nauditavama jalgrattasõidukogemuse.",
+      "part4_title": "Liiklus ja tingimused:",
+      "part4": "Ratturid peaksid olema teadlikud, et mõned jalgrattatee lõigud võivad olla halvas seisukorras. Probleemideks võivad olla lõhenenud asfalt, puujuured, mis tõstavad pinda laineliseks."
+    },
+    "main_introduction_header": "Jalgrattateed ja -rajad",
+    "main_rental_header": "Rattarent ja -teenused",
+    "main_rental": "Balatoni järve ümbruses, sealhulgas Badacsony piirkonnas, on palju rattarendipoode. Need poed pakuvad erinevaid jalgrattaid, alates maastikuratastest kuni elektriratasteni. Meil on majas ka 2 jalgratast, mida saate kasutada.",
+    "main_events_header": "Üritused ja tuurid",
+    "main_events": "Aasta jooksul korraldatakse piirkonnas erinevaid jalgrattaüritusi ja juhendatud tuure. Need üritused on mõeldud erineva tasemega ratturitele ja pakuvad suurepärast võimalust piirkonda avastada ekspertide juhendamisel.",
+    "main_3days": "...Teise võimalusena võite rattamatke jagada kolmele päevale, kuigi see nõuab parvlaeva kasutamist."
   },
-  "layout":{
+  "layout": {
     "firstFloor": {
       "heading": "Esimene korrus",
       "content": "Esimene korrus on kodu süda, kus on avar elutuba, mis on sisustatud diivanitega, mida saab hõlpsasti vooditeks muuta, ideaalne külaliste vastuvõtmiseks. Sellel korrusel on ka mitmeid keldriruume ja ainulaadne 16-meetri pikkune veinikeldri tunnel, mis on uuristatud Badacsony mäe vulkaanilisse pinnasesse, pakkudes veinientusiastidele erilist omadust. Lisaks asub sellel korrusel garaaž ja abiruum, tagades praktilisuse ja elamise lihtsuse."
     },
     "upperFloor": {
       "heading": "Ülemine korrus",
-      "content": "Ülemine korrus on mõeldud privaatsuseks ja lõõgastumiseks, kus on kolm hubast magamistuba. Üks neist magamistubadest pääseb võluvale rõdule, pakkudes rahulikku välituba."
+      "content": "Ülemine korrus on mõeldud privaatsuseks ja lõõgastumiseks, kus on kolm hubast magamistuba. Üks neist magamistubadest on koos rõduga, pakkudes vaateid Balatoni järvele."
     },
     "entrances": {
       "heading": "Sissepääsud",
