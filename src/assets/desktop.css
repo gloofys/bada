@@ -28,4 +28,38 @@
         height: auto;
         border-radius: 8px;
     }
+    .room-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 2rem 2rem 6rem 2rem;
+    }
+
+    .room-content {
+        flex: 1;
+        max-width: 45%;
+        margin-right: 20px;
+    }
+    .room-content ul {
+        list-style-type: disc; /* Ensures bullet points are shown */
+        padding-left: 20px; /* Adds some padding to the left */
+    }
+
+    .room-content ul li {
+        margin-bottom: 10px;
+    }
+
+    .room-image {
+        flex: 1;
+        max-width: 50%;
+    }
+
+    .room-image img {
+        width: 100%;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .reverse-layout {
+        flex-direction: row-reverse; /* Reverses the order of image and content */
+    }
 }

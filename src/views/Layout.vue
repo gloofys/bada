@@ -6,11 +6,11 @@
 
       <div class="image-container">
         <img
-            src="/rooms_images/1st_layout_transparent_png.png"
+            src="/layout_images/1st_layout_transparent_png.png"
             srcset="
-            /rooms_images/1st_layout_transparent_png_550.png 550w,
-            /rooms_images/1st_layout_transparent_png_1100.png 1100w,
-            /rooms_images/1st_layout_transparent_png_1500.png 1500w
+            /layout_images/1st_layout_transparent_png_550.png 550w,
+            /layout_images/1st_layout_transparent_png_1100.png 1100w,
+            /layout_images/1st_layout_transparent_png_1500.png 1500w
           "
             sizes="
             (max-width: 550px) 550px,
@@ -27,11 +27,11 @@
       <p>{{ $t('layout.upperFloor.content') }}</p>
       <div class="image-container">
         <img
-            src="/rooms_images/2nd_layout_trans.png"
+            src="/layout_images/2nd_layout_trans.png"
             srcset="
-            /rooms_images/2nd_layout_trans_550.png 550w,
-            /rooms_images/2nd_layout_trans_1100.png 1100w,
-            /rooms_images/2nd_layout_trans_1500.png 1500w
+            /layout_images/2nd_layout_trans_550.png 550w,
+            /layout_images/2nd_layout_trans_1100.png 1100w,
+            /layout_images/2nd_layout_trans_1500.png 1500w
           "
             sizes="
             (max-width: 550px) 550px,
