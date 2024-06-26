@@ -38,4 +38,37 @@
     }
 
 
+    .winery-content a {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 10px 15px;
+        background-color: #d2a679;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+
+    .winery-content a:hover {
+        background-color: #b8935b;
+    }
+    .winery {
+        flex-wrap: wrap;
+    }
+
+    .winery-logo {
+        margin-right: 0;
+        margin-bottom: 10px;
+        max-width: 100%;
+    }
+
+    .winery-content {
+        text-align: center;
+        flex: 1 0 100%;
+    }
+    .winery-content h3 {
+        display: none;
+    }
+
+
 }

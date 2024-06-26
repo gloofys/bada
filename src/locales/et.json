@@ -95,5 +95,37 @@
       "heading": "Köögid ja vannitoad",
       "content": "Mõlemal esimesel kahel korrusel on kaasaegne köök ja täielik vannituba dušiga. Ülemise korruse köögis on ka söögituba, mis on ideaalne peretoidukordade ja koosviibimiste jaoks."
     }
+  },
+  "wineries": {
+    "laposa_estate": {
+      "name": "Laposa Estate",
+      "description": "See perekonna poolt juhitav veinimaja on üks silmapaistvamaid Badacsony piirkonnas, tootes aastas umbes 500 000 pudelit. Nad on tuntud oma valgete veinide, sealhulgas Welschrieslingi, Rhine Rieslingi, Pinot Grisi, Kéknyelű, Furminti ja Juhfarki poolest. Kinnistu pakub erinevaid gastronoomilisi elamusi ja veinide degusteerimist koos hingematvate vaadetega Balatoni järvele.",
+      "website_text": "Külastage veebisaiti",
+      "website_url": "https://www.laposa.hu/en"
+    },
+    "sipos_borhaz": {
+      "name": "SIPOS Borház",
+      "description": "Teine märkimisväärne veinimaja piirkonnas, SIPOS Borház on perekonna omanduses ja toodab erinevaid valgeid, punaseid ja rosé veine. Veinimaja rõhutab kvaliteeti kvantiteedi üle ja on tuntud oma veinide poolest, mis on valmistatud nende enda viinamarjaistandustes kasvatatud viinamarjadest Balatoni järve lähedal.",
+      "website_text": "Külastage veebisaiti",
+      "website_url": "https://www.siposbor.hu/"
+    },
+    "patzay_winery": {
+      "name": "Pátzay Winery",
+      "description": "Badacsonytomajis asuv Pátzay Winery on tuntud oma elavate veinide poolest, mis on toodetud kaasaegset tehnoloogiat kasutades, säilitades samal ajal traditsioonilised meetodid. Neil on maine elegantsete veinide tootmisel, mis peegeldavad piirkonna ainulaadset vulkaanilist pinnast.",
+      "website_text": "Külastage veebisaiti",
+      "website_url": "https://winesofhungary.hu/wineries/patzay-winery-4819"
+    },
+    "villa_tolnay_borhaz": {
+      "name": "Villa Tolnay Borhaz",
+      "description": "See veinimaja keskendub terroir-veinidele, kasutades piirkonna vulkaanilist pinnast, et toota eristuvaid ja maitseküllaseid veine. Nad on tuntud oma pühendumuse poolest kvaliteedile ja oma veinide ainulaadsetele omadustele.",
+      "website_text": "Külastage veebisaiti",
+      "website_url": "https://villatolnay.wineshop.hu/"
+    },
+    "valibor": {
+      "name": "VáliBor",
+      "description": "VáliBor on tuntud oma värskete veinide poolest, mis on valmistatud mahepõllumajanduslikult kasvatatud viinamarjadest. Nad pakuvad kodust ja kohalikku toitu koos oma veinidega. Nende pühendumus mahepõllumajandusele ja traditsioonilistele meetoditele muudab nende veinid silmapaistvaks.",
+      "website_text": "Külastage veebisaiti",
+      "website_url": "https://www.valibor.hu/en"
+    }
   }
 }

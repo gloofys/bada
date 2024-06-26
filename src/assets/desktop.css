@@ -15,19 +15,20 @@
 
     .container {
         padding: 3rem 9rem 3rem;
-        margin: 0 9rem;
-    ;
+        margin: 0 9rem;;
     }
+
     body {
         font-size: 18px; /* Increase font size for desktop */
     }
 
-    .text-image-wrapper .content-image{
+    .text-image-wrapper .content-image {
         order: -1;
         width: 50%;
         height: auto;
         border-radius: 8px;
     }
+
     .room-container {
         display: flex;
         flex-wrap: wrap;
@@ -39,7 +40,9 @@
         flex: 1;
         max-width: 45%;
         margin-right: 20px;
+        min-width: 300px;
     }
+
     .room-content ul {
         list-style-type: disc; /* Ensures bullet points are shown */
         padding-left: 20px; /* Adds some padding to the left */
@@ -52,6 +55,7 @@
     .room-image {
         flex: 1;
         max-width: 50%;
+        min-width: 300px;
     }
 
     .room-image img {
@@ -59,7 +63,49 @@
         border-radius: 8px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
+
     .reverse-layout {
         flex-direction: row-reverse; /* Reverses the order of image and content */
+    }
+
+    .winery {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        margin-bottom: 3rem;
+    }
+
+    .winery-logo {
+        flex: 0 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 20px;
+        max-width: 300px; /* Ensure the logo has a reasonable size */
+    }
+
+    .winery-logo img {
+        width: 100%;
+        height: auto;
+        max-width: 300px; /* Ensure the logo has a reasonable size */
+        border-radius: 8px;
+    }
+
+    .winery-content {
+        flex: 1 1 auto;
+    }
+
+    .winery-content a {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 10px 15px;
+        background-color: #d2a679;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    .winery-content a:hover {
+        background-color: #b8935b;
     }
 }

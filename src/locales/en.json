@@ -97,6 +97,39 @@
       "heading": "Kitchens and Bathrooms",
       "content": "Each of the first two floors is equipped with a modern kitchen and a full bathroom with a shower. The kitchen on the upper floor also includes a dining area, perfect for family meals and gatherings."
     }
+  },
+
+  "wineries": {
+    "laposa_estate": {
+      "name": "Laposa Estate",
+      "description": "This family-run winery is one of the most prominent in Badacsony, producing about 500,000 bottles annually. They are known for their white wines, including Welschriesling, Rhine Riesling, Pinot Gris, Kéknyelű, Furmint, and Juhfark. The estate offers a variety of gastronomic experiences and wine tastings with stunning views of Lake Balaton.",
+      "website_text": "Visit Website",
+      "website_url": "https://www.laposa.hu/en"
+    },
+    "sipos_borhaz": {
+      "name": "SIPOS Borház",
+      "description": "Another significant winery in the region, SIPOS Borház is family-owned and produces a variety of white, red, and rosé wines. The winery emphasizes quality over quantity and is known for its wines made from grapes grown in their own vineyards near Lake Balaton.",
+      "website_text": "Visit Website",
+      "website_url": "https://www.siposbor.hu/"
+    },
+    "patzay_winery": {
+      "name": "Pátzay Winery",
+      "description": "Located in Badacsonytomaj, Pátzay Winery is known for its vibrant wines produced using modern technology while maintaining traditional methods. They have a reputation for producing elegant wines that reflect the unique volcanic soil of the region.",
+      "website_text": "Visit Website",
+      "website_url": "https://winesofhungary.hu/wineries/patzay-winery-4819"
+    },
+    "villa_tolnay_borhaz": {
+      "name": "Villa Tolnay Borhaz",
+      "description": "This winery focuses on terroir wines, utilizing the volcanic soil of the region to produce distinctive and flavorful wines. They are noted for their commitment to quality and the unique characteristics of their wines.",
+      "website_text": "Visit Website",
+      "website_url": "https://villatolnay.wineshop.hu/"
+    },
+    "valibor": {
+      "name": "VáliBor",
+      "description": "Known for its fresh wines made from organically grown grapes, VáliBor offers a welcoming environment with homemade and local foods paired with their wines. Their commitment to organic farming and traditional methods makes their wines stand out.",
+      "website_text": "Visit Website",
+      "website_url": "https://www.valibor.hu/en"
+    }
   }
 }
 
