@@ -40,7 +40,8 @@
 
     .winery-content a {
         display: inline-block;
-        margin-top: 10px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
         padding: 10px 15px;
         background-color: #d2a679;
         color: white;
