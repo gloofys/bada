@@ -25,7 +25,9 @@
     .room-content {
         margin-bottom: 20px;
     }
-
+    .room-content h2{
+        font-size: 40px;
+    }
     .room-image img {
         width: 100%;
         height: auto;
@@ -70,6 +72,7 @@
     .winery-content h3 {
         display: none;
     }
+
 
 
 }
