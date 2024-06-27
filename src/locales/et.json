@@ -1,16 +1,8 @@
 {
   "home": {
     "home": "Kodu",
-    "title": "Tere tulemast meie veebisaidile",
-    "intro": "Meil on hea meel, et olete siin. Meie veebisait pakub mitmesuguseid funktsioone ja teavet, mis aitavad teid.",
-    "section1": {
-      "header": "Meist",
-      "content": "Meie ettevõte on olnud juhtival kohal üle 20 aasta..."
-    },
-    "section2": {
-      "header": "Meie teenused",
-      "content": "Pakume laia valikut teenuseid, et rahuldada teie vajadusi..."
-    }
+    "title": "Koge Badacsony olemust",
+    "intro": "Meie Eesti-Inglise pere poolt hallatav puhkepaik asub Badacsony piirkonna südames, pakkudes hingematvaid vaateid ja rikkalikku veinikultuuri. Naudi rahulikke maastikke ja sooja külalislahkust meie hubases majutuses, mis on ideaalne meeldejäävaks puhkuseks."
   },
   "housing": {
     "layout": "Majaplaan",

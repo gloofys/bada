@@ -1,16 +1,8 @@
 {
   "home": {
     "home": "Home",
-    "title": "Welcome to Our Website",
-    "intro": "We are glad to have you here. Our website offers a variety of features and information to help you.",
-    "section1": {
-      "header": "About Us",
-      "content": "Our company has been leading the industry for over 20 years..."
-    },
-    "section2": {
-      "header": "Our Services",
-      "content": "We offer a wide range of services to meet your needs..."
-    }
+    "title": "Experience the Essence of Badacsony",
+    "intro": "Nestled in the heart of the Badacsony region, our Estonian-English family-owned retreat offers breathtaking views and a rich wine culture. Immerse yourself in the serene landscapes and enjoy the warm hospitality at our cozy accommodation, perfect for a memorable getaway."
   },
   "housing": {
     "layout": "House Layout",
@@ -71,14 +63,12 @@
       "part4_title": "Traffic and Conditions:",
       "part4": "Cyclists should be aware that some sections of the cycle path may be in poor condition. Issues can include cracked asphalt, tree root damage raising the surface into wave-like undulations, and in extreme cases, conditions that could potentially cause a cyclist to lose control."
     },
-
     "main_introduction_header": "Cycling Routes and Trails",
     "main_rental_header": "Bike Rentals and Services",
     "main_rental": "There are numerous bike rental shops around Lake Balaton, including in Badacsony. These shops offer a range of bicycles, from mountain bikes to e-bikes, and provide essential repair services. We also have 2 bicycles in our house that you can use.",
     "main_events_header": "Events and Tours",
     "main_events": "Throughout the year, various cycling events and guided tours are organized in the region. These events cater to different levels of cyclists and provide a great way to explore the area with expert guidance.",
     "main_3days": "...Alternatively, you could spread the trip over three days, although this would require you to use a ferry."
-
   },
   "layout": {
     "firstFloor": {
@@ -98,7 +88,6 @@
       "content": "Each of the first two floors is equipped with a modern kitchen and a full bathroom with a shower. The kitchen on the upper floor also includes a dining area, perfect for family meals and gatherings."
     }
   },
-
   "wineries": {
     "laposa_estate": {
       "name": "Laposa Estate",
