@@ -10,9 +10,8 @@
     "companyAddress": "1234 Street Name, City, Country",
     "contactInfoTitle": "Contact Information",
     "phone": "Phone: +123 456 7890",
-    "email": "Email: {email}"
+    "email": "Email: info[at]yourcompany.com"
   },
-  "email": "info@yourcompany.com",
 
   "housing": {
     "layout": "House Layout",

@@ -7,7 +7,7 @@
       </div>
       <div class="contact-info">
         <p>{{ $t('footer.phone') }}</p>
-        <p>{{ $t('footer.email') }}</p>
+        <p>{{ email }}</p>
       </div>
     </div>
   </footer>
@@ -15,7 +15,12 @@
 
 <script>
 export default {
-  name: 'Footer'
+  name: 'Footer',
+  computed: {
+    email() {
+      return this.$t('footer.email').replace('[at]', '@');
+    }
+  }
 };
 </script>
 

@@ -10,9 +10,8 @@
     "companyAddress": "Tänava nimi 1234, Linn, Riik",
     "contactInfoTitle": "Kontaktinfo",
     "phone": "Telefon: +123 456 7890",
-    "email": "E-post: {email}"
+    "email": "E-post: info[at]yourcompany.com"
   },
-  "email": "info@yourcompany.com",
   "housing": {
     "layout": "Majaplaan",
     "housing": "Majutus",
