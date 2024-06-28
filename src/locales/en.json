@@ -4,6 +4,14 @@
     "title": "Experience the Essence of Badacsony",
     "intro": "Nestled in the heart of the Badacsony region, our Estonian-English family-owned retreat offers breathtaking views and a rich wine culture. Immerse yourself in the serene landscapes and enjoy the warm hospitality at our cozy accommodation, perfect for a memorable getaway."
   },
+  "footer": {
+    "companyInfoTitle": "Company Information",
+    "companyName": "Your Company Name",
+    "companyAddress": "1234 Street Name, City, Country",
+    "contactInfoTitle": "Contact Information",
+    "phone": "Phone: +123 456 7890",
+    "email": "Email: info@yourcompany.com"
+  },
   "housing": {
     "layout": "House Layout",
     "housing": "Housing",
