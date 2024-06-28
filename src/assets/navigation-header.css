@@ -48,7 +48,6 @@
     cursor: pointer;
     padding: 0.5rem;
     appearance: none;
-    -webkit-appearance: none;
     -moz-appearance: none;
 }
 
@@ -212,8 +211,3 @@ details summary::marker {
     display: none;
 }
 
-a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
-    text-decoration: none;
-}
