@@ -99,7 +99,7 @@ nav a:visited {
 }
 
 a:-webkit-any-link {
-    color: inherit;
+    color: #131010;
     text-decoration: none;
 }
 
