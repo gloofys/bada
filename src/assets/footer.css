@@ -1,8 +1,9 @@
 .site-footer {
-    background-color: #333;
+    background-color: #4a4a4a;
     color: white;
-    padding: 20px 0;
+    padding: 1rem 0;
     text-align: center;
+    margin-top: 2rem;
 }
 
 .footer-content {
@@ -11,7 +12,7 @@
     flex-wrap: wrap;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 1rem;
 }
 
 .footer-content div {
@@ -30,7 +31,6 @@
 
 @media (max-width: 768px) {
     .footer-content {
-        flex-direction: column;
         align-items: center;
     }
 }
