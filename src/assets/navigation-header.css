@@ -97,6 +97,10 @@ nav a:visited {
     width: auto;
     max-width: 12rem; /* Maintain max-width */
 }
+a {
+    color: inherit; /* Inherit color from parent element */
+    text-decoration: none; /* Remove underline */
+}
 
 @media (max-width: 1024px) {
     .navigation-header {
