@@ -93,13 +93,14 @@ nav a:visited {
 }
 
 .navigation-header .logo-container img.logo-image {
-    height: 4rem;  /* Adjust to your exact logo height */
+    height: 4rem; /* Adjust to your exact logo height */
     width: auto;
     max-width: 12rem; /* Maintain max-width */
 }
-a {
-    color: inherit; /* Inherit color from parent element */
-    text-decoration: none; /* Remove underline */
+
+a:-webkit-any-link {
+    color: inherit;
+    text-decoration: none;
 }
 
 @media (max-width: 1024px) {
@@ -156,6 +157,7 @@ a {
     .dropdown-content::before {
         display: none;
     }
+
     .logo-container img {
         max-height: 4rem; /* Adjust as needed for smaller mobile screens */
         width: auto;
@@ -185,6 +187,7 @@ a {
         padding-right: 1rem;
         width: 100%;
     }
+
     .logo-container img {
         max-height: 30px; /* Adjust as needed for smaller mobile screens */
         width: auto;
