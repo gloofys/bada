@@ -110,4 +110,53 @@
     .winery-content a:hover {
         background-color: #b8935b;
     }
+
+    .plans-container {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+
+    .plan-tab {
+        padding: 10px 20px;
+        background-color: #f4f4f4;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        cursor: pointer;
+        text-align: center;
+        width: 150px;
+    }
+
+    .plan-tab.selected {
+        background-color: #81C784; /* Pastel Green */
+        color: white;
+    }
+
+    table {
+        width: 80%;
+        margin: 20px auto;
+        border-collapse: collapse;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    th, td {
+        padding: 15px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+    }
+
+    th {
+        background-color: #f4f4f4;
+        font-weight: bold;
+    }
+
+    tr:hover {
+        background-color: #f9f9f9;
+    }
+
+    caption {
+        caption-side: top;
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
 }
