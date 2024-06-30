@@ -1,5 +1,5 @@
 .menu-icon {
-    height: 7px;
+    height: 6px;
     margin: 3px;
     width: 50px;
     background-color: #393030;
@@ -11,7 +11,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 70px;
+    height: 50px;
     width: 80px;
     border-radius: 20px;
 
