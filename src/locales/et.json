@@ -125,5 +125,48 @@
       "website_text": "Külastage veebisaiti",
       "website_url": "https://www.valibor.hu/en"
     }
+  },
+    "rentalOptions": {
+      "heading": "Hinnakiri",
+      "intro1": "Pakume erinevaid rendivõimalusi, mis vastavad teie vajadustele, olgu tegemist individuaalsete toarendide, terve korruse rendiga või kogu maja rentimisega suurema grupi või pere kogunemiseks.",
+      "intro2": "Kõik broneeringud tehakse telefoni või e-posti teel. Palun võtke meiega ühendust, et saada parim hinnapakkumine pikemaks peatumiseks."
+    },
+    "roomPricing": {
+      "heading": "Toa hinnad",
+      "roomType": "Toa tüüp",
+      "price": "Hind",
+      "perNight": "(öö kohta)",
+      "bedsOccupancy": "Voodid ja mahutavus",
+      "bedroom": "Magamistuba",
+      "bedroomDownstairs": "Magamistuba esimesel korrusel",
+      "bedroomBalcony": "Magamistuba rõduga",
+      "bedroomDetails": "1 Queen voodi, mahutab 2",
+      "bedroomDownstairsDetails": "1 King voodi, mahutab 2",
+      "bedroomBalconyDetails": "1 King voodi, mahutab 2"
+    },
+    "floorPricing": {
+      "heading": "Kogu korruse hind",
+      "floor": "Korrus",
+      "price": "Hind",
+      "perNight": "(öö kohta)",
+      "bedsOccupancy": "Voodid ja mahutavus",
+      "firstFloor": "1. korrus",
+      "secondFloor": "2. korrus",
+      "firstFloorDetails": "1 magamistuba, mahutab 6",
+      "secondFloorDetails": "3 magamistuba, mahutab 6"
+    },
+    "houseRental": {
+      "heading": "Kogu maja rent",
+      "rentalType": "Renditüüp",
+      "price": "Hind",
+      "perNight": "(öö kohta)",
+      "bedsOccupancy": "Voodid ja mahutavus",
+      "wholeHouse": "Kogu maja",
+      "wholeHouseDetails": "4 magamistuba, mahutab 12"
+    },
+    "bookingInfo": {
+      "message": "Broneeringu tegemiseks võtke meiega ühendust e-posti või telefoni teel. Oleme hea meelega valmis pakkuma teile kohandatud hinnapakkumist pikemaks peatumiseks.",
+      "contactUs": "Võtke meiega ühendust"
+    }
   }
-}
+

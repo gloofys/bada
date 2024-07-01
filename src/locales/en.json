@@ -10,7 +10,6 @@
     "phone": "Phone: +123 456 7890",
     "email": "Email: fred.brosman06[at]gmail.com"
   },
-
   "housing": {
     "layout": "House Layout",
     "housing": "Housing",
@@ -126,6 +125,49 @@
       "website_text": "Visit Website",
       "website_url": "https://www.valibor.hu/en"
     }
+  },
+  "rentalOptions": {
+    "heading": "Rental Options",
+    "intro1": "We offer a variety of renting options to suit your needs, whether you are looking for individual room rentals, entire floor rentals, or renting the whole house for a larger group or family gathering.",
+    "intro2": "All bookings are done via phone or email. Please contact us to get the best price quote for long stays."
+  },
+  "roomPricing": {
+    "heading": "Room Pricing",
+    "roomType": "Room Type",
+    "price": "Price",
+    "perNight": "(per night)",
+    "bedsOccupancy": "Beds & Occupancy",
+    "bedroom": "Bedroom",
+    "bedroomDownstairs": "Bedroom downstairs",
+    "bedroomBalcony": "Bedroom with balcony",
+    "bedroomDetails": "1 Queen Bed, Sleeps 2",
+    "bedroomDownstairsDetails": "1 King Bed, Sleeps 2",
+    "bedroomBalconyDetails": "1 King Bed, Sleeps 2"
+  },
+  "floorPricing": {
+    "heading": "Whole Floor Pricing",
+    "floor": "Floor",
+    "price": "Price",
+    "perNight": "(per night)",
+    "bedsOccupancy": "Beds & Occupancy",
+    "firstFloor": "1st Floor",
+    "secondFloor": "2nd Floor",
+    "firstFloorDetails": "1 Bedroom, Sleeps 6",
+    "secondFloorDetails": "3 Bedrooms, Sleeps 6"
+  },
+  "houseRental": {
+    "heading": "Whole House Rental",
+    "rentalType": "Rental Type",
+    "price": "Price",
+    "perNight": "(per night)",
+    "bedsOccupancy": "Beds & Occupancy",
+    "wholeHouse": "Whole House",
+    "wholeHouseDetails": "4 Bedrooms, Sleeps 12"
+  },
+  "bookingInfo": {
+    "message": "To book your stay, please contact us via email or phone. We are happy to provide you with a customized quote for long stays.",
+    "contactUs": "Contact Us"
   }
 }
+
 

@@ -3,79 +3,79 @@
   <div class="container">
     <!-- Introduction Section -->
     <section class="intro-section">
-      <h2>Rental Options</h2>
-      <p>Welcome to our beautiful accommodation options. We offer a variety of renting options to suit your needs, whether you are looking for individual room rentals, entire floor rentals, or renting the whole house for a larger group or family gathering.</p>
-      <p>All bookings are done via phone or email. Please contact us to get the best price quote for long stays.</p>
+      <h2>{{ $t('rentalOptions.heading') }}</h2>
+      <p>{{ $t('rentalOptions.intro1') }}</p>
+      <p>{{ $t('rentalOptions.intro2') }}</p>
     </section>
 
     <!-- Section 1: Room Prices -->
     <section class="pricing-section">
-      <h3>Room Pricing</h3>
+      <h3>{{ $t('roomPricing.heading') }}</h3>
       <table>
         <tr>
-          <th>Room Type</th>
-          <th>Price <span class="note">(per night)</span></th>
-          <th>Beds & Occupancy</th>
+          <th>{{ $t('roomPricing.roomType') }}</th>
+          <th>{{ $t('roomPricing.price') }} <span class="note">{{ $t('roomPricing.perNight') }}</span></th>
+          <th>{{ $t('roomPricing.bedsOccupancy') }}</th>
         </tr>
         <tr>
-          <td>Bedroom</td>
+          <td>{{ $t('roomPricing.bedroom') }}</td>
           <td>€40</td>
-          <td>1 Queen Bed, Sleeps 2</td>
+          <td>{{ $t('roomPricing.bedroomDetails') }}</td>
         </tr>
         <tr>
-          <td>Bedroom downstairs</td>
+          <td>{{ $t('roomPricing.bedroomDownstairs') }}</td>
           <td>€40</td>
-          <td>1 King Bed, Sleeps 2</td>
+          <td>{{ $t('roomPricing.bedroomDownstairsDetails') }}</td>
         </tr>
         <tr>
-          <td>Bedroom with balcony</td>
+          <td>{{ $t('roomPricing.bedroomBalcony') }}</td>
           <td>€60</td>
-          <td>1 King Bed, Sleeps 2</td>
+          <td>{{ $t('roomPricing.bedroomBalconyDetails') }}</td>
         </tr>
       </table>
     </section>
 
     <!-- Section 2: Whole Floor Prices -->
     <section class="pricing-section">
-      <h3>Whole Floor Pricing</h3>
+      <h3>{{ $t('floorPricing.heading') }}</h3>
       <table>
         <tr>
-          <th>Floor</th>
-          <th>Price <span class="note">(per night)</span></th>
-          <th>Beds & Occupancy</th>
+          <th>{{ $t('floorPricing.floor') }}</th>
+          <th>{{ $t('floorPricing.price') }} <span class="note">{{ $t('floorPricing.perNight') }}</span></th>
+          <th>{{ $t('floorPricing.bedsOccupancy') }}</th>
         </tr>
         <tr>
-          <td>1st Floor</td>
+          <td>{{ $t('floorPricing.firstFloor') }}</td>
           <td>€100</td>
-          <td>1 Bedroom, Sleeps 6</td>
+          <td>{{ $t('floorPricing.firstFloorDetails') }}</td>
         </tr>
         <tr>
-          <td>2nd Floor</td>
+          <td>{{ $t('floorPricing.secondFloor') }}</td>
           <td>€150</td>
-          <td>3 Bedrooms, Sleeps 6</td>
+          <td>{{ $t('floorPricing.secondFloorDetails') }}</td>
         </tr>
       </table>
     </section>
 
     <!-- Section 3: Whole House Rental -->
     <section class="pricing-section">
-      <h3>Whole House Rental</h3>
+      <h3>{{ $t('houseRental.heading') }}</h3>
       <table>
         <tr>
-          <th>Rental Type</th>
-          <th>Price <span class="note">(per night)</span></th>
-          <th>Beds & Occupancy</th>
+          <th>{{ $t('houseRental.rentalType') }}</th>
+          <th>{{ $t('houseRental.price') }} <span class="note">{{ $t('houseRental.perNight') }}</span></th>
+          <th>{{ $t('houseRental.bedsOccupancy') }}</th>
         </tr>
         <tr>
-          <td>Whole House</td>
+          <td>{{ $t('houseRental.wholeHouse') }}</td>
           <td>€250</td>
-          <td>4 Bedrooms, Sleeps 12</td>
+          <td>{{ $t('houseRental.wholeHouseDetails') }}</td>
         </tr>
       </table>
     </section>
     <section class="booking-info">
-      <p>To book your stay, please contact us via email or phone. We are happy to provide you with a customized quote for long stays.</p>
-      <a @click="goToContacts">Contact Us</a>
+      <p>{{ $t('bookingInfo.message') }}</p>
+      <a @click="goToContacts">{{ $t('bookingInfo.contactUs') }}</a>
     </section>
   </div>
 </template>
