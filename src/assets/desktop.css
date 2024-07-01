@@ -111,30 +111,10 @@
         background-color: #b8935b;
     }
 
-    .plans-container {
-        display: flex;
-        justify-content: space-around;
-        margin-bottom: 20px;
-    }
-
-    .plan-tab {
-        padding: 10px 20px;
-        background-color: #f4f4f4;
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        cursor: pointer;
-        text-align: center;
-        width: 150px;
-    }
-
-    .plan-tab.selected {
-        background-color: #81C784; /* Pastel Green */
-        color: white;
-    }
 
     table {
-        width: 80%;
-        margin: 20px auto;
+        width: 100%;
+        margin: 0;
         border-collapse: collapse;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
@@ -153,10 +133,24 @@
     tr:hover {
         background-color: #f9f9f9;
     }
+    .booking-info a {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 10px 15px;
+        background-color: #d2a679;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
 
-    caption {
-        caption-side: top;
-        font-size: 1.5em;
-        margin-bottom: 10px;
+    .booking-info a:hover {
+        background-color: #b8935b;
+    }
+    .booking-info {
+        text-align: center;
+        margin: 40px 0;
+        font-size: 1.2em;
+        color: #666;
     }
 }

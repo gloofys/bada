@@ -8,6 +8,7 @@
 @import "rooms-layout.css";
 @import "homepage.css";
 @import "footer.css";
+@import "tables.css";
 #app {
   display: flex;
   flex-direction: column;

@@ -73,6 +73,25 @@
         display: none;
     }
 
+    .booking-info a {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 10px 15px;
+        background-color: #d2a679;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
 
+    .booking-info a:hover {
+        background-color: #b8935b;
+    }
+    .booking-info {
+        text-align: center;
+        margin: 40px 0;
+        font-size: 1.2em;
+        color: #666;
+    }
 
 }
