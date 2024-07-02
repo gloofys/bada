@@ -15,7 +15,7 @@
 
     .container {
         padding: 3rem 9rem 3rem;
-        margin: 0 12rem;
+        margin: 2rem 12rem;
     }
 
     body {
@@ -97,60 +97,27 @@
         flex: 1 1 auto;
     }
 
-    .winery-content a {
-        display: inline-block;
-        margin-top: 10px;
-        padding: 10px 15px;
-        background-color: #d2a679;
-        color: white;
-        text-decoration: none;
-        border-radius: 5px;
-    }
-
-    .winery-content a:hover {
-        background-color: #b8935b;
-    }
-
-
-    table {
-        width: 100%;
-        margin: 0;
-        border-collapse: collapse;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    }
-
-    th, td {
-        padding: 15px;
-        text-align: center;
-        border-bottom: 1px solid #ddd;
-    }
-
-    th {
-        background-color: #f4f4f4;
-        font-weight: bold;
-    }
-
-    tr:hover {
-        background-color: #f9f9f9;
-    }
-    .booking-info a {
-        display: inline-block;
-        margin-top: 10px;
-        padding: 10px 15px;
-        background-color: #d2a679;
-        color: white;
-        text-decoration: none;
-        border-radius: 5px;
-        cursor: pointer;
-    }
-
-    .booking-info a:hover {
-        background-color: #b8935b;
-    }
     .booking-info {
         text-align: center;
         margin: 40px 0;
         font-size: 1.2em;
-        color: #666;
     }
+    .booking-policies p {
+        margin-bottom: 4rem;
+    }
+    .booking-policies ul {
+        margin-bottom: 4rem;
+        padding-left: 20px;
+    }
+
+    .booking-policies ul li {
+        margin-bottom: 1rem;
+        list-style: disc;
+    }
+    .booking-policies ul li::marker {
+        color: #d2a679; /* Change this to your desired bullet color */
+        font-size: 1.2em; /* Adjust the size if necessary */
+    }
+
+
 }

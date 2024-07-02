@@ -167,6 +167,48 @@
     "bookingInfo": {
       "message": "Broneeringu tegemiseks võtke meiega ühendust e-posti või telefoni teel. Oleme hea meelega valmis pakkuma teile kohandatud hinnapakkumist pikemaks peatumiseks.",
       "contactUs": "Võtke meiega ühendust"
-    }
+    },
+  "extraServices": {
+    "intro": "Pakume mitmesuguseid täiendavaid teenuseid, et teie viibimist veelgi paremaks muuta. Palun pange tähele, et need teenused on saadaval ainult siis, kui peremees on kohal.",
+    "heading": "Lisateenused",
+    "service": "Teenus",
+    "price": "Hind",
+    "perPerson": "(inimese kohta)",
+    "description": "Kirjeldus",
+    "breakfast": "Hommikusöök",
+    "breakfastDetails": "Maitsev kontinentaalne hommikusöök igal hommikul.",
+    "wineTasting": "Veinide Degustatsioon",
+    "wineTastingDetails": "Kogege kohalikke veine juhendatud degustatsiooniga.",
+    "transport": "Transport",
+    "transportPrice": "1.5€/km + 15€/h",
+    "transportDetails": "Transporditeenus kohalike vaatamisväärsuste juurde ja tagasi.",
+    "message": "Täiendavad teenused on saadaval ainult siis, kui peremees on kohal ja need tuleb broneerida vähemalt 3 päeva ette. Broneerimine peab toimuma isiklikult, e-posti teel või telefoni teel."
+  },
+  "bookingPolicies": {
+    "title": "Broneerimispoliitikad",
+    "reservationPolicy": "Broneerimise poliitika",
+    "reservationPolicyText1": "Kõik broneeringud kinnitatakse pärast kogu makse laekumist.",
+    "reservationPolicyText2": "Saate kinnituskirja oma viibimise üksikasjadega.",
+    "reservationPolicyText3": "Me aktsepteerime makseid krediitkaardiga, deebetkaardiga ja pangaülekandega. Makse tuleb tasuda täielikult broneerimise hetkel.",
+    "cancellationPolicy": "Tühistamise poliitika",
+    "cancellationPolicyText1": "Tühistamisel kuni 14 päeva enne sisseregistreerimise kuupäeva tagastatakse kogu summa.",
+    "cancellationPolicyText2": "Tühistamisel 7 kuni 14 päeva enne sisseregistreerimise kuupäeva tagastatakse 50% summast.",
+    "cancellationPolicyText3": "Tühistamisel vähem kui 7 päeva enne sisseregistreerimise kuupäeva ei ole tagasimakse võimalik.",
+    "noShowPolicy": "Ilmumata jätmise poliitika",
+    "noShowPolicyText": "Kui te ei ilmu kokkulepitud sisseregistreerimise kuupäeval ilma eelneva teavituseta, võetakse kogu broneeringu summa ja broneering tühistatakse.",
+    "additionalServices": "Täiendavad teenused",
+    "additionalServicesText1": "Täiendavad teenused (näiteks ekskursioonid, eritoidud või transport) on saadaval ainult siis, kui peremees on kohal.",
+    "additionalServicesText2": "Need teenused tuleb broneerida vähemalt 3 päeva ette.",
+    "additionalServicesText3": "Broneerimine peab toimuma isiklikult, e-posti teel või telefoni teel.",
+    "childrenPolicy": "Lapsed ja lisavoodid",
+    "childrenPolicyText1": "Alla 12-aastased lapsed saavad olemasolevaid voodeid kasutades tasuta ööbida.",
+    "childrenPolicyText2": "Lisavoodid on saadaval lisatasu eest. Imikute voodid on saadaval eelneval kokkuleppel ja on tasuta.",
+    "petsPolicy": "Lemmikloomade poliitika",
+    "petsPolicyText1": "Lemmikloomad on eelneval kokkuleppel lubatud.",
+    "petsPolicyText2": "Teenistusloomad on lubatud eelneva teavitamise ja dokumenteerimise korral.",
+    "damagePolicy": "Kahjustuste ja vastutuse poliitika",
+    "damagePolicyText1": "Külalised vastutavad oma viibimise ajal kinnistule tekitatud kahju eest.",
+    "damagePolicyText2": "Remondi või asendamise kulud võetakse külaliselt. Kinnistu ei vastuta isiklike asjade kaotsimineku või kahjustumise eest. Külalisi soovitatakse oma väärtuslikke esemeid turvaliselt hoida."
+  }
   }
 

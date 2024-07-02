@@ -9,6 +9,7 @@
 @import "homepage.css";
 @import "footer.css";
 @import "tables.css";
+@import "buttons.css";
 #app {
   display: flex;
   flex-direction: column;

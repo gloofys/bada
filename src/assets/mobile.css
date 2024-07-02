@@ -9,6 +9,7 @@
     }
     .container{
         padding: 10px;
+        margin: 2rem 1rem 1rem 1rem;
     }
 
     .room-container, .reverse-layout {
@@ -91,7 +92,24 @@
         text-align: center;
         margin: 40px 0;
         font-size: 1.2em;
-        color: #666;
+    }
+    .booking-policies p {
+        margin-bottom: 4rem;
+    }
+    .booking-policies ul {
+        margin-bottom: 2.5rem;
+        padding-left: 20px;
     }
 
+    .booking-policies ul li {
+        margin-bottom: 1rem;
+        list-style: disc;
+    }
+    .booking-policies ul li::marker {
+        color: #d2a679; /* Change this to your desired bullet color */
+        font-size: 1.2em; /* Adjust the size if necessary */
+    }
+    .booking-policies h3{
+        font-size: 30px;
+    }
 }

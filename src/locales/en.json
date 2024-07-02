@@ -167,6 +167,48 @@
   "bookingInfo": {
     "message": "To book your stay, please contact us via email or phone. We are happy to provide you with a customized quote for long stays.",
     "contactUs": "Contact Us"
+  },
+  "extraServices": {
+    "intro": "We offer a variety of extra services to enhance your stay. Please note that these services are only available when the host is present.",
+    "heading": "Extra Services",
+    "service": "Service",
+    "price": "Price",
+    "perPerson": "(per person)",
+    "description": "Description",
+    "breakfast": "Breakfast",
+    "breakfastDetails": "Delicious continental breakfast served each morning.",
+    "wineTasting": "Wine Tasting",
+    "wineTastingDetails": "Experience the best local wines with a guided tasting session.",
+    "transport": "Transport",
+    "transportPrice": "1.5€ per km + 15€ per hour",
+    "transportDetails": "Shuttle service available to and from local attractions.",
+    "message": "Additional services are only available when the host is present and must be booked at least 3 days in advance. Bookings can be made in person, via email, or by phone."
+  },
+  "bookingPolicies": {
+    "title": "Booking Policies",
+    "reservationPolicy": "Reservation Policy",
+    "reservationPolicyText1": "All bookings are confirmed once full payment has been received.",
+    "reservationPolicyText2": "You will receive a confirmation email with the details of your stay.",
+    "reservationPolicyText3": "We accept payments via credit card, debit card, and bank transfer. Payment must be made in full at the time of booking.",
+    "cancellationPolicy": "Cancellation Policy",
+    "cancellationPolicyText1": "Cancellations made up to 14 days before the check-in date will receive a full refund.",
+    "cancellationPolicyText2": "Cancellations made between 7 to 14 days before the check-in date will receive a 50% refund.",
+    "cancellationPolicyText3": "Cancellations made less than 7 days before the check-in date will not be eligible for a refund.",
+    "noShowPolicy": "No-Show Policy",
+    "noShowPolicyText": "If you do not arrive on the scheduled check-in date without prior notification, the full booking amount will be charged, and the reservation will be cancelled.",
+    "additionalServices": "Additional Services",
+    "additionalServicesText1": "Additional services (such as guided tours, special meals, or transportation) are only available when the host is present.",
+    "additionalServicesText2": "These services must be booked at least 3 days in advance.",
+    "additionalServicesText3": "Bookings can be made in person, via email, or by phone.",
+    "childrenPolicy": "Children and Extra Beds",
+    "childrenPolicyText1": "Children under 12 years old stay free when using existing bedding.",
+    "childrenPolicyText2": "Extra beds are available for an additional charge. Cribs for infants are available upon request and are free of charge.",
+    "petsPolicy": "Pets Policy",
+    "petsPolicyText1": "Pets are allowed on prior agreement.",
+    "petsPolicyText2": "Service animals are permitted with prior notification and documentation.",
+    "damagePolicy": "Damage and Liability",
+    "damagePolicyText1": "Guests are responsible for any damage caused to the property during their stay.",
+    "damagePolicyText2": "The cost of repairs or replacements will be charged to the guest. The property is not responsible for loss or damage to personal belongings. Guests are advised to secure their valuables."
   }
 }
 
