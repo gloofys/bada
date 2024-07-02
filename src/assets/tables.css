@@ -2,7 +2,7 @@ table {
     width: 100%;
     margin: 0;
     border-collapse: collapse;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
     table-layout: fixed; /* Ensures equal column width */
 }
 
@@ -34,25 +34,4 @@ tr:hover {
 .note {
     font-size: 0.8em;
     color: #838080;
-}
-table {
-    width: 100%;
-    margin: 0;
-    border-collapse: collapse;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-th, td {
-    padding: 15px;
-    text-align: center;
-    border-bottom: 1px solid #ddd;
-}
-
-th {
-    background-color: #f4f4f4;
-    font-weight: bold;
-}
-
-tr:hover {
-    background-color: #f9f9f9;
 }
