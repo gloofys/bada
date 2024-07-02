@@ -16,7 +16,7 @@
     "rooms": "Toad",
     "pricing": "Hinnakiri",
     "extra_services": "Lisateenused",
-    "booking_policies": "Broneerimispoliitikad"
+    "booking_policies": "Tingimused"
   },
   "location": {
     "location": "Asukoht",
@@ -185,7 +185,7 @@
     "message": "Täiendavad teenused on saadaval ainult siis, kui peremees on kohal ja need tuleb broneerida vähemalt 3 päeva ette. Broneerimine peab toimuma isiklikult, e-posti teel või telefoni teel."
   },
   "bookingPolicies": {
-    "title": "Broneerimispoliitikad",
+    "title": "Tingimused",
     "reservationPolicy": "Broneerimise poliitika",
     "reservationPolicyText1": "Kõik broneeringud kinnitatakse pärast kogu makse laekumist.",
     "reservationPolicyText2": "Saate kinnituskirja oma viibimise üksikasjadega.",

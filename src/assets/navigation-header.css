@@ -162,6 +162,32 @@ a:-webkit-any-link {
         width: auto;
         object-fit: contain;
     }
+    details summary {
+        list-style: none;
+        outline: none;
+        cursor: pointer;
+        position: relative;
+        padding-right: 1.5rem; /* Space for arrow */
+    }
+
+    /* Remove default arrow */
+    details summary::-webkit-details-marker,
+    details summary::marker {
+        display: none;
+    }
+
+    /* Add custom arrow */
+    details summary::after {
+        content: '\25BC'; /* Downward arrow */
+        position: absolute;
+        right: 0;
+        transition: transform 0.3s ease; /* Smooth rotation */
+    }
+
+    /* Rotate arrow when open */
+    details[open] summary::after {
+        transform: rotate(180deg); /* Upward arrow */
+    }
 }
 
 @media (max-width: 767px) {
@@ -199,6 +225,33 @@ details summary {
     list-style: none;
     outline: none;
     cursor: pointer;
+}
+details summary {
+    list-style: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    padding-right: 1.5rem; /* Space for arrow */
+}
+
+/* Remove default arrow */
+details summary::-webkit-details-marker,
+details summary::marker {
+    display: none;
+}
+
+/* Add custom arrow */
+details summary::after {
+    content: '\25BC'; /* Downward arrow */
+    position: absolute;
+    right: 0;
+    transition: transform 0.3s ease; /* Smooth rotation */
+    color: #d5e4dd;
+}
+
+/* Rotate arrow when open */
+details[open] summary::after {
+    transform: rotate(180deg); /* Upward arrow */
 }
 
 /* Remove default arrow in Webkit browsers (Chrome, Safari) */
