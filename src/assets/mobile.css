@@ -119,4 +119,8 @@
     .house-location ul {
         padding-left: 20px;
     }
+    .container-maps {
+        padding: 10px;
+        margin: 2rem 1rem 1rem 1rem;
+    }
 }
