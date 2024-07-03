@@ -10,6 +10,9 @@ iframe {
 .mobile-map {
     display: none;
 }
+.tablet-map{
+    display: none;
+}
 
 @media (max-width: 768px) {
     .desktop-map {
@@ -17,6 +20,14 @@ iframe {
     }
 
     .mobile-map {
+        display: block;
+    }
+}
+@media(max-width: 1024px) {
+    .desktop-map {
+        display: none;
+    }
+    .tablet-map {
         display: block;
     }
 }
