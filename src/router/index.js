@@ -19,7 +19,6 @@ import LakeBalaton from "@/views/LakeBalaton.vue";
 import NearbyCities from "@/views/NearbyCities.vue";
 import Spa from "@/views/Spa.vue";
 import BadacsonyEvents from "@/views/BadacsonyEvents.vue";
-import Beaches from "@/views/Beaches.vue";
 import HowToGetHere from "@/views/HowToGetHere.vue";
 import Layout from '@/views/Layout.vue'
 
@@ -86,11 +85,6 @@ const routes = [
                         path: 'lakeBalaton',
                         name: 'LakeBalaton',
                         component: LakeBalaton
-                    },
-                    {
-                        path: 'beaches',
-                        name: 'Beaches',
-                        component: Beaches
                     },
                     {
                         path: 'nearby-cities',
