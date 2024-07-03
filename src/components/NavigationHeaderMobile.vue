@@ -84,9 +84,6 @@
               <router-link to="/activities/lakeBalaton">{{ $t('activities.lakeBalaton') }}</router-link>
             </li>
             <li @click="closeDropdown">
-              <router-link to="/activities/beaches">{{ $t('activities.beaches') }}</router-link>
-            </li>
-            <li @click="closeDropdown">
               <router-link to="/activities/nearby-cities">{{ $t('activities.nearby_cities') }}</router-link>
             </li>
             <li @click="closeDropdown">
