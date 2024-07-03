@@ -35,3 +35,8 @@ tr:hover {
     font-size: 0.8em;
     color: #838080;
 }
+@media (max-width: 1024px) {
+    .pricing-section {
+        margin: 4rem 0;
+    }
+}
