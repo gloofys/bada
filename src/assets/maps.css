@@ -1,0 +1,22 @@
+iframe {
+    margin: 3rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+.desktop-map {
+    display: block;
+}
+
+.mobile-map {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .desktop-map {
+        display: none;
+    }
+
+    .mobile-map {
+        display: block;
+    }
+}

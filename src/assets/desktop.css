@@ -118,6 +118,14 @@
         color: #d2a679; /* Change this to your desired bullet color */
         font-size: 1.2em; /* Adjust the size if necessary */
     }
+    .house-location ul li::marker{
+        color: #d2a679; /* Change this to your desired bullet color */
+        font-size: 1.2em; /* Adjust the size if necessary */
+    }
+    .house-location ul {
+        padding-left: 20px;
+    }
+
 
 
 }

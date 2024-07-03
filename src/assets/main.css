@@ -10,6 +10,7 @@
 @import "footer.css";
 @import "tables.css";
 @import "buttons.css";
+@import "maps.css";
 #app {
   display: flex;
   flex-direction: column;
