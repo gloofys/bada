@@ -20,7 +20,9 @@
   },
   "location": {
     "location": "Location",
-    "how_to_get_here": "How to get here"
+    "house_location": "House location",
+    "how_to_get_here": "How to get here",
+    "tallinn_badacsony": "Tallinn -> Badacsony"
   },
   "wineRegion": {
     "wine_region": "Wine Region",

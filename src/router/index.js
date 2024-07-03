@@ -21,6 +21,8 @@ import Spa from "@/views/Spa.vue";
 import BadacsonyEvents from "@/views/BadacsonyEvents.vue";
 import HowToGetHere from "@/views/HowToGetHere.vue";
 import Layout from '@/views/Layout.vue'
+import HouseLocation from "@/views/HouseLocation.vue";
+import TallinnBadacsony from "@/views/TallinnBadacsony.vue";
 
 const routes = [
     {
@@ -119,9 +121,19 @@ const routes = [
                 component: Location,
                 children: [
                     {
+                        path: 'house-location',
+                        name: 'HouseLocation',
+                        component: HouseLocation
+                    },
+                    {
                         path: 'how-To-Get-Here',
                         name: 'HowToGetHere',
                         component: HowToGetHere
+                    },
+                    {
+                        path: 'tallinn-badacsony',
+                        name: 'TallinnBadacsony',
+                        component: TallinnBadacsony
                     },
                 ]
             },

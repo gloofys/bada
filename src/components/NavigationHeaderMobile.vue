@@ -59,7 +59,13 @@
           <summary>{{ $t('location.location') }}</summary>
           <ul class="dropdown-subcontent">
             <li @click="closeDropdown">
+              <router-link to="/location/house-location">{{ $t('location.house_location') }}</router-link>
+            </li>
+            <li @click="closeDropdown">
               <router-link to="/location/how-to-get-here">{{ $t('location.how_to_get_here') }}</router-link>
+            </li>
+            <li @click="closeDropdown">
+              <router-link to="/location/tallinn-badacsony">{{ $t('location.tallinn_badacsony') }}</router-link>
             </li>
           </ul>
         </details>

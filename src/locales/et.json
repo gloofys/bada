@@ -20,7 +20,9 @@
   },
   "location": {
     "location": "Asukoht",
-    "how_to_get_here": "Kuidas kohale jõuda"
+    "house_location": "Maja asukoht",
+    "how_to_get_here": "Kuidas kohale jõuda",
+    "tallinn_badacsony": "Tallinn -> Badacsony"
   },
   "wineRegion": {
     "wine_region": "Veinipiirkond",
