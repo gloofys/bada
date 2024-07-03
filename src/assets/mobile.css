@@ -123,4 +123,18 @@
         padding: 10px;
         margin: 2rem 1rem 1rem 1rem;
     }
+    .transportation-option ul li::marker{
+        color: #d2a679; /* Change this to your desired bullet color */
+        font-size: 1.2em; /* Adjust the size if necessary */
+    }
+    .transportation-option h3{
+        margin: 1rem 0;
+    }
+    .transportation-option ul {
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+    .container h2{
+        text-align: center;
+    }
 }

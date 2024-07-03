@@ -132,7 +132,6 @@
         max-width: 700px; /* Set a max-width for better readability */
     }
 
-
     .container-maps {
         display: flex;
         flex-direction: column;
@@ -141,5 +140,32 @@
         margin: 2rem 12rem;
     }
 
+
+    .transportation-option {
+        margin-bottom: 1rem;
+    }
+
+    .transportation-option p {
+        margin: 1rem 0;
+    }
+    .transportation-option h3{
+        margin: 2rem 0;
+    }
+
+    .transportation-option ul {
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+
+    .transportation-option ul li {
+        margin: 5px 0;
+    }
+    .transportation-option ul li::marker{
+        color: #d2a679; /* Change this to your desired bullet color */
+        font-size: 1.2em; /* Adjust the size if necessary */
+    }
+.page-heading{
+    text-align: center;
+}
 
 }
