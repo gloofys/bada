@@ -123,9 +123,16 @@
         font-size: 1.2em; /* Adjust the size if necessary */
     }
 
-    .house-location li {
-        margin: 5px 0;
+    .house-location {
+        list-style-type: none;
+        padding: 0;
+        margin: 1.5rem 0; /* Add space above and below the list */
+        text-align: left; /* Ensure the text is aligned left for readability */
+        width: 100%; /* Ensure it takes the full width of the container */
+        max-width: 700px; /* Set a max-width for better readability */
     }
+
+
     .container-maps {
         display: flex;
         flex-direction: column;
