@@ -127,48 +127,48 @@
       "website_url": "https://www.valibor.hu/en"
     }
   },
-    "rentalOptions": {
-      "heading": "Hinnakiri",
-      "intro1": "Pakume erinevaid rendivõimalusi, mis vastavad teie vajadustele, olgu tegemist individuaalsete toarendide, terve korruse rendiga või kogu maja rentimisega suurema grupi või pere kogunemiseks.",
-      "intro2": "Kõik broneeringud tehakse telefoni või e-posti teel. Palun võtke meiega ühendust, et saada parim hinnapakkumine pikemaks peatumiseks."
-    },
-    "roomPricing": {
-      "heading": "Toa hinnad",
-      "roomType": "Toa tüüp",
-      "price": "Hind",
-      "perNight": "(öö kohta)",
-      "bedsOccupancy": "Voodid ja mahutavus",
-      "bedroom": "Magamistuba",
-      "bedroomDownstairs": "Magamistuba esimesel korrusel",
-      "bedroomBalcony": "Magamistuba rõduga",
-      "bedroomDetails": "1 Queen voodi, mahutab 2",
-      "bedroomDownstairsDetails": "1 King voodi, mahutab 2",
-      "bedroomBalconyDetails": "1 King voodi, mahutab 2"
-    },
-    "floorPricing": {
-      "heading": "Kogu korruse hind",
-      "floor": "Korrus",
-      "price": "Hind",
-      "perNight": "(öö kohta)",
-      "bedsOccupancy": "Voodid ja mahutavus",
-      "firstFloor": "1. korrus",
-      "secondFloor": "2. korrus",
-      "firstFloorDetails": "1 magamistuba, mahutab 6",
-      "secondFloorDetails": "3 magamistuba, mahutab 6"
-    },
-    "houseRental": {
-      "heading": "Kogu maja rent",
-      "rentalType": "Renditüüp",
-      "price": "Hind",
-      "perNight": "(öö kohta)",
-      "bedsOccupancy": "Voodid ja mahutavus",
-      "wholeHouse": "Kogu maja",
-      "wholeHouseDetails": "4 magamistuba, mahutab 12"
-    },
-    "bookingInfo": {
-      "message": "Broneeringu tegemiseks võtke meiega ühendust e-posti või telefoni teel. Oleme hea meelega valmis pakkuma teile kohandatud hinnapakkumist pikemaks peatumiseks.",
-      "contactUs": "Võtke meiega ühendust"
-    },
+  "rentalOptions": {
+    "heading": "Hinnakiri",
+    "intro1": "Pakume erinevaid rendivõimalusi, mis vastavad teie vajadustele, olgu tegemist individuaalsete toarendide, terve korruse rendiga või kogu maja rentimisega suurema grupi või pere kogunemiseks.",
+    "intro2": "Kõik broneeringud tehakse telefoni või e-posti teel. Palun võtke meiega ühendust, et saada parim hinnapakkumine pikemaks peatumiseks."
+  },
+  "roomPricing": {
+    "heading": "Toa hinnad",
+    "roomType": "Toa tüüp",
+    "price": "Hind",
+    "perNight": "(öö kohta)",
+    "bedsOccupancy": "Voodid ja mahutavus",
+    "bedroom": "Magamistuba",
+    "bedroomDownstairs": "Magamistuba esimesel korrusel",
+    "bedroomBalcony": "Magamistuba rõduga",
+    "bedroomDetails": "1 Queen voodi, mahutab 2",
+    "bedroomDownstairsDetails": "1 King voodi, mahutab 2",
+    "bedroomBalconyDetails": "1 King voodi, mahutab 2"
+  },
+  "floorPricing": {
+    "heading": "Kogu korruse hind",
+    "floor": "Korrus",
+    "price": "Hind",
+    "perNight": "(öö kohta)",
+    "bedsOccupancy": "Voodid ja mahutavus",
+    "firstFloor": "1. korrus",
+    "secondFloor": "2. korrus",
+    "firstFloorDetails": "1 magamistuba, mahutab 6",
+    "secondFloorDetails": "3 magamistuba, mahutab 6"
+  },
+  "houseRental": {
+    "heading": "Kogu maja rent",
+    "rentalType": "Renditüüp",
+    "price": "Hind",
+    "perNight": "(öö kohta)",
+    "bedsOccupancy": "Voodid ja mahutavus",
+    "wholeHouse": "Kogu maja",
+    "wholeHouseDetails": "4 magamistuba, mahutab 12"
+  },
+  "bookingInfo": {
+    "message": "Broneeringu tegemiseks võtke meiega ühendust e-posti või telefoni teel. Oleme hea meelega valmis pakkuma teile kohandatud hinnapakkumist pikemaks peatumiseks.",
+    "contactUs": "Võtke meiega ühendust"
+  },
   "extraServices": {
     "intro": "Pakume mitmesuguseid täiendavaid teenuseid, et teie viibimist veelgi paremaks muuta. Palun pange tähele, et need teenused on saadaval ainult siis, kui peremees on kohal.",
     "heading": "Lisateenused",
@@ -235,6 +235,33 @@
       "step3": "Võtke rong Badacsony raudteejaama.",
       "step4": "Raudteejaamast jalutage meie majani, mis on 2,5 km kaugusel."
     }
+  },
+  "tallinnBadacsony": {
+    "title": "Reis Tallinnast Badacsony",
+    "byCar": {
+      "title": "Autoga",
+      "description": "Sõit Tallinnast Római út 245, Badacsony on suurepärane valik, kui naudite maalilisi marsruute ja oma sõiduki kasutamise paindlikkust. Siin on juhised:",
+      "direction1": "Tallinnast alustage lõunasuunas Pärnu maanteel ja liituge maanteega 4/E67 läbi Pärnu/Ikla rampi.",
+      "direction2": "Jätkake E67-l, ületades piiri Lätisse ja suunduge Riia poole.",
+      "direction3": "Riias järgige märke, et liituda E67/A7-ga ja jätkake Bauska poole. Ületage piiri Leetu ja jätkake E67/A10-l Panevėžys suunas.",
+      "direction4": "Vilniusest võtke A4 Poola piiri suunas, ületades piiri Poola ja järgides märke Suwałki suunas. Jätkake maanteel 8/E67 Białystokini, seejärel Varssavi suunas. Jätkake E67/A2-l, jätkake Łódź ja Wrocławi suunas.",
+      "direction5": "Wrocławist võtke A4 Tšehhi piiri suunas, ületades piiri Tšehhi Vabariiki ja jätkates Ostrava suunas. Ostravast liituge D1/E462-ga Brno suunas. Brnost võtke D2/E65 Slovakkia piiri suunas, ületades piiri Slovakkiasse ja suundudes Bratislava suunas. Bratislavast võtke D2 Ungari piiri suunas, ületades piiri Ungarisse ja jätkates Győri suunas. Győrist võtke M1 Budapest suunas. Budapestist võtke M7 kiirtee Balatoni suunas ja järgige märke Badacsonysse. Jätkake kohalikul teel Római út 245, Badacsony."
+    },
+    "byPlane": {
+      "title": "Lennukiga ja rendiautoga",
+      "description": "Kui eelistate lennata, saate lennujaamas rentida auto. Siin on üksikasjad:",
+      "detail1": "Lennake Tallinna Lennujaamast (TLL) Budapest Ferenc Liszt rahvusvahelisse lennujaama (BUD).",
+      "detail2": "Rentige lennujaamast auto ühest suuremast autorendifirmast.",
+      "detail3": "Sõitke meie majja järgides juhiseid jaotises 'Autoga' Budapestist Római út 245, Badacsony."
+    },
+    "byPlaneTrain": {
+      "title": "Lennukiga ja rongiga",
+      "description": "Neile, kes ei soovi juhtida, saate pärast lendu rongi võtta. Siin on sammud:",
+      "step1": "Lennake Tallinna Lennujaamast (TLL) Budapest Ferenc Liszt rahvusvahelisse lennujaama (BUD).",
+      "step2": "Tellige takso või kasutage ühistransporti, et jõuda Budapest Déli raudteejaama",
+      "step3": "Sõitke rongiga Badacsony rongipeatusesse",
+      "step4": "rongipeatusest võtke takso või kõndige meie majani, mis asub 2.5km kaugusel."
+    }
   }
-  }
+}
 
