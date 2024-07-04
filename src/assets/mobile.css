@@ -134,7 +134,9 @@
         list-style-type: disc;
         padding-left: 20px;
     }
-    .container h2{
+    .container h3{
         text-align: center;
+        margin-bottom: 3rem;
+        font-family: "Baskerville Old Face", serif;
     }
 }

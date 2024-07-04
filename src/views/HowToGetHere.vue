@@ -1,9 +1,9 @@
 <template>
   <div class="container">
-    <h2 class="page-heading">{{ $t('howToGetHere.title') }}</h2>
+    <h3 class="page-heading">{{ $t('howToGetHere.title') }}</h3>
 
     <section class="transportation-option">
-      <h3>{{ $t('howToGetHere.byCar.title') }}</h3>
+      <h4>{{ $t('howToGetHere.byCar.title') }}</h4>
       <p>{{ $t('howToGetHere.byCar.description') }}</p>
       <ul>
         <li>{{ $t('howToGetHere.byCar.direction1') }}</li>
@@ -13,7 +13,7 @@
     </section>
 
     <section class="transportation-option">
-      <h3>{{ $t('howToGetHere.byPlaneRentalCar.title') }}</h3>
+      <h4>{{ $t('howToGetHere.byPlaneRentalCar.title') }}</h4>
       <p>{{ $t('howToGetHere.byPlaneRentalCar.description') }}</p>
       <ul>
         <li>{{ $t('howToGetHere.byPlaneRentalCar.detail1') }}</li>
@@ -23,7 +23,7 @@
     </section>
 
     <section class="transportation-option">
-      <h3>{{ $t('howToGetHere.byPlaneTrain.title') }}</h3>
+      <h4>{{ $t('howToGetHere.byPlaneTrain.title') }}</h4>
       <p>{{ $t('howToGetHere.byPlaneTrain.description') }}</p>
       <ul>
         <li>{{ $t('howToGetHere.byPlaneTrain.step1') }}</li>
