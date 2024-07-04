@@ -210,7 +210,34 @@
     "damagePolicy": "Damage and Liability",
     "damagePolicyText1": "Guests are responsible for any damage caused to the property during their stay.",
     "damagePolicyText2": "The cost of repairs or replacements will be charged to the guest. The property is not responsible for loss or damage to personal belongings. Guests are advised to secure their valuables."
+  },
+  "howToGetHere": {
+    "title": "How to Get Here",
+    "byCar": {
+      "title": "By Car",
+      "description": "Driving to our house is a great option if you enjoy scenic routes and the flexibility of having your own vehicle. Here are the directions:",
+      "direction1": "From Budapest: Take the M7 motorway towards Balaton, then follow the signs to Badacsony.",
+      "direction2": "From Vienna: Take the A2 motorway towards Graz, then follow the signs to Hungary and continue towards Badacsony.",
+      "direction3": "Parking is available on-site."
+    },
+    "byPlaneRentalCar": {
+      "title": "By Plane and Rental Car",
+      "description": "If you prefer to fly, you can rent a car at the airport. Here are the details:",
+      "detail1": "Fly to Budapest Ferenc Liszt International Airport (BUD) or Vienna International Airport.",
+      "detail2": "Rent a car at the airport from one of the major car rental companies.",
+      "detail3": "Drive to our house following the directions provided in the 'By Car' section."
+    },
+    "byPlaneTrain": {
+      "title": "By Plane and Train",
+      "description": "For those who prefer not to drive, you can take a train after your flight. Here are the steps:",
+      "step1": "Fly to Budapest Ferenc Liszt International Airport (BUD).",
+      "step2": "Take a taxi or public transport to Budapest Déli Railway Station.",
+      "step3": "Take a train to Badacsony Train Station.",
+      "step4": "From the train station, take a taxi to our house, which is approximately 2.5 km away."
+    }
   }
 }
+
+
 
 

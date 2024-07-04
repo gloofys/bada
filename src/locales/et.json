@@ -210,6 +210,31 @@
     "damagePolicy": "Kahjustuste ja vastutuse poliitika",
     "damagePolicyText1": "Külalised vastutavad oma viibimise ajal kinnistule tekitatud kahju eest.",
     "damagePolicyText2": "Remondi või asendamise kulud võetakse külaliselt. Kinnistu ei vastuta isiklike asjade kaotsimineku või kahjustumise eest. Külalisi soovitatakse oma väärtuslikke esemeid turvaliselt hoida."
+  },
+  "howToGetHere": {
+    "title": "Kuidas siia tulla",
+    "byCar": {
+      "title": "Autoga",
+      "description": "Meie maja juurde sõitmine on suurepärane valik, kui naudite maalilisi marsruute ja oma sõiduki kasutamise paindlikkust. Siin on juhised:",
+      "direction1": "Budapestist: Sõitke M7 kiirteele Balatoni suunas, seejärel järgige märke Badacsonysse.",
+      "direction2": "Viinist: Sõitke A2 kiirteele Graz'i suunas, seejärel järgige märke Ungarisse ja jätkake Badacsony suunas.",
+      "direction3": "Parkimine on saadaval kohapeal."
+    },
+    "byPlaneRentalCar": {
+      "title": "Lennukiga ja rendiautoga",
+      "description": "Kui eelistate lennata, saate lennujaamas rentida auto. Siin on üksikasjad:",
+      "detail1": "Lendage Budapesti Ferenc Liszt rahvusvahelisse lennujaama (BUD) või Viini rahvusvahelisse lennujaama.",
+      "detail2": "Rentige auto lennujaamas ühest suuremast autorendifirmast.",
+      "detail3": "Sõitke meie majja, järgides juhiseid, mis on toodud jaotises 'Autoga'."
+    },
+    "byPlaneTrain": {
+      "title": "Lennukiga ja rongiga",
+      "description": "Neile, kes ei soovi autoga sõita, saate pärast lendu rongi võtta. Siin on sammud:",
+      "step1": "Lendage Budapesti Ferenc Liszt rahvusvahelisse lennujaama (BUD).",
+      "step2": "Võtke takso või ühistransport Budapest Déli raudteejaama.",
+      "step3": "Võtke rong Badacsony raudteejaama.",
+      "step4": "Raudteejaamast jalutage meie majani, mis on 2,5 km kaugusel."
+    }
   }
   }
 
