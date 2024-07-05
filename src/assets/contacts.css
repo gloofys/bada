@@ -1,0 +1,63 @@
+.contact-page {
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+    text-align: center;
+    padding: 0;
+}
+
+.contact-header {
+    padding: 1rem 0;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.contact-logo {
+    width: 12rem;
+    height: auto;
+}
+
+
+
+.contact-section {
+    margin-bottom: 2rem;
+}
+
+.contact-person {
+    margin-bottom: 1rem;
+}
+
+.contact-phone, .contact-email {
+    color: #d9534f;
+    font-size: 1.2rem;
+}
+
+.contact-section h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contact-section h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.contact-section p {
+    margin: 0.5rem 0;
+}
+
+@media (max-width: 768px) {
+
+
+    .contact-section h1 {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .contact-section h2 {
+        font-size: 1rem;
+    }
+
+    .contact-phone, .contact-email {
+        font-size: 1rem;
+    }
+}

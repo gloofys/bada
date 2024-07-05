@@ -127,8 +127,8 @@
         color: #d2a679; /* Change this to your desired bullet color */
         font-size: 1.2em; /* Adjust the size if necessary */
     }
-    .transportation-option h3{
-        margin: 1rem 0;
+    .transportation-option h4{
+        margin-top: 2rem;
     }
     .transportation-option ul {
         list-style-type: disc;
@@ -139,4 +139,5 @@
         margin-bottom: 3rem;
         font-family: "Baskerville Old Face", serif;
     }
+
 }

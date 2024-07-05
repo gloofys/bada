@@ -19,7 +19,7 @@
             100vw
           "
             alt="Floor Plan"
-            class="content-image"
+            class="layout-image"
         />
         <!-- Hotspots for rooms -->
       </div>
@@ -40,7 +40,7 @@
             100vw
           "
             alt="Floor Plan"
-            class="content-image"
+            class="layout-image"
         />
       </div>
     </div>

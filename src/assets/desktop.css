@@ -8,22 +8,31 @@
     }
 
 
-    .text-content, .content-image {
-        width: 70%;
+    .text-content {
+        width: 50%; /* Ensure text content takes up 50% */
+        padding-left: 20px; /* Add some space between text and image */
+    }
+
+    .content-image {
+        width: 50%; /* Ensure image takes up 50% */
+        height: auto;
+        border-radius: 8px;
     }
 
 
     .container {
         padding: 3rem 9rem 3rem;
-        margin: 2rem 12rem;
+        margin: 2rem 20rem;
     }
 
     body {
         font-size: 22px; /* Increase font size for desktop */
     }
-    body h4{
+
+    body h4 {
         font-size: 3.5rem;
     }
+
     .text-image-wrapper .content-image {
         order: -1;
         width: 50%;
@@ -102,9 +111,11 @@
         margin: 40px 0;
         font-size: 1.2em;
     }
+
     .booking-policies p {
         margin-bottom: 4rem;
     }
+
     .booking-policies ul {
         margin-bottom: 4rem;
         padding-left: 20px;
@@ -114,11 +125,13 @@
         margin-bottom: 1rem;
         list-style: disc;
     }
+
     .booking-policies ul li::marker {
         color: #d2a679; /* Change this to your desired bullet color */
         font-size: 1.2em; /* Adjust the size if necessary */
     }
-    .house-location ul li::marker{
+
+    .house-location ul li::marker {
         color: #d2a679; /* Change this to your desired bullet color */
         font-size: 1.2em; /* Adjust the size if necessary */
     }
@@ -148,7 +161,8 @@
     .transportation-option p {
         margin: 1rem 0;
     }
-    .transportation-option h3{
+
+    .transportation-option h3 {
         margin: 2rem 0;
     }
 
@@ -160,12 +174,14 @@
     .transportation-option ul li {
         margin: 5px 0;
     }
-    .transportation-option ul li::marker{
+
+    .transportation-option ul li::marker {
         color: #d2a679; /* Change this to your desired bullet color */
         font-size: 1.2em; /* Adjust the size if necessary */
     }
-.page-heading{
-    text-align: center;
-}
+
+    .page-heading {
+        text-align: center;
+    }
 
 }

@@ -13,14 +13,20 @@
 
 }
 
-.content-image {
+.layout-image {
     width: 100%;
     height: auto;
     align-items: center;
 }
 
 .container h4 {
-    margin-top: 1vw;
+    margin-top: 3rem;
     margin-bottom: 1vw;
     align-self: flex-start;
+}
+@media (max-width: 1024px) {
+    .container h4 {
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
 }
