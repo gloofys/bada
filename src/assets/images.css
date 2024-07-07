@@ -68,11 +68,6 @@
 }
 
 
-.content-image {
-    flex: 1;
-    max-width: 50%; /* Ensures the image is not wider than 50% of the container */
-    height: auto; /* Maintains the aspect ratio */
-}
 .content-full-image{
     width: 100%;
     padding: 0 00px 0 100px;

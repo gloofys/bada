@@ -12,6 +12,7 @@
 @import "buttons.css";
 @import "maps.css";
 @import "contacts.css";
+@import "tablet.css";
 #app {
   display: flex;
   flex-direction: column;
