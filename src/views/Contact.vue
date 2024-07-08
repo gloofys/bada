@@ -1,4 +1,3 @@
-
 <template>
   <div class="contact-page">
     <header class="contact-header">
@@ -7,37 +6,38 @@
 
     <main>
       <section class="contact-section">
-        <h1>Contact Information</h1>
+        <h1>{{ $t('contacts.informationTitle') }}</h1>
         <div class="contact-person">
-          <h2>Elika (Estonian-English)</h2>
-          <p class="contact-phone">+372 5555 5555</p>
-          <p class="contact-email">elika@example.com</p>
+          <h2>{{ $t('contacts.elikaName') }}</h2>
+          <p class="contact-phone">{{ $t('contacts.elikaPhone') }}</p>
+          <p class="contact-email">{{ elikaEmail }}</p>
         </div>
         <div class="contact-person">
-          <h2>Giles (English)</h2>
-          <p class="contact-phone">+372 5555 5556</p>
-          <p class="contact-email">giles@example.com</p>
+          <h2>{{ $t('contacts.gilesName') }}</h2>
+          <p class="contact-phone">{{ $t('contacts.gilesPhone') }}</p>
+          <p class="contact-email">{{ gilesEmail }}</p>
         </div>
       </section>
 
       <section class="contact-section">
-        <h1>Business Hours</h1>
-        <p>Monday to Thursday: 08:00 - 21:00 EET</p>
-        <p>Friday to Saturday: 12:00 - 21:00 EET</p>
+        <h1>{{ $t('contacts.hoursTitle') }}</h1>
+        <p>{{ $t('contacts.mondayToThursday') }}</p>
+        <p>{{ $t('contacts.fridayToSaturday') }}</p>
       </section>
     </main>
   </div>
 </template>
 
-<script >
+<script>
 export default {
-  name: 'Contact'
+  name: 'Contact',
+  computed: {
+    elikaEmail() {
+      return this.$t('contacts.elikaEmail').replace('[at]', '@');
+    },
+    gilesEmail() {
+      return this.$t('contacts.gilesEmail').replace('[at]', '@');
+    }
+  }
 }
 </script>
-
-
-
-
-<style scoped>
-
-</style>

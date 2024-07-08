@@ -27,6 +27,7 @@
     font-weight: 400;
 
 }
+
 .banner-container::before {
     content: "";
     position: absolute;
@@ -50,6 +51,14 @@
     line-height: 2rem;
 }
 
+.favourites-map-image {
+    width: 100%;
+    margin-top: 3rem;
+    height: auto;
+    display: block;
+
+}
+
 @media (max-width: 767px) {
     .banner-content h1 {
         font-size: 2rem;
@@ -68,7 +77,7 @@
 }
 
 
-.content-full-image{
+.content-full-image {
     width: 100%;
     padding: 0 00px 0 100px;
 }
@@ -86,6 +95,7 @@
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .winery-logo {
     flex: 1;
     max-width: 150px;
@@ -109,6 +119,7 @@
         width: 100%;
         margin-bottom: 10px;
     }
+
     .winery {
         flex-direction: column;
         align-items: center;

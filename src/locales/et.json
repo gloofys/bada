@@ -262,6 +262,46 @@
       "step3": "Sõitke rongiga Badacsony rongipeatusesse",
       "step4": "rongipeatusest võtke takso või kõndige meie majani, mis asub 2.5km kaugusel."
     }
+  },
+  "favourites": {
+    "introTitle": "Meie Lemmik Veinibaarid ja Restoranid",
+    "introText": "Avastage meie käepikem valik parimatest veinibaaridest ja restoranidest piirkonnas. Iga koht pakub ainulaadset kogemust, mis on ideaalne veinisõpradele ja toidugurmaanidele.",
+    "bar1Title": "1. Berkes Vendégház és Étterem",
+    "bar1Description": "Hubane külalistemaja ja restoran Badacsonytördemicis, mis on tuntud oma sõbraliku perepersonali ja kaunite vaadete poolest Balatoni järvele ja Szigligeti lossile. Nad pakuvad maitsvaid kohalikke veine ja erinevaid traditsioonilisi Ungari roogasid meeldivas atmosfääris.",
+    "bar2Title": "2. Kutasy Pince Bt.",
+    "bar2Description": "Elegantne veinikelder, mis pakub hoolikalt valitud kohalikke veine. See on tuntud oma suurepäraste söögikogemuste poolest, mis toovad esile piirkonna veini- ja kulinaarse pärandi.",
+    "bar3Title": "3. Domaine Edegger Borászat",
+    "bar3Description": "Populaarne veinitehas ja veinibaar, mis on tuntud oma suure atmosfääri ja klaasiga pakutavate veinide valiku poolest. See pakub veinisõpradele ainulaadset kogemust oma võluvas seades ja ulatusliku veinikaardiga.",
+    "bar4Title": "4. Panoráma Borterasz",
+    "bar4Description": "Tuntud oma suurepärase piirkondlike veinide valiku ja elava atmosfääri poolest, pakub see veiniterass suurepäraseid vaateid ja meeldivat kogemust veinisõpradele.",
+    "bar5Title": "5. Laposa Domains",
+    "bar5Description": "Tipptasemel veinitehas, mis pakub gurmeemenüüd ja ulatuslikku veinikaarti. Mõis on tuntud kvaliteetsete veinide tootmise ja meeldejäävate gastronoomiliste elamuste pakkumise poolest.",
+    "bar6Title": "6. Kisfaludy Ház Étterem",
+    "bar6Description": "Võluv restoran, kus on lai valik kohalikke veine ja elav muusika. See on populaarne koht oma hubase atmosfääri ja suurepärase teeninduse poolest.",
+    "bar7Title": "7. Rózsakő Vendéglő",
+    "bar7Description": "Väike intiimne restoran, kus on hoolikalt valitud peened veinid. See on hästi tuntud oma isikupärase teeninduse ja kvaliteetsete veinide poolest.",
+    "bar8Title": "8. Imre borpince",
+    "bar8Description": "Peresõbralik veinikelder ja restoran, mis pakub maitsvat toitu ja suurepärast veinivalikut. See on ideaalne koht peredele ja gruppidele, kes otsivad lõõgastavat söögikogemust.",
+    "bar9Title": "9. Szeremley Borház",
+    "bar9Description": "Elav veinimaja, mis on tuntud oma sõbraliku personali ja suurepäraste veinide poolest. See pakub külalislahket keskkonda ja suurepärast kohalike veinide valikut.",
+    "bar10Title": "10. frissTerasz",
+    "bar10Description": "Pakub suurepärast veinivalikut ja hubast atmosfääri. See on populaarne koht nii kohalike kui ka külastajate seas, kes soovivad nautida lõõgastavat õhtut hea veiniga.",
+    "bar11Title": "11. Pláne Badacsony borterasz",
+    "bar11Description": "Kõrgklassi restoran, kus on fantastiline veinikeldri. See pakub peenet söögikogemust, keskendudes kvaliteetsetele veinidele ja gurmeetoidule.",
+    "bar12Title": "12. Vigadó Borozó",
+    "bar12Description": "Populaarne koht veinisõpradele, kus pakutakse degusteerimisi ja üritusi. See on tuntud oma elava atmosfääri ja suurepärase veinivaliku poolest."
+  },
+  "contacts": {
+    "informationTitle": "Kontaktandmed",
+    "elikaName": "Elika (eesti-inglise)",
+    "elikaPhone": "+372 5555 5555",
+    "elikaEmail": "elika[at]example.com",
+    "gilesName": "Giles (inglise)",
+    "gilesPhone": "+372 5555 5556",
+    "gilesEmail": "giles[at]example.com",
+    "hoursTitle": "Äriajad",
+    "mondayToThursday": "Esmaspäevast neljapäevani: 08:00 - 21:00 EET",
+    "fridayToSaturday": "Reedest laupäevani: 12:00 - 21:00 EET"
   }
 }
 

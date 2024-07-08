@@ -262,6 +262,46 @@
       "step3": "Take a train to Badacsony Train Station.",
       "step4": "From the train station, take a taxi or walk to our house, which is approximately 2.5 km away."
     }
+  },
+  "favourites": {
+    "introTitle": "Our Favourite Wine Bars and Restaurants",
+    "introText": "Discover our handpicked selection of the best wine bars and restaurants in the region. Each spot offers a unique experience, perfect for wine lovers and food enthusiasts alike.",
+    "bar1Title": "1. Berkes Vendégház és Étterem",
+    "bar1Description": "A cozy guesthouse and restaurant in Badacsonytördemic, known for its friendly family staff and beautiful views of Lake Balaton and Szigliget Castle. They offer delicious local wines and a variety of traditional Hungarian dishes in a welcoming atmosphere.",
+    "bar2Title": "2. Kutasy Pince Bt.",
+    "bar2Description": "An elegant wine cellar offering a curated selection of local wines. It is renowned for its exquisite dining experiences that highlight the region's wine and culinary heritage.",
+    "bar3Title": "3. Domaine Edegger Borászat",
+    "bar3Description": "A popular winery and wine bar known for its great atmosphere and a variety of wines available by the glass. It offers a unique experience for wine lovers with its charming setting and extensive wine list.",
+    "bar4Title": "4. Panoráma Borterasz",
+    "bar4Description": "Known for its excellent selection of regional wines and vibrant atmosphere, this wine terrace offers stunning views and a delightful experience for wine enthusiasts.",
+    "bar5Title": "5. Laposa Domains",
+    "bar5Description": "A top-rated winery offering a gourmet menu and an extensive wine list. The estate is known for producing high-quality wines and providing a memorable gastronomic experience.",
+    "bar6Title": "6. Kisfaludy Ház Étterem",
+    "bar6Description": "A charming restaurant with a wide range of local wines and live music. It is a popular spot for its cozy ambiance and excellent service.",
+    "bar7Title": "7. Rózsakő Vendéglő",
+    "bar7Description": "A small, intimate restaurant with a curated selection of fine wines. It is well-regarded for its personalized service and high-quality wines.",
+    "bar8Title": "8. Imre borpince",
+    "bar8Description": "A family-friendly winery and restaurant offering delicious food and a great selection of wines. It is a perfect spot for families and groups looking for a relaxing dining experience.",
+    "bar9Title": "9. Szeremley Borház",
+    "bar9Description": "A lively wine house known for its friendly staff and excellent wines. It offers a welcoming environment and a great selection of local wines.",
+    "bar10Title": "10. frissTerasz",
+    "bar10Description": "Offers a great selection of wines and a cozy ambiance. It is a popular spot for both locals and visitors looking to enjoy a relaxed evening with good wine.",
+    "bar11Title": "11. Pláne Badacsony borterasz",
+    "bar11Description": "An upscale restaurant with a fantastic wine cellar. It provides a sophisticated dining experience with a focus on high-quality wines and gourmet food.",
+    "bar12Title": "12. Vigadó Borozó",
+    "bar12Description": "A popular spot for wine lovers, offering tastings and events. It is well-known for its vibrant atmosphere and excellent selection of wines."
+  },
+  "contacts": {
+    "informationTitle": "Contact Information",
+    "elikaName": "Elika (Estonian-English)",
+    "elikaPhone": "+372 5555 5555",
+    "elikaEmail": "elika[at]example.com",
+    "gilesName": "Giles (English)",
+    "gilesPhone": "+372 5555 5556",
+    "gilesEmail": "giles[at]example.com",
+    "hoursTitle": "Business Hours",
+    "mondayToThursday": "Monday to Thursday: 08:00 - 21:00 EET",
+    "fridayToSaturday": "Friday to Saturday: 12:00 - 21:00 EET"
   }
 }
 

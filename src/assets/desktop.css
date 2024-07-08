@@ -183,5 +183,28 @@
     .page-heading {
         text-align: center;
     }
+    .favourites-list {
+        list-style: none;
+        padding: 0;
+    }
+
+    .favourites-list li {
+        margin: 1rem 0;
+        text-align: left;
+    }
+
+    .favourites-list h4 {
+        margin: 0.5rem 0;
+    }
+
+    .favourites-list p {
+        margin: 0;
+        color: #666;
+    }
+    .intro-section,
+    .list-section {
+        margin: 2rem 0;
+        text-align: center;
+    }
 
 }
