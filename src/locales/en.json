@@ -302,6 +302,17 @@
     "hoursTitle": "Business Hours",
     "mondayToThursday": "Monday to Thursday: 08:00 - 21:00 EET",
     "fridayToSaturday": "Friday to Saturday: 12:00 - 21:00 EET"
+  },
+  "lakeBalaton": {
+    "introTitle": "Lake Balaton",
+    "introText1": "Lake Balaton is the largest freshwater lake in Central Europe, covering an area of about 592 square kilometers (229 square miles). Its vast expanse and relatively shallow depth make it a popular destination for water-based activities.",
+    "introText2": "Beneath the surface of Lake Balaton lie numerous geothermal springs, contributing to its warm water temperatures during the summer months. This natural thermal activity enhances the lake’s appeal for swimming, particularly in its southern shores where the water can reach pleasantly warm temperatures.",
+    "swimmingTitle": "1. Swimming",
+    "swimmingDescription": "With its shallow waters and gradual sloping beaches, Lake Balaton is perfect for swimming. Many beaches around the lake are equipped with facilities such as lifeguards, changing rooms, and snack bars, ensuring a comfortable swimming experience for visitors of all ages. The closest beach to our house is the recently renovated Egry József Strand Badacsony. Most of the beaches around the lake have a small entry fee.",
+    "sailingTitle": "2. Sailing",
+    "sailingDescription": "Lake Balaton’s expansive waters and steady winds make it an ideal destination for sailing enthusiasts. Whether you’re a seasoned sailor or a beginner, you can rent sailboats or join sailing courses offered by local sailing clubs to explore the lake’s scenic shores and charming waterfront towns from a unique perspective.",
+    "waterSkiingTitle": "3. Water Skiing & Wakeboarding",
+    "waterSkiingDescription": "Thrill-seekers can enjoy water skiing and wakeboarding on Lake Balaton’s calm waters. Rental shops and water sports centers offer equipment and instruction for beginners, while experienced riders can show off their skills and carve through the waves."
   }
 }
 

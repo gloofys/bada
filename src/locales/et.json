@@ -302,6 +302,17 @@
     "hoursTitle": "Äriajad",
     "mondayToThursday": "Esmaspäevast neljapäevani: 08:00 - 21:00 EET",
     "fridayToSaturday": "Reedest laupäevani: 12:00 - 21:00 EET"
+  },
+  "lakeBalaton": {
+    "introTitle": "Balatoni järv",
+    "introText1": "Balatoni järv on Kesk-Euroopa suurim mageveejärv, mis katab umbes 592 ruutkilomeetri (229 ruutmiili) suuruse ala. Selle ulatuslik pindala ja suhteliselt madal sügavus muudavad selle populaarseks veepõhiste tegevuste sihtkohaks.",
+    "introText2": "Balatoni järve pinna all asuvad arvukad geotermilised allikad, mis aitavad kaasa selle sooja vee temperatuurile suvekuudel. See looduslik termiline aktiivsus suurendab järve atraktiivsust ujumiseks, eriti selle lõunarannikul, kus vesi võib jõuda meeldivalt sooja temperatuurini.",
+    "swimmingTitle": "1. Ujumine",
+    "swimmingDescription": "Oma madalate vete ja järk-järgult laskuvate randadega on Balatoni järv ideaalne ujumiseks. Paljud rannad järve ümbruses on varustatud selliste mugavustega nagu vetelpäästjad, riietusruumid ja suupistebaarid, tagades mugava ujumiskogemuse igas vanuses külastajatele. Meie majale kõige lähemal asub hiljuti renoveeritud Egry József Strand Badacsony rand. Enamikul järveäärsetest randadest on väike sissepääsutasu.",
+    "sailingTitle": "2. Purjetamine",
+    "sailingDescription": "Balatoni järve avarad veed ja stabiilsed tuuled muudavad selle ideaalseks sihtkohaks purjetamishuvilistele. Olgu sa kogenud purjetaja või algaja, saad rentida purjekaid või liituda kohalike purjetamisklubide pakutavate purjetamiskursustega, et avastada järve maalilisi kaldaid ja võluvaid rannikulinnu ainulaadsest vaatenurgast.",
+    "waterSkiingTitle": "3. Veesuusk ja Wakeboarding",
+    "waterSkiingDescription": "Põnevuseotsijad saavad nautida veesuusatamist ja wakeboardimist Balatoni järve rahulikel vetel. Rendipoed ja veespordikeskused pakuvad varustust ja juhendamist algajatele, samas kui kogenud sõitjad saavad oma oskusi näidata ja lainetes liuelda."
   }
 }
 

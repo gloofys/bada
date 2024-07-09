@@ -294,5 +294,14 @@
         margin: 0;
         color: #666;
     }
+    .intro-section-lake,
+    .activities-section {
+        margin: 2rem 0;
+        text-align: left;
+    }
+
+    .activity {
+        margin-bottom: 1.5rem;
+    }
 
 }
