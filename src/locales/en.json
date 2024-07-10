@@ -36,7 +36,7 @@
     "cycling": "Cycling",
     "lakeBalaton": "Lake Balaton",
     "nearby_cities": "Nearby Cities",
-    "spa": "Spa",
+    "lakeHévíz": "Lake Hévíz",
     "badacsonyEvents": "Badacsony events"
   },
   "gallery": "Gallery",
@@ -313,6 +313,31 @@
     "sailingDescription": "Lake Balaton’s expansive waters and steady winds make it an ideal destination for sailing enthusiasts. Whether you’re a seasoned sailor or a beginner, you can rent sailboats or join sailing courses offered by local sailing clubs to explore the lake’s scenic shores and charming waterfront towns from a unique perspective.",
     "waterSkiingTitle": "3. Water Skiing & Wakeboarding",
     "waterSkiingDescription": "Thrill-seekers can enjoy water skiing and wakeboarding on Lake Balaton’s calm waters. Rental shops and water sports centers offer equipment and instruction for beginners, while experienced riders can show off their skills and carve through the waves."
+  },
+  "tapolca": {
+    "distance": "10 km from Badacsony",
+    "description": "Tapolca is renowned for its unique thermal lake cave, where visitors can enjoy boat tours inside the cave. The town's picturesque streets and the serene Malom Lake add to its charm, making it a delightful destination for relaxation and exploration."
+  },
+  "keszthely": {
+    "distance": "25 km from Badacsony",
+    "description": "Keszthely is a historic town known for the magnificent Festetics Palace, a stunning baroque mansion. The town offers lakeside promenades, numerous museums, and vibrant cultural events, providing a rich blend of history and leisure activities."
+  },
+  "balatonfured": {
+    "distance": "35 km from Badacsony",
+    "description": "Balatonfüred is a popular resort town famous for its beautiful waterfront, marina, and historic villas. It hosts the annual Anna Ball and offers various recreational activities and thermal baths, making it a lively and attractive destination for visitors."
+  },
+  "heviz": {
+    "distance": "30 km from Badacsony",
+    "description": "Hévíz is renowned for its natural thermal lake, the largest of its kind in Europe. The therapeutic waters attract visitors seeking wellness treatments and relaxation, making Hévíz a premier destination for health and wellness tourism."
+  },
+  "nearbyCitiesPageTitle": "Nearby Cities",
+  "szigliget": {
+    "distance": "7 km from Badacsony",
+    "description": "Szigliget is a picturesque village known for its historic castle ruins offering panoramic views of Lake Balaton. The village is also famous for its vineyards and charming old-world atmosphere, making it a perfect spot for a peaceful getaway."
+  },
+  "lakeHevizPageTitle": "Lake Hévíz",
+  "lakeHeviz": {
+    "description": "Lake Hévíz is the largest natural thermal lake in Europe, renowned for its medicinal properties and year-round warm temperatures. The lake is surrounded by a beautiful park and features water lilies that add to its serene atmosphere. Visitors can enjoy therapeutic baths and wellness treatments at the Hévíz Spa, making it a popular destination for health and relaxation."
   }
 }
 

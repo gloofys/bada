@@ -17,12 +17,12 @@ import Hiking from "@/views/Hiking.vue";
 import Cycling from "@/views/Cycling.vue";
 import LakeBalaton from "@/views/LakeBalaton.vue";
 import NearbyCities from "@/views/NearbyCities.vue";
-import Spa from "@/views/Spa.vue";
 import BadacsonyEvents from "@/views/BadacsonyEvents.vue";
 import HowToGetHere from "@/views/HowToGetHere.vue";
 import Layout from '@/views/Layout.vue'
 import HouseLocation from "@/views/HouseLocation.vue";
 import TallinnBadacsony from "@/views/TallinnBadacsony.vue";
+import LakeHeviz from "@/views/LakeHévíz.vue";
 
 const routes = [
     {
@@ -94,9 +94,9 @@ const routes = [
                         component: NearbyCities
                     },
                     {
-                        path: 'spa',
-                        name: 'Spa',
-                        component: Spa
+                        path: 'lakeHeviz',
+                        name: 'LakeHeviz',
+                        component: LakeHeviz
                     },
                     {
                         path: 'badacsonyEvents',

@@ -313,6 +313,31 @@
     "sailingDescription": "Balatoni järve avarad veed ja stabiilsed tuuled muudavad selle ideaalseks sihtkohaks purjetamishuvilistele. Olgu sa kogenud purjetaja või algaja, saad rentida purjekaid või liituda kohalike purjetamisklubide pakutavate purjetamiskursustega, et avastada järve maalilisi kaldaid ja võluvaid rannikulinnu ainulaadsest vaatenurgast.",
     "waterSkiingTitle": "3. Veesuusk ja Wakeboarding",
     "waterSkiingDescription": "Põnevuseotsijad saavad nautida veesuusatamist ja wakeboardimist Balatoni järve rahulikel vetel. Rendipoed ja veespordikeskused pakuvad varustust ja juhendamist algajatele, samas kui kogenud sõitjad saavad oma oskusi näidata ja lainetes liuelda."
+  },
+  "nearbyCitiesPageTitle": "Lähedal Asuvad Linnad",
+  "tapolca": {
+    "distance": "10 km Badacsonyst",
+    "description": "Tapolca on tuntud oma ainulaadse termilise järvekoopa poolest, kus külastajad saavad nautida paadisõite koopas. Linna maalilised tänavad ja rahulik Malom-järv lisavad selle võlu, muutes selle lõõgastumiseks ja avastamiseks mõeldud sihtkohaks."
+  },
+  "keszthely": {
+    "distance": "25 km Badacsonyst",
+    "description": "Keszthely on ajalooline linn, mis on tuntud suurepärase Festeticsi palee poolest, mis on vapustav barokkstiilis häärber. Linn pakub järveäärseid promenaade, arvukaid muuseume ja elavaid kultuuriüritusi, pakkudes rikkalikku segu ajaloost ja vaba aja tegevustest."
+  },
+  "balatonfured": {
+    "distance": "35 km Badacsonyst",
+    "description": "Balatonfüred on populaarne kuurortlinn, mis on kuulus oma kauni ranna, jahisadama ja ajalooliste villade poolest. Seal toimub iga-aastane Anna ball ja seal on palju vaba aja veetmise võimalusi ning termilisi vanne, muutes selle külastajatele elavaks ja atraktiivseks sihtkohaks."
+  },
+  "heviz": {
+    "distance": "30 km Badacsonyst",
+    "description": "Hévíz on tuntud oma loodusliku termilise järve poolest, mis on suurim omataoline Euroopas. Terapeutilised veed meelitavad külastajaid, kes otsivad tervishoiuteenuseid ja lõõgastumist, muutes Hévízist esmaklassilise tervise- ja heaoluturismi sihtkoha."
+  },
+  "szigliget": {
+    "distance": "7 km Badacsonyst",
+    "description": "Szigliget on maaliline küla, mis on tuntud oma ajalooliste lossivaremete poolest, kust avaneb panoraamvaade Balatoni järvele. Küla on kuulus ka oma viinamarjaistanduste ja võluva vanaaegse atmosfääri poolest, muutes selle rahulikuks puhkusekohaks."
+  },
+  "lakeHevizPageTitle": "Lake Hévíz",
+  "lakeHeviz": {
+    "description": "Lake Hévíz is the largest natural thermal lake in Europe, renowned for its medicinal properties and year-round warm temperatures. The lake is surrounded by a beautiful park and features water lilies that add to its serene atmosphere. Visitors can enjoy therapeutic baths and wellness treatments at the Hévíz Spa, making it a popular destination for health and relaxation."
   }
 }
 
