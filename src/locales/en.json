@@ -167,7 +167,8 @@
   },
   "bookingInfo": {
     "message": "To book your stay, please contact us via email or phone. We are happy to provide you with a customized quote for long stays.",
-    "contactUs": "Contact Us"
+    "contactUs": "Contact Us",
+    "eventsWebsite": "Visit Badacsony events website"
   },
   "extraServices": {
     "intro": "We offer a variety of extra services to enhance your stay. Please note that these services are only available when the host is present.",
@@ -338,7 +339,65 @@
   "lakeHevizPageTitle": "Lake Hévíz",
   "lakeHeviz": {
     "description": "Lake Hévíz is the largest natural thermal lake in Europe, renowned for its medicinal properties and year-round warm temperatures. The lake is surrounded by a beautiful park and features water lilies that add to its serene atmosphere. Visitors can enjoy therapeutic baths and wellness treatments at the Hévíz Spa, making it a popular destination for health and relaxation."
-  }
+  },
+  "badacsonyEventsPageTitle": "Badacsony Events",
+  "events": {
+    "wineWeek": {
+      "title": "Badacsony Wine Week",
+      "dates": "July 12 - July 28",
+      "description": "Enjoy a variety of local wines, live music, and cultural programs in Badacsony Park. It's a celebration of the region's rich winemaking traditions.",
+      "location": "Badacsony Park"
+    },
+    "abrahamhegyWineDays": {
+      "title": "Ábrahámhegy Wine Days",
+      "dates": "August 1 - August 10",
+      "description": "A festival featuring wine tastings, local delicacies, and entertainment in the charming village of Ábrahámhegy.",
+      "location": "Ábrahámhegy"
+    },
+    "greybeardFestival": {
+      "title": "Badacsony Greybeard and Hungarian Grey Cattle Festival",
+      "dates": "August 10 - August 11",
+      "description": "A unique festival celebrating the local Greybeard grape variety and Hungarian Grey cattle, with tastings, culinary events, and cultural programs.",
+      "location": "Badacsony"
+    },
+    "kingStStephenDays": {
+      "title": "King St Stephen's Days",
+      "dates": "August 15 - August 20",
+      "description": "Commemorate Hungary's founding with traditional festivities, parades, and fireworks, honoring St. Stephen, the first king of Hungary.",
+      "location": "Badacsony and surrounding areas"
+    },
+    "medievalDay": {
+      "title": "Medieval Day at the Castle of Szigliget",
+      "dates": "August 18",
+      "description": "Step back in time with reenactments, medieval music, and crafts at the historic Castle of Szigliget.",
+      "location": "Castle of Szigliget"
+    },
+    "harvestFestival": {
+      "title": "60th Badacsony Harvest",
+      "dates": "September 6 - September 8",
+      "description": "Celebrate the harvest season with wine tastings, folk music, and dances, marking the 60th anniversary of this traditional festival.",
+      "location": "Badacsony Park"
+    },
+    "perchFestival": {
+      "title": "Perch Festival in Szigliget",
+      "dates": "October 19 - October 20",
+      "description": "A culinary festival focused on perch dishes, accompanied by live music, local wines, and a vibrant atmosphere.",
+      "location": "Szigliget"
+    },
+    "wineTriathlon": {
+      "title": "Wine Triathlon - Riesling Weekend",
+      "dates": "October 24 - October 26",
+      "description": "A triathlon event combining sporting challenges with wine tastings, focusing on the region's renowned Riesling wines.",
+      "location": "Badacsony and surrounding wine regions"
+    },
+    "newYearsEveSwim": {
+      "title": "New Year's Eve Swimming in Ábrahámhegy",
+      "dates": "December 31",
+      "description": "An exhilarating tradition where brave participants take a dip in the chilly waters of Lake Balaton to celebrate the New Year.",
+      "location": "Ábrahámhegy"
+    }
+  },
+  "viewMoreButton": "View More Events"
 }
 
 

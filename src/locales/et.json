@@ -338,6 +338,64 @@
   "lakeHevizPageTitle": "Lake Hévíz",
   "lakeHeviz": {
     "description": "Lake Hévíz is the largest natural thermal lake in Europe, renowned for its medicinal properties and year-round warm temperatures. The lake is surrounded by a beautiful park and features water lilies that add to its serene atmosphere. Visitors can enjoy therapeutic baths and wellness treatments at the Hévíz Spa, making it a popular destination for health and relaxation."
-  }
+  },
+  "badacsonyEventsPageTitle": "Badacsonyi Üritused",
+  "events": {
+    "wineWeek": {
+      "title": "Badacsonyi Veinipäevad",
+      "dates": "12. juuli - 28. juuli",
+      "description": "Nautige erinevaid kohalikke veine, elavat muusikat ja kultuuriprogramme Badacsony pargis. See on piirkonna rikkalike veinivalmistamise traditsioonide tähistamine.",
+      "location": "Badacsony Park"
+    },
+    "abrahamhegyWineDays": {
+      "title": "Ábrahámhegy Veinipäevad",
+      "dates": "1. august - 10. august",
+      "description": "Festival, mis hõlmab veinide degusteerimist, kohalikke hõrgutisi ja meelelahutust võluvas Ábrahámhegy külas.",
+      "location": "Ábrahámhegy"
+    },
+    "greybeardFestival": {
+      "title": "Badacsonyi Hallabe ja Ungari Halli Veise Festival",
+      "dates": "10. august - 11. august",
+      "description": "Ainulaadne festival, mis tähistab kohaliku Hallabe viinamarjasorti ja Ungari Halli veiseid, pakkudes degusteerimisi, kulinaarseid sündmusi ja kultuuriprogramme.",
+      "location": "Badacsony"
+    },
+    "kingStStephenDays": {
+      "title": "Kuningas Püha Stefani Päevad",
+      "dates": "15. august - 20. august",
+      "description": "Ungari asutamise mälestamine traditsiooniliste pidustuste, paraadide ja ilutulestikuga, austades Ungari esimest kuningat Püha Stefanit.",
+      "location": "Badacsony ja ümbritsevad alad"
+    },
+    "medievalDay": {
+      "title": "Keskaegne Päev Szigligeti Lossis",
+      "dates": "18. august",
+      "description": "Astuge ajas tagasi, nautides taaslavastusi, keskaegset muusikat ja käsitööd ajaloolises Szigligeti lossis.",
+      "location": "Szigligeti Loss"
+    },
+    "harvestFestival": {
+      "title": "60. Badacsonyi Saagikoristusfestival",
+      "dates": "6. september - 8. september",
+      "description": "Tähistage saagikoristushooaja algust veinide degusteerimise, rahvamuusika ja tantsudega, tähistades selle traditsioonilise festivali 60. aastapäeva.",
+      "location": "Badacsony Park"
+    },
+    "perchFestival": {
+      "title": "Ahvenafestival Szigligetis",
+      "dates": "19. oktoober - 20. oktoober",
+      "description": "Kulinaarne festival, mis keskendub ahvenaroogadele, mida saadab elav muusika, kohalikud veinid ja elav atmosfäär.",
+      "location": "Szigliget"
+    },
+    "wineTriathlon": {
+      "title": "Veinitriatlon - Rieslingi Nädalavahetus",
+      "dates": "24. oktoober - 26. oktoober",
+      "description": "Triatloniüritus, mis ühendab spordi väljakutsed ja veinide degusteerimise, keskendudes piirkonna kuulsatele Rieslingi veinidele.",
+      "location": "Badacsony ja ümbritsevad veinipiirkonnad"
+    },
+    "newYearsEveSwim": {
+      "title": "Aastavahetuse Ujumine Ábrahámhegyis",
+      "dates": "31. detsember",
+      "description": "Põnev traditsioon, kus vaprad osalejad võtavad uue aasta tervitamiseks supluse Balatoni järve külmades vetes.",
+      "location": "Ábrahámhegy"
+    }
+  },
+  "viewMoreButton": "Vaata Rohkem Üritusi"
 }
 

@@ -303,5 +303,8 @@
     .activity {
         margin-bottom: 1.5rem;
     }
-
+    .events{
+        margin: 1rem 0;
+        padding: 1rem 0;
+    }
 }
