@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>{{ $t('lakeHevizPageTitle') }}</h1>
+    <h2>{{ $t('lakeHevizPageTitle') }}</h2>
     <p>{{ $t('lakeHeviz.description') }}</p>
   </div>
 </template>

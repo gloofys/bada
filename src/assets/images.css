@@ -56,7 +56,9 @@
     margin-top: 3rem;
     height: auto;
     display: block;
-
+}
+.basic-image{
+    width: 100%;
 }
 
 @media (max-width: 767px) {
@@ -133,5 +135,9 @@
 
     .winery-content {
         text-align: center;
+    }
+    .basic-image{
+        padding-bottom: 1rem;
+
     }
 }
