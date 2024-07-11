@@ -8,6 +8,10 @@
       </div>
     </div>
   </div>
+<!--  <div class="container">-->
+<!--    <p> We have owned the house since 2015. Have done a full renovation.-->
+<!--    </p>-->
+<!--  </div>-->
 </template>
 <script>
 export default {
