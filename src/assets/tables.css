@@ -2,7 +2,7 @@ table {
     width: 100%;
     margin: 0;
     border-collapse: collapse;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
     table-layout: fixed; /* Ensures equal column width */
 }
 
