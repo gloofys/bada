@@ -9,13 +9,13 @@
         <h1>{{ $t('contacts.informationTitle') }}</h1>
         <div class="contact-person">
           <h2>{{ $t('contacts.elikaName') }}</h2>
-          <p class="contact-phone">{{ $t('contacts.elikaPhone') }}</p>
-          <p class="contact-email">{{ elikaEmail }}</p>
+          <p class="contact-phone"><strong>{{ $t('contacts.elikaPhone') }}</strong></p>
+          <p class="contact-email"><strong>{{ elikaEmail }}</strong></p>
         </div>
         <div class="contact-person">
           <h2>{{ $t('contacts.gilesName') }}</h2>
-          <p class="contact-phone">{{ $t('contacts.gilesPhone') }}</p>
-          <p class="contact-email">{{ gilesEmail }}</p>
+          <p class="contact-phone"><strong>{{ $t('contacts.gilesPhone') }}</strong></p>
+          <p class="contact-email"><strong>{{ gilesEmail }}</strong></p>
         </div>
       </section>
 

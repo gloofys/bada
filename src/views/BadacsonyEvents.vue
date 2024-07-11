@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div v-for="event in events" :key="event.title" class="events">
-      <h3>{{ event.title }}</h3>
+      <h4>{{ event.title }}</h4>
       <p><strong>{{ event.dates }}</strong></p>
       <p>{{ event.description }}</p>
       <p><em>{{ event.location }}</em></p>

@@ -134,9 +134,9 @@
         list-style-type: disc;
         padding-left: 20px;
     }
-    .container h3{
+    .text-content h3{
         text-align: center;
-        margin-bottom: 3rem;
+        margin: 1rem 0;
         font-family: "Baskerville Old Face", serif;
     }
     .favourites-list {
@@ -158,6 +158,10 @@
     .favourites-list p {
         margin: 0;
         color: #666;
+    }
+
+    .page-heading {
+        text-align: center;
     }
 
     .intro-section,

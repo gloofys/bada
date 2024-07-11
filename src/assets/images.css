@@ -113,13 +113,17 @@
 
 @media (max-width: 768px) {
     .image-gallery {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
+        margin-top: 20px;
+        padding: 2vw 0;
     }
 
     .gallery-image {
-        width: 100%;
-        margin-bottom: 10px;
+        width: 32%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
     .winery {
