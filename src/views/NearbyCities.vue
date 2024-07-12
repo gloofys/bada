@@ -21,11 +21,13 @@
     <div class="cities">
       <h4>Balatonfüred</h4>
       <p><strong>{{ $t('balatonfured.distance') }}</strong></p>
+      <img src="/nearbycities_images/balatonfüred.png" alt="image of balatonfüred" class="basic-image">
       <p>{{ $t('balatonfured.description') }}</p>
     </div>
     <div class="cities">
       <h4>Hévíz</h4>
       <p><strong>{{ $t('heviz.distance') }}</strong></p>
+      <img src="/nearbycities_images/heviz.png" alt="image of heviz" class="basic-image">
       <p>{{ $t('heviz.description') }}</p>
     </div>
 
