@@ -20,13 +20,12 @@
 }
 
 .floor-plan h4 {
-    margin-top: 3rem;
     margin-bottom: 1vw;
     align-self: flex-start;
 }
+.floor-info h4{
+    margin-top: 3rem;
+}
 @media (max-width: 1024px) {
-    .container h4 {
-        margin-top: 3rem;
-        margin-bottom: 1rem;
-    }
+
 }

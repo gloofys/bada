@@ -44,16 +44,19 @@
         />
       </div>
     </div>
+    <div class="floor-info">
     <h4>{{ $t('layout.entrances.heading') }}</h4>
     <p>{{ $t('layout.entrances.content') }}</p>
     <h4>{{ $t('layout.kitchensAndBathrooms.heading') }}</h4>
     <p>{{ $t('layout.kitchensAndBathrooms.content') }}</p>
+    </div>
   </div>
+
 </template>
 
 
 <script>
-  export default {
+export default {
   name: 'Layout'
 }
 </script>

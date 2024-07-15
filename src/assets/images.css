@@ -2,13 +2,19 @@
     position: relative;
     width: 100%;
     overflow: hidden;
-    height: 35vh; /* Set the height relative to the viewport */
+    height: 55vh; /* Set the height relative to the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner-image {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-
+    object-fit: cover; /* Ensures the image covers the container without stretching */
 }
 
 .banner-content {

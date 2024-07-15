@@ -267,12 +267,20 @@
     .activity {
         margin-bottom: 1.5rem;
     }
+    .activity h4{
+        margin-bottom: 1rem;
+    }
     .hint-section h5{
         text-align: center;
         padding: 0;
         margin: 0 0 1rem;
         font-size: 1rem;
     }
-
+    .title h2{
+        text-align: center;
+    }
+.intro-section-lake h3{
+    text-align: center;
+}
 
 }
