@@ -4,7 +4,7 @@
       <ul>
         <li v-for="(category, index) in categories" :key="index">
           <a :href="'#' + category.id">
-            <img :src="category.thumbnail" :alt="category.title" class="category-image">
+            <img :src="category.thumbnail" :alt="$t(category.title)" class="category-image">
             <span class="category-title">{{ $t(category.title) }}</span>
           </a>
         </li>
@@ -12,13 +12,13 @@
     </div>
     <div class="gallery-content">
       <section v-for="(category, index) in categories" :key="index" :id="category.id">
-        <h3>{{ $t(category.title) }}</h3>
+        <h2>{{ $t(category.title) }}</h2>
         <div class="image-grid">
-          <img v-for="(image, imgIndex) in category.images" :key="imgIndex" :src="image.src" :alt="image.alt" class="gallery-image" @click="openLightbox(index, imgIndex)">
+          <img v-for="(image, imgIndex) in category.images" :key="imgIndex" :src="image.src" :alt="image.alt" class="gallery-image" @click="openLightbox(categoryIndexToGlobalIndex(index, imgIndex))">
         </div>
       </section>
     </div>
-    <Lightbox v-if="isLightboxOpen" :images="selectedImages" :initialIndex="initialIndex" @close="closeLightbox"/>
+    <Lightbox v-if="isLightboxOpen" :images="allImages" :initialIndex="initialIndex" @close="closeLightbox"/>
   </div>
 </template>
 
@@ -39,8 +39,8 @@ export default {
           thumbnail: '/room_images/1st_living_room.jpg',
           images: [
             { src: '/room_images/1st_living_room.jpg', alt: 'Living Room Image 1' },
-            { src: '/room_images/1st_living_room.jpg', alt: 'Living Room Image 2' },
-            { src: '/room_images/1st_living_room.jpg', alt: 'Living Room Image 3' }
+            { src: '/nearbycities_images/heviz.png', alt: 'Living Room Image 2' },
+            { src: '/nearbycities_images/kezthely.jpg', alt: 'Living Room Image 3' }
           ]
         },
         {
@@ -60,10 +60,21 @@ export default {
       initialIndex: 0
     };
   },
+  computed: {
+    allImages() {
+      return this.categories.flatMap(category => category.images);
+    }
+  },
   methods: {
-    openLightbox(categoryIndex, imgIndex) {
-      this.selectedImages = this.categories[categoryIndex].images;
-      this.initialIndex = imgIndex;
+    categoryIndexToGlobalIndex(categoryIndex, imgIndex) {
+      let globalIndex = 0;
+      for (let i = 0; i < categoryIndex; i++) {
+        globalIndex += this.categories[i].images.length;
+      }
+      return globalIndex + imgIndex;
+    },
+    openLightbox(globalIndex) {
+      this.initialIndex = globalIndex;
       this.isLightboxOpen = true;
     },
     closeLightbox() {
@@ -73,76 +84,3 @@ export default {
 };
 </script>
 
-<style scoped>
-
-.gallery-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-}
-
-.gallery-categories ul {
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-bottom: 20px;
-}
-
-.gallery-categories li {
-  margin: 5px;
-}
-
-.gallery-categories a {
-  text-decoration: none;
-  color: #000;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.category-image {
-  width: 100px; /* Adjusted width */
-  height: 75px; /* Adjusted height */
-  object-fit: cover;
-  border-radius: 5px;
-  transition: transform 0.3s;
-}
-
-.category-title {
-  margin-top: 5px;
-  font-size: 1rem;
-}
-
-.category-image:hover {
-  transform: scale(1.05);
-}
-
-.gallery-content {
-  width: 100%;
-  max-width: 1200px;
-}
-
-section {
-  margin-bottom: 40px;
-}
-
-.image-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
-}
-
-.image-grid img {
-  width: 100%;
-  height: auto;
-  border-radius: 5px;
-  transition: transform 0.3s;
-}
-
-.image-grid img:hover {
-  transform: scale(1.05);
-}
-</style>

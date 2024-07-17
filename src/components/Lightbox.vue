@@ -1,4 +1,3 @@
-
 <template>
   <div v-if="isOpen" class="lightbox">
     <span class="close" @click="closeLightbox">&times;</span>
@@ -42,6 +41,10 @@ export default {
     handleKeydown(event) {
       if (event.key === 'Escape') {
         this.closeLightbox();
+      } else if (event.key === 'ArrowRight') {
+        this.showNextImage();
+      } else if (event.key === 'ArrowLeft') {
+        this.showPrevImage();
       }
     }
   },
