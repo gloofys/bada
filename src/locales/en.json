@@ -397,7 +397,13 @@
       "location": "Ábrahámhegy"
     }
   },
-  "viewMoreButton": "View More Events"
+
+  "viewMoreButton": "View More Events",
+
+  "categories": {
+    "living_room": "Living Room",
+    "kitchen": "Kitchen"
+  }
 }
 
 

@@ -395,7 +395,13 @@
       "description": "Põnev traditsioon, kus vaprad osalejad võtavad uue aasta tervitamiseks supluse Balatoni järve külmades vetes.",
       "location": "Ábrahámhegy"
     }
+
   },
-  "viewMoreButton": "Vaata Rohkem Üritusi"
+  "viewMoreButton": "Vaata Rohkem Üritusi",
+
+  "categories": {
+    "living_room": "Elutuba",
+    "kitchen": "Täisköök"
+  }
 }
 

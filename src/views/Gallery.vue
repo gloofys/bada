@@ -1,5 +1,3 @@
-
-
 <template>
   <div class="gallery-container">
     <div class="gallery-categories">
@@ -7,14 +5,14 @@
         <li v-for="(category, index) in categories" :key="index">
           <a :href="'#' + category.id">
             <img :src="category.thumbnail" :alt="category.title" class="category-image">
-            <span class="category-title">{{ category.title }}</span>
+            <span class="category-title">{{ $t(category.title) }}</span>
           </a>
         </li>
       </ul>
     </div>
     <div class="gallery-content">
       <section v-for="(category, index) in categories" :key="index" :id="category.id">
-        <h2>{{ category.title }}</h2>
+        <h3>{{ $t(category.title) }}</h3>
         <div class="image-grid">
           <img v-for="(image, imgIndex) in category.images" :key="imgIndex" :src="image.src" :alt="image.alt" class="gallery-image" @click="openLightbox(index, imgIndex)">
         </div>
@@ -37,7 +35,7 @@ export default {
       categories: [
         {
           id: 'living-room',
-          title: 'Elutuba',
+          title: 'categories.living_room',
           thumbnail: '/room_images/1st_living_room.jpg',
           images: [
             { src: '/room_images/1st_living_room.jpg', alt: 'Living Room Image 1' },
@@ -47,7 +45,7 @@ export default {
         },
         {
           id: 'kitchen',
-          title: 'Täisköök',
+          title: 'categories.kitchen',
           thumbnail: '/room_images/1st_living_room.jpg',
           images: [
             { src: '/room_images/1st_living_room.jpg', alt: 'Kitchen Image 1' },
