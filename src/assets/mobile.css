@@ -7,7 +7,8 @@
     .text-content, .content-image {
         width: 100%;
     }
-    .container{
+
+    .container {
         padding: 10px;
         margin: 2rem 1rem 1rem 1rem;
     }
@@ -26,9 +27,11 @@
     .room-content {
         margin-bottom: 20px;
     }
-    .room-content h2{
+
+    .room-content h2 {
         font-size: 40px;
     }
+
     .room-image img {
         width: 100%;
         height: auto;
@@ -56,6 +59,7 @@
     .winery-content a:hover {
         background-color: #b8935b;
     }
+
     .winery {
         flex-wrap: wrap;
     }
@@ -70,6 +74,7 @@
         text-align: center;
         flex: 1 0 100%;
     }
+
     .winery-content h3 {
         display: none;
     }
@@ -88,14 +93,17 @@
     .booking-info a:hover {
         background-color: #b8935b;
     }
+
     .booking-info {
         text-align: center;
         margin: 40px 0;
         font-size: 1.2em;
     }
+
     .booking-policies p {
         margin-bottom: 4rem;
     }
+
     .booking-policies ul {
         margin-bottom: 2.5rem;
         padding-left: 20px;
@@ -105,40 +113,50 @@
         margin-bottom: 1rem;
         list-style: disc;
     }
+
     .booking-policies ul li::marker {
         color: #d2a679; /* Change this to your desired bullet color */
         font-size: 1.2em; /* Adjust the size if necessary */
     }
-    .booking-policies h3{
+
+    .booking-policies h3 {
         font-size: 30px;
     }
-    .house-location ul li::marker{
+
+    .house-location ul li::marker {
         color: #d2a679; /* Change this to your desired bullet color */
         font-size: 1.2em; /* Adjust the size if necessary */
     }
+
     .house-location ul {
         padding-left: 20px;
     }
+
     .container-maps {
         padding: 10px;
         margin: 2rem 1rem 1rem 1rem;
     }
-    .transportation-option ul li::marker{
+
+    .transportation-option ul li::marker {
         color: #d2a679; /* Change this to your desired bullet color */
         font-size: 1.2em; /* Adjust the size if necessary */
     }
-    .transportation-option h4{
+
+    .transportation-option h4 {
         margin-top: 2rem;
     }
+
     .transportation-option ul {
         list-style-type: disc;
         padding-left: 20px;
     }
-    .text-content h3{
+
+    .text-content h3 {
         text-align: center;
         margin: 1rem 0;
         font-family: "Baskerville Old Face", serif;
     }
+
     .favourites-list {
         list-style: none;
         padding: 0;
@@ -169,7 +187,8 @@
         margin: 2rem 0;
         text-align: center;
     }
-    .list-section h3{
+
+    .list-section h3 {
         margin-bottom: 1rem;
     }
 
@@ -258,6 +277,7 @@
         top: 56%;
         left: 85.5%;
     }
+
     .intro-section-lake,
     .activities-section {
         margin: 2rem 0;
@@ -267,20 +287,27 @@
     .activity {
         margin-bottom: 1.5rem;
     }
-    .activity h4{
+
+    .activity h4 {
         margin-bottom: 1rem;
     }
-    .hint-section h5{
+
+    .hint-section h5 {
         text-align: center;
         padding: 0;
         margin: 0 0 1rem;
         font-size: 1rem;
     }
-    .title h2{
+
+    .title h2 {
         text-align: center;
     }
-.intro-section-lake h3{
-    text-align: center;
-}
+
+    .intro-section-lake h3 {
+        text-align: center;
+    }
+    .gallery-container h2{
+        font-size: 2rem;
+    }
 
 }

@@ -1,7 +1,10 @@
 <template>
   <div v-if="isOpen" class="lightbox">
     <span class="close" @click="closeLightbox">&times;</span>
-    <img class="lightbox-content" :src="images[currentImageIndex].src" :alt="images[currentImageIndex].alt">
+    <div class="lightbox-content-container">
+      <div class="caption">{{ images[currentImageIndex].alt }}</div>
+      <img class="lightbox-content" :src="images[currentImageIndex].src" :alt="images[currentImageIndex].alt">
+    </div>
     <a class="prev" @click="showPrevImage">&#10094;</a>
     <a class="next" @click="showNextImage">&#10095;</a>
   </div>
@@ -106,6 +109,28 @@ export default {
 
 .next {
   right: 10px;
+}
+.caption {
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  font-size: 1.2rem;
+}
+.lightbox-content-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 80%;
+  max-height: 80%;
+}
+.caption {
+  width: 100%;
+  text-align: center;
+  background-color: transparent;
+  color: #fff;
+  padding: 10px;
+  font-size: 1.2rem;
 }
 
 </style>
