@@ -198,14 +198,15 @@
         position: absolute;
         width: 2.3vw;
         height: 2.3vw;
-        background-color: #49d8dc; /* Solid white background */
+        background-color: #d2a679;
         border-radius: 50%;
         text-align: center;
         line-height: 2.3vw;
         cursor: pointer;
         font-weight: bold;
-        border: 1px solid #000; /* Optional: Add a border for better visibility */
+        border: 1px solid #fafafa; /* Optional: Add a border for better visibility */
         transform: translate(-50%, -50%);
+        color: white;
     }
 
     .map-number:nth-of-type(1) {

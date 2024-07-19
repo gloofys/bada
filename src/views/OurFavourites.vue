@@ -9,7 +9,7 @@
     </section>
     <section class="map-section">
       <div class="map-container">
-        <img src="/FAVMAP.png" alt="Map of Favourite Spots" class="favourites-map-image">
+        <img src="/FAVMAP.png" alt="Map of Favourite Spots" class="favourites-map-image" ref="mapImage">
         <div class="map-number" @click="showInfo(1)">1</div>
         <div class="map-number" @click="showInfo(2)">2</div>
         <div class="map-number" @click="showInfo(3)">3</div>
@@ -89,6 +89,9 @@ export default {
   methods: {
     showInfo(barNumber) {
       this.selectedBar = barNumber;
+      this.$nextTick(() => {
+        this.$refs.mapImage.scrollIntoView({ behavior: 'smooth' });
+      });
     }
   }
 };
