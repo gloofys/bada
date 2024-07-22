@@ -1,16 +1,18 @@
 <template>
   <div v-if="isOpen" class="lightbox">
     <span class="close" @click="closeLightbox">&times;</span>
-    <div class="lightbox-content-container">
+    <div class="lightbox-content-container" ref="lightboxContainer">
       <div class="caption">{{ images[currentImageIndex].alt }}</div>
       <img class="lightbox-content" :src="images[currentImageIndex].src" :alt="images[currentImageIndex].alt">
     </div>
-    <a class="prev" @click="showPrevImage">&#10094;</a>
-    <a class="next" @click="showNextImage">&#10095;</a>
+    <a class="prev" @click="showPrevImage" v-if="!isMobile">&#10094;</a>
+    <a class="next" @click="showNextImage" v-if="!isMobile">&#10095;</a>
   </div>
 </template>
 
 <script>
+import Hammer from 'hammerjs';
+
 export default {
   name: 'Lightbox',
   props: {
@@ -26,7 +28,8 @@ export default {
   data() {
     return {
       isOpen: true,
-      currentImageIndex: this.initialIndex
+      currentImageIndex: this.initialIndex,
+      isMobile: false
     };
   },
   methods: {
@@ -49,13 +52,29 @@ export default {
       } else if (event.key === 'ArrowLeft') {
         this.showPrevImage();
       }
+    },
+    setupHammer() {
+      const hammer = new Hammer(this.$refs.lightboxContainer);
+      hammer.on('swipeleft', () => {
+        this.showNextImage();
+      });
+      hammer.on('swiperight', () => {
+        this.showPrevImage();
+      });
+    },
+    checkMobileView() {
+      this.isMobile = window.innerWidth <= 768;
     }
   },
   mounted() {
     document.addEventListener('keydown', this.handleKeydown);
+    this.checkMobileView();
+    window.addEventListener('resize', this.checkMobileView);
+    this.setupHammer();
   },
   beforeDestroy() {
     document.removeEventListener('keydown', this.handleKeydown);
+    window.removeEventListener('resize', this.checkMobileView);
   }
 };
 </script>
@@ -110,12 +129,14 @@ export default {
 .next {
   right: 10px;
 }
+
 .caption {
   text-align: center;
   color: #ccc;
   padding: 10px 0;
   font-size: 1.2rem;
 }
+
 .lightbox-content-container {
   position: relative;
   display: flex;
@@ -124,6 +145,7 @@ export default {
   max-width: 80%;
   max-height: 80%;
 }
+
 .caption {
   width: 100%;
   text-align: center;
@@ -132,5 +154,4 @@ export default {
   padding: 10px;
   font-size: 1.2rem;
 }
-
 </style>
