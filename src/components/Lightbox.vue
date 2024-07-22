@@ -154,4 +154,27 @@ export default {
   padding: 10px;
   font-size: 1.2rem;
 }
+@media (max-width: 768px){
+  .lightbox-content {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .lightbox-content-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .close {
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    color: #fff;
+    font-size: 80px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
 </style>
