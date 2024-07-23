@@ -40,7 +40,8 @@ export default {
           images: [
             { src: '/room_images/1st_living_room.jpg', alt: 'Living Room Image 1' },
             { src: '/nearbycities_images/heviz.png', alt: 'Living Room Image 2' },
-            { src: '/nearbycities_images/kezthely.jpg', alt: 'Living Room Image 3' }
+            { src: '/nearbycities_images/kezthely.jpg', alt: 'Living Room Image 3' },
+            { src: '/nearbycities_images/szigliget_castle.jpg', alt: 'Living Room Image 4' }
           ]
         },
         {
