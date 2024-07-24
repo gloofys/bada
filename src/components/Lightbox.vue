@@ -3,7 +3,17 @@
     <span class="close" @click="closeLightbox">&times;</span>
     <div class="lightbox-content-container" ref="lightboxContainer">
       <div class="caption">{{ images[currentImageIndex].alt }}</div>
-      <img class="lightbox-content" :src="images[currentImageIndex].src" :alt="images[currentImageIndex].alt">
+      <div class="zoom-container" ref="zoomContainer">
+        <img
+            class="lightbox-content"
+            :src="images[currentImageIndex].src"
+            :alt="images[currentImageIndex].alt"
+            ref="lightboxImage"
+            @touchstart="isMobile && handleTouchStart"
+            @touchmove="isMobile && handleTouchMove"
+            @touchend="isMobile && handleTouchEnd"
+        />
+      </div>
     </div>
     <a class="prev" @click="showPrevImage" v-if="!isMobile">&#10094;</a>
     <a class="next" @click="showNextImage" v-if="!isMobile">&#10095;</a>
@@ -29,7 +39,11 @@ export default {
     return {
       isOpen: true,
       currentImageIndex: this.initialIndex,
-      isMobile: false
+      isMobile: false,
+      initialDistance: null,
+      initialScale: 1,
+      scale: 1,
+      lastTouchEnd: 0,
     };
   },
   methods: {
@@ -40,9 +54,11 @@ export default {
     },
     showNextImage() {
       this.currentImageIndex = (this.currentImageIndex + 1) % this.images.length;
+      this.resetZoom();
     },
     showPrevImage() {
       this.currentImageIndex = (this.currentImageIndex - 1 + this.images.length) % this.images.length;
+      this.resetZoom();
     },
     handleKeydown(event) {
       if (event.key === 'Escape') {
@@ -64,6 +80,37 @@ export default {
     },
     checkMobileView() {
       this.isMobile = window.innerWidth <= 768;
+    },
+    resetZoom() {
+      this.scale = 1;
+      this.$refs.lightboxImage.style.transform = 'scale(1)';
+    },
+    handleTouchStart(event) {
+      if (event.touches.length === 2) {
+        this.initialDistance = this.getDistance(event.touches);
+        this.initialScale = this.scale;
+      }
+    },
+    handleTouchMove(event) {
+      if (event.touches.length === 2 && this.initialDistance) {
+        const currentDistance = this.getDistance(event.touches);
+        const scaleChange = currentDistance / this.initialDistance;
+        this.scale = this.initialScale * scaleChange;
+        this.$refs.lightboxImage.style.transform = `scale(${this.scale})`;
+      }
+    },
+    handleTouchEnd() {
+      const now = new Date().getTime();
+      if (now - this.lastTouchEnd <= 300) {
+        this.resetZoom();
+      }
+      this.lastTouchEnd = now;
+    },
+    getDistance(touches) {
+      const [touch1, touch2] = touches;
+      const dx = touch2.clientX - touch1.clientX;
+      const dy = touch2.clientY - touch1.clientY;
+      return Math.sqrt(dx * dx + dy * dy);
     }
   },
   mounted() {
@@ -97,6 +144,15 @@ export default {
 .lightbox-content {
   max-width: 80%;
   max-height: 80%;
+}
+
+.zoom-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
 }
 
 .close {
@@ -154,11 +210,13 @@ export default {
   padding: 10px;
   font-size: 1.2rem;
 }
-@media (max-width: 768px){
+
+@media (max-width: 768px) {
   .lightbox-content {
     max-width: 100%;
     max-height: 100%;
   }
+
   .lightbox-content-container {
     position: relative;
     display: flex;
@@ -167,6 +225,7 @@ export default {
     max-width: 100%;
     max-height: 100%;
   }
+
   .close {
     position: absolute;
     top: 35px;
