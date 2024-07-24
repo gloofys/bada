@@ -242,6 +242,10 @@ section {
     .image-grid img:nth-child(4) {
         grid-column: 1 / -1; /* Spans the full width */
     }
+    .category-image {
+        width: 20vw; /* Adjusted width */
+        height: 12vw; /* Adjusted height */
+    }
 
 }
 
