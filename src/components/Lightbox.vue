@@ -3,9 +3,7 @@
     <span class="close" @click="closeLightbox">&times;</span>
     <div class="lightbox-content-container" ref="lightboxContainer">
       <div class="caption">{{ images[currentImageIndex].alt }}</div>
-      <div class="zoom-container" ref="zoomContainer">
-        <img class="lightbox-content" :src="images[currentImageIndex].src" :alt="images[currentImageIndex].alt" ref="lightboxImage">
-      </div>
+      <img class="lightbox-content" :src="images[currentImageIndex].src" :alt="images[currentImageIndex].alt">
     </div>
     <a class="prev" @click="showPrevImage" v-if="!isMobile">&#10094;</a>
     <a class="next" @click="showNextImage" v-if="!isMobile">&#10095;</a>
@@ -14,7 +12,6 @@
 
 <script>
 import Hammer from 'hammerjs';
-import panzoom from '@panzoom/panzoom';
 
 export default {
   name: 'Lightbox',
@@ -32,8 +29,7 @@ export default {
     return {
       isOpen: true,
       currentImageIndex: this.initialIndex,
-      isMobile: false,
-      panzoomInstance: null
+      isMobile: false
     };
   },
   methods: {
@@ -41,17 +37,12 @@ export default {
       this.isOpen = false;
       this.$emit('close');
       document.removeEventListener('keydown', this.handleKeydown);
-      if (this.panzoomInstance) {
-        this.panzoomInstance.destroy();
-      }
     },
     showNextImage() {
       this.currentImageIndex = (this.currentImageIndex + 1) % this.images.length;
-      this.updatePanzoom();
     },
     showPrevImage() {
       this.currentImageIndex = (this.currentImageIndex - 1 + this.images.length) % this.images.length;
-      this.updatePanzoom();
     },
     handleKeydown(event) {
       if (event.key === 'Escape') {
@@ -73,23 +64,6 @@ export default {
     },
     checkMobileView() {
       this.isMobile = window.innerWidth <= 768;
-    },
-    setupPanzoom() {
-      const imageElement = this.$refs.lightboxImage;
-      if (imageElement) {
-        this.panzoomInstance = panzoom(imageElement, {
-          maxScale: 4,
-          contain: 'inside'
-        });
-      }
-    },
-    updatePanzoom() {
-      this.$nextTick(() => {
-        if (this.panzoomInstance) {
-          this.panzoomInstance.destroy();
-        }
-        this.setupPanzoom();
-      });
     }
   },
   mounted() {
@@ -97,14 +71,10 @@ export default {
     this.checkMobileView();
     window.addEventListener('resize', this.checkMobileView);
     this.setupHammer();
-    this.setupPanzoom();
   },
   beforeDestroy() {
     document.removeEventListener('keydown', this.handleKeydown);
     window.removeEventListener('resize', this.checkMobileView);
-    if (this.panzoomInstance) {
-      this.panzoomInstance.destroy();
-    }
   }
 };
 </script>
@@ -127,15 +97,6 @@ export default {
 .lightbox-content {
   max-width: 80%;
   max-height: 80%;
-}
-
-.zoom-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 80%;
-  max-height: 80%;
-  overflow: hidden;
 }
 
 .close {
@@ -193,8 +154,7 @@ export default {
   padding: 10px;
   font-size: 1.2rem;
 }
-
-@media (max-width: 768px) {
+@media (max-width: 768px){
   .lightbox-content {
     max-width: 100%;
     max-height: 100%;
