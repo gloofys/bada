@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="title">
-    <h2>{{ $t('lakeHevizPageTitle') }}</h2>
+    <h3>{{ $t('lakeHevizPageTitle') }}</h3>
     <img src="/nearbycities_images/heviz.png" alt="image of heviz" class="basic-image">
     <p>{{ $t('lakeHeviz.description') }}</p>
     </div>

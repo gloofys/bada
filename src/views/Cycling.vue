@@ -27,14 +27,14 @@
     </div>
   </div>
   <div class="container">
-    <h4>{{ $t('cyclingExperiences.main_introduction_header') }}</h4>
+    <h3>{{ $t('cyclingExperiences.main_introduction_header') }}</h3>
     <p><strong>{{ $t('cyclingExperiences.main_introduction.part1_title') }}</strong> {{ $t('cyclingExperiences.main_introduction.part1') }}</p>
     <p><strong>{{ $t('cyclingExperiences.main_introduction.part2_title') }}</strong> {{ $t('cyclingExperiences.main_introduction.part2') }}</p>
     <p><strong>{{ $t('cyclingExperiences.main_introduction.part3_title') }}</strong> {{ $t('cyclingExperiences.main_introduction.part3') }}</p>
     <!-- Wrapper for the first text and image pair -->
     <div class="text-image-wrapper">
       <div class="text-content">
-        <h4>{{ $t('cyclingExperiences.main_balaton_route_header') }}</h4>
+        <h3>{{ $t('cyclingExperiences.main_balaton_route_header') }}</h3>
         <p><strong>{{ $t('cyclingExperiences.main_balaton_route.part1_title') }}</strong> {{ $t('cyclingExperiences.main_balaton_route.part1') }}</p>
         <p><strong>{{ $t('cyclingExperiences.main_balaton_route.part2_title') }}</strong> {{ $t('cyclingExperiences.main_balaton_route.part2') }}</p>
         <p><strong>{{ $t('cyclingExperiences.main_balaton_route.part3_title') }}</strong> {{ $t('cyclingExperiences.main_balaton_route.part3') }}</p>
@@ -57,16 +57,16 @@
       />
 
     </div>
-    <h4>{{ $t('cyclingExperiences.main_3days') }}</h4>
+    <h3>{{ $t('cyclingExperiences.main_3days') }}</h3>
     <div class="image-gallery">
       <img src="/cycling_images/cycle_day_left.png" alt="Cycling Image 1" class="gallery-image" />
       <img src="/cycling_images/cycle_day_center.png" alt="Cycling Image 2" class="gallery-image" />
       <img src="/cycling_images/cycle_day_right.png" alt="Cycling Image 3" class="gallery-image" />
     </div>
     <div>
-    <h4>{{ $t('cyclingExperiences.main_rental_header') }}</h4>
+    <h3>{{ $t('cyclingExperiences.main_rental_header') }}</h3>
     <div v-html="$t('cyclingExperiences.main_rental')"></div>
-    <h4>{{ $t('cyclingExperiences.main_events_header') }}</h4>
+    <h3>{{ $t('cyclingExperiences.main_events_header') }}</h3>
     <div v-html="$t('cyclingExperiences.main_events')"></div>
     </div>
   </div>
