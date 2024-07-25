@@ -29,10 +29,6 @@
         font-size: 22px; /* Increase font size for desktop */
     }
 
-    body h4 {
-        font-size: 3.5rem;
-    }
-
     .text-image-wrapper .content-image {
         order: -1;
         width: 50%;
@@ -174,6 +170,7 @@
     .page-heading {
         text-align: center;
     }
+
 
     .intro-section,
     .list-section {
