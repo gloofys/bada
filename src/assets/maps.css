@@ -1,3 +1,11 @@
+.container-maps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 9rem 3rem;
+    margin: 2rem auto;
+}
+
 iframe {
     margin: 3rem 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
@@ -21,6 +29,13 @@ iframe {
 
     .mobile-map {
         display: block;
+    }
+    .container-maps {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        margin: 2rem 1rem 1rem 1rem;
     }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
