@@ -39,7 +39,7 @@ export default {
     return {
       isOpen: true,
       currentImageIndex: this.initialIndex,
-      isMobile: false,
+      isMobile: false, // Define isMobile here
       initialDistance: null,
       initialScale: 1,
       scale: 1,
@@ -102,7 +102,7 @@ export default {
       if (this.isMobile && event.touches.length === 2 && this.initialDistance) {
         const currentDistance = this.getDistance(event.touches);
         const scaleChange = currentDistance / this.initialDistance;
-        this.scale = this.initialScale * scaleChange;
+        this.scale = Math.max(1, this.initialScale * scaleChange); // Ensure scale doesn't go below 1
         this.$refs.lightboxImage.style.transform = `scale(${this.scale})`;
         console.log('Touch move:', currentDistance, this.scale);
       }
