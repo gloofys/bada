@@ -9,9 +9,6 @@
             :src="images[currentImageIndex].src"
             :alt="images[currentImageIndex].alt"
             ref="lightboxImage"
-            @touchstart="isMobile && handleTouchStart"
-            @touchmove="isMobile && handleTouchMove"
-            @touchend="isMobile && handleTouchEnd"
         />
       </div>
     </div>
@@ -39,7 +36,7 @@ export default {
     return {
       isOpen: true,
       currentImageIndex: this.initialIndex,
-      isMobile: false,
+      isMobile: false,  // Define isMobile here
       initialDistance: null,
       initialScale: 1,
       scale: 1,
@@ -138,6 +135,12 @@ export default {
     this.checkMobileView();
     window.addEventListener('resize', this.checkMobileView);
     this.setupHammer();
+
+    const lightboxImage = this.$refs.lightboxImage;
+    lightboxImage.addEventListener('touchstart', this.handleTouchStart);
+    lightboxImage.addEventListener('touchmove', this.handleTouchMove);
+    lightboxImage.addEventListener('touchend', this.handleTouchEnd);
+
     document.body.style.overflow = 'hidden'; // Prevent scrolling
   },
   beforeDestroy() {
