@@ -39,7 +39,7 @@ export default {
     return {
       isOpen: true,
       currentImageIndex: this.initialIndex,
-      isMobile: false,  // Define isMobile here
+      isMobile: false,
       initialDistance: null,
       initialScale: 1,
       scale: 1,
@@ -109,8 +109,7 @@ export default {
     },
     handleTouchEnd(event) {
       console.log('Touch end event:', event);
-      // Removed resetZoom from here
-      this.lastTouchEnd = now;
+      this.lastTouchEnd = new Date().getTime();
       console.log('Touch end:', this.scale);
     },
     getDistance(touches) {
