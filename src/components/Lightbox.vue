@@ -1,5 +1,5 @@
 <template>
-  <div v-if="isOpen" class="lightbox" @touchstart="handleTouchStart" @touchmove="handleTouchMove" @touchend="handleTouchEnd">
+  <div v-if="isOpen" class="lightbox">
     <span class="close" @click="closeLightbox">&times;</span>
     <div class="lightbox-content-container" ref="lightboxContainer">
       <div class="caption">{{ images[currentImageIndex].alt }}</div>
@@ -9,6 +9,9 @@
             :src="images[currentImageIndex].src"
             :alt="images[currentImageIndex].alt"
             ref="lightboxImage"
+            @touchstart="isMobile && handleTouchStart"
+            @touchmove="isMobile && handleTouchMove"
+            @touchend="isMobile && handleTouchEnd"
         />
       </div>
     </div>
@@ -36,15 +39,11 @@ export default {
     return {
       isOpen: true,
       currentImageIndex: this.initialIndex,
-      isMobile: false,
+      isMobile: false,  // Define isMobile here
       initialDistance: null,
       initialScale: 1,
       scale: 1,
       lastTouchEnd: 0,
-      lastX: 0,
-      lastY: 0,
-      posX: 0,
-      posY: 0,
     };
   },
   methods: {
@@ -86,12 +85,8 @@ export default {
     },
     resetZoom() {
       this.scale = 1;
-      this.posX = 0;
-      this.posY = 0;
-      this.updateTransform();
-    },
-    updateTransform() {
-      this.$refs.lightboxImage.style.transform = `scale(${this.scale}) translate(${this.posX}px, ${this.posY}px)`;
+      this.$refs.lightboxImage.style.transform = 'scale(1)';
+      this.$refs.lightboxImage.style.transformOrigin = 'center center';
     },
     handleTouchStart(event) {
       console.log('Touch start event:', event);
@@ -100,9 +95,6 @@ export default {
         this.initialScale = this.scale;
         this.setTransformOrigin(event.touches);
         console.log('Touch start:', this.initialDistance);
-      } else if (this.isMobile && event.touches.length === 1 && this.scale > 1) {
-        this.lastX = event.touches[0].clientX;
-        this.lastY = event.touches[0].clientY;
       }
     },
     handleTouchMove(event) {
@@ -110,22 +102,18 @@ export default {
       if (this.isMobile && event.touches.length === 2 && this.initialDistance) {
         const currentDistance = this.getDistance(event.touches);
         const scaleChange = currentDistance / this.initialDistance;
-        this.scale = Math.max(1, this.initialScale * scaleChange); // Ensure scale doesn't go below 1
-        this.updateTransform();
+        this.scale = this.initialScale * scaleChange;
+        this.$refs.lightboxImage.style.transform = `scale(${this.scale})`;
         console.log('Touch move:', currentDistance, this.scale);
-      } else if (this.isMobile && event.touches.length === 1 && this.scale > 1) {
-        const deltaX = event.touches[0].clientX - this.lastX;
-        const deltaY = event.touches[0].clientY - this.lastY;
-        this.posX += deltaX;
-        this.posY += deltaY;
-        this.lastX = event.touches[0].clientX;
-        this.lastY = event.touches[0].clientY;
-        this.updateTransform();
       }
     },
     handleTouchEnd(event) {
       console.log('Touch end event:', event);
-      this.lastTouchEnd = new Date().getTime();
+      const now = new Date().getTime();
+      if (now - this.lastTouchEnd <= 300) {
+        this.resetZoom();
+      }
+      this.lastTouchEnd = now;
       console.log('Touch end:', this.scale);
     },
     getDistance(touches) {
@@ -150,7 +138,6 @@ export default {
     this.checkMobileView();
     window.addEventListener('resize', this.checkMobileView);
     this.setupHammer();
-
     document.body.style.overflow = 'hidden'; // Prevent scrolling
   },
   beforeDestroy() {
@@ -160,7 +147,6 @@ export default {
   }
 };
 </script>
-
 
 <style scoped>
 .lightbox {
