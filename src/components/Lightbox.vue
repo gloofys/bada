@@ -9,6 +9,9 @@
             :src="images[currentImageIndex].src"
             :alt="images[currentImageIndex].alt"
             ref="lightboxImage"
+            @touchstart="isMobile && handleTouchStart"
+            @touchmove="isMobile && handleTouchMove"
+            @touchend="isMobile && handleTouchEnd"
         />
       </div>
     </div>
@@ -106,10 +109,7 @@ export default {
     },
     handleTouchEnd(event) {
       console.log('Touch end event:', event);
-      const now = new Date().getTime();
-      if (now - this.lastTouchEnd <= 300) {
-        this.resetZoom();
-      }
+      // Removed resetZoom from here
       this.lastTouchEnd = now;
       console.log('Touch end:', this.scale);
     },
