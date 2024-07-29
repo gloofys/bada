@@ -50,6 +50,7 @@ export default {
     closeLightbox() {
       this.isOpen = false;
       this.$emit('close');
+      document.body.style.overflow = ''; // Reset overflow to default
       document.removeEventListener('keydown', this.handleKeydown);
     },
     showNextImage() {
@@ -89,6 +90,7 @@ export default {
       if (event.touches.length === 2) {
         this.initialDistance = this.getDistance(event.touches);
         this.initialScale = this.scale;
+        console.log('Touch start:', this.initialDistance);
       }
     },
     handleTouchMove(event) {
@@ -97,6 +99,7 @@ export default {
         const scaleChange = currentDistance / this.initialDistance;
         this.scale = this.initialScale * scaleChange;
         this.$refs.lightboxImage.style.transform = `scale(${this.scale})`;
+        console.log('Touch move:', currentDistance, this.scale);
       }
     },
     handleTouchEnd() {
@@ -105,6 +108,7 @@ export default {
         this.resetZoom();
       }
       this.lastTouchEnd = now;
+      console.log('Touch end:', this.scale);
     },
     getDistance(touches) {
       const [touch1, touch2] = touches;
@@ -118,10 +122,12 @@ export default {
     this.checkMobileView();
     window.addEventListener('resize', this.checkMobileView);
     this.setupHammer();
+    document.body.style.overflow = 'hidden'; // Prevent scrolling
   },
   beforeDestroy() {
     document.removeEventListener('keydown', this.handleKeydown);
     window.removeEventListener('resize', this.checkMobileView);
+    document.body.style.overflow = ''; // Reset overflow to default
   }
 };
 </script>
@@ -144,6 +150,7 @@ export default {
 .lightbox-content {
   max-width: 80%;
   max-height: 80%;
+  transition: transform 0.3s ease;
 }
 
 .zoom-container {
