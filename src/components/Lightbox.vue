@@ -9,9 +9,9 @@
             :src="images[currentImageIndex].src"
             :alt="images[currentImageIndex].alt"
             ref="lightboxImage"
-            @touchstart="isMobile && handleTouchStart"
-            @touchmove="isMobile && handleTouchMove"
-            @touchend="isMobile && handleTouchEnd"
+            @touchstart="handleTouchStart"
+            @touchmove="handleTouchMove"
+            @touchend="handleTouchEnd"
         />
       </div>
     </div>
@@ -81,20 +81,23 @@ export default {
     },
     checkMobileView() {
       this.isMobile = window.innerWidth <= 768;
+      console.log("isMobile:", this.isMobile);
     },
     resetZoom() {
       this.scale = 1;
       this.$refs.lightboxImage.style.transform = 'scale(1)';
     },
     handleTouchStart(event) {
-      if (event.touches.length === 2) {
+      console.log('Touch start event:', event);
+      if (this.isMobile && event.touches.length === 2) {
         this.initialDistance = this.getDistance(event.touches);
         this.initialScale = this.scale;
         console.log('Touch start:', this.initialDistance);
       }
     },
     handleTouchMove(event) {
-      if (event.touches.length === 2 && this.initialDistance) {
+      console.log('Touch move event:', event);
+      if (this.isMobile && event.touches.length === 2 && this.initialDistance) {
         const currentDistance = this.getDistance(event.touches);
         const scaleChange = currentDistance / this.initialDistance;
         this.scale = this.initialScale * scaleChange;
@@ -102,7 +105,8 @@ export default {
         console.log('Touch move:', currentDistance, this.scale);
       }
     },
-    handleTouchEnd() {
+    handleTouchEnd(event) {
+      console.log('Touch end event:', event);
       const now = new Date().getTime();
       if (now - this.lastTouchEnd <= 300) {
         this.resetZoom();
