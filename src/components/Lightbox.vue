@@ -9,9 +9,9 @@
             :src="images[currentImageIndex].src"
             :alt="images[currentImageIndex].alt"
             ref="lightboxImage"
-            @touchstart="handleTouchStart"
-            @touchmove="handleTouchMove"
-            @touchend="handleTouchEnd"
+            @touchstart="isMobile && handleTouchStart"
+            @touchmove="isMobile && handleTouchMove"
+            @touchend="isMobile && handleTouchEnd"
         />
       </div>
     </div>
@@ -86,12 +86,14 @@ export default {
     resetZoom() {
       this.scale = 1;
       this.$refs.lightboxImage.style.transform = 'scale(1)';
+      this.$refs.lightboxImage.style.transformOrigin = 'center center';
     },
     handleTouchStart(event) {
       console.log('Touch start event:', event);
       if (this.isMobile && event.touches.length === 2) {
         this.initialDistance = this.getDistance(event.touches);
         this.initialScale = this.scale;
+        this.setTransformOrigin(event.touches);
         console.log('Touch start:', this.initialDistance);
       }
     },
@@ -119,6 +121,16 @@ export default {
       const dx = touch2.clientX - touch1.clientX;
       const dy = touch2.clientY - touch1.clientY;
       return Math.sqrt(dx * dx + dy * dy);
+    },
+    setTransformOrigin(touches) {
+      const [touch1, touch2] = touches;
+      const midX = (touch1.clientX + touch2.clientX) / 2;
+      const midY = (touch1.clientY + touch2.clientY) / 2;
+      const bounds = this.$refs.lightboxImage.getBoundingClientRect();
+      const originX = ((midX - bounds.left) / bounds.width) * 100;
+      const originY = ((midY - bounds.top) / bounds.height) * 100;
+      this.$refs.lightboxImage.style.transformOrigin = `${originX}% ${originY}%`;
+      console.log('Transform origin:', originX, originY);
     }
   },
   mounted() {
