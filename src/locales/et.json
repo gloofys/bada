@@ -4,8 +4,10 @@
     "title": "Koge Badacsony olemust",
     "intro": "Meie Eesti-Inglise pere poolt hallatav puhkepaik asub Badacsony piirkonna südames, pakkudes hingematvaid vaateid ja rikkalikku veinikultuuri.",
     "houseTitle": "Meie Maja Badacsonys",
-    "houseDescription": "Meie maja, mis asub Badacsony maalilise piirkonna südames, pakub täiuslikku mugavuse ja looduse segu. Nautige kauneid vaateid Balatoni järvele meie hästi sisustatud tubadest ja lõõgastuge rahulikus ümbruses. Olgu tegu nädalavahetuse puhkusereisi või pikema puhkusega, meie maja pakub kõiki mugavusi meeldejäävaks peatumiseks. Avastage kohalikke viinamarjaistandusi, matkake maalilistel radadel või lihtsalt lõõgastuge meie hubases aias.",
-    "detailsButton": "DETAILID"
+    "houseDescription": "2015. aastal ostetud ja täielikult renoveeritud maja asub Badacsony mäe nõlval, otse turismi- ja veinikeskuse südames. Maja pakub hingematvaid vaateid Balatoni järvele ning seal on hästi sisustatud toad, rahulik aed ja kaasaegsed mugavused.",
+    "detailsButton": "DETAILID",
+    "aboutUsTitle": "Meist",
+    "aboutUsDescription": "Oleme Elika ja Giles, rahvusvaheline paar, kes on kirglik veini ja külalislahkuse vastu. Elika on pärit Eestist ja Giles Inglismaalt ning mõlemad jagavad armastust Badacsony vastu. Vaatamata sellele, et elame ja töötame Eestis, veedame suurema osa oma vabast ajast siin, nautides piirkonna rikkalikku kultuuri ja kauneid maastikke. Ootame põnevusega külalisi meie koju ja jagame oma armastust selle ainulaadse piirkonna vastu."
   },
   "footer": {
     "companyName": "Balaton Wines & Views",
@@ -398,10 +400,8 @@
       "description": "Põnev traditsioon, kus vaprad osalejad võtavad uue aasta tervitamiseks supluse Balatoni järve külmades vetes.",
       "location": "Ábrahámhegy"
     }
-
   },
   "viewMoreButton": "Vaata Rohkem Üritusi",
-
   "categories": {
     "living_room": "Elutuba",
     "kitchen": "Täisköök"

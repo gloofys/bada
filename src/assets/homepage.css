@@ -51,12 +51,18 @@
     font-family: 'Seasons', serif;
 }
 
-.info-section {
+.info-section, .info-section-reverse {
     display: flex;
     flex-direction: row;
+    align-items: center;
     padding: 20px;
     margin: 3rem 18rem;
     overflow: hidden; /* Ensure content doesn't overflow */
+    gap: 2rem;
+}
+
+.info-section-reverse {
+    flex-direction: row-reverse;
 }
 
 .info-text {
@@ -104,23 +110,25 @@
     }
 
     .info-section {
-        margin: 3rem 2rem;
+        margin: 2rem 1rem;
     }
 }
 
 @media (max-width: 768px) {
-    .info-section {
+    .info-section, .info-section-reverse {
         flex-direction: column;
         align-items: center;
         text-align: center;
+        gap: 0.5rem;
     }
-
-    .info-text {
-        margin-bottom: 20px;
+    .info-section h2, .info-section-reverse h2 {
+        font-size: 2rem;
+    }
+    .info-section-reverse {
+        flex-direction: column-reverse;
     }
 
     .info-image {
-        margin-bottom: 20px;
         width: 100%; /* Ensure the image takes full width */
     }
 
@@ -133,12 +141,12 @@
 }
 
 @media (min-width: 768px) {
-    .info-section {
+    .info-section, .info-section-reverse {
         flex-direction: row;
         font-size: 1.2rem;
         line-height: 140%;
     }
-    .info-section h2{
+    .info-section h2, .info-section-reverse h2 {
         font-size: 3rem;
     }
 
@@ -150,9 +158,11 @@
     .info-text {
         flex: 1;
     }
+
 }
+
 @media (min-width: 768px) and (max-width: 1536px) {
-    .info-section {
+    .info-section, .info-section-reverse {
         flex-direction: row;
         align-items: center;
         justify-content: space-between;

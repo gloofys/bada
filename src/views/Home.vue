@@ -17,8 +17,19 @@
         <img src="/homepage_images/homepage_main.jpg" alt="House Image" class="house-image">
       </div>
     </div>
-    <div class="info-button">
-      <a @click="goToContacts" class="details-button">{{ $t('bookingInfo.contactUs') }}</a>
+
+    <!--    <div class="info-button">-->
+    <!--      <a @click="goToContacts" class="details-button">{{ $t('bookingInfo.contactUs') }}</a>-->
+    <!--    </div>-->
+
+    <div class="info-section info-section-reverse">
+      <div class="info-image">
+        <img src="/homepage_images/homepage_main.jpg" alt="Family Image" class="house-image">
+      </div>
+      <div class="info-text">
+        <h2>{{ $t('home.aboutUsTitle') }}</h2>
+        <p>{{ $t('home.aboutUsDescription') }}</p>
+      </div>
     </div>
   </div>
 </template>
