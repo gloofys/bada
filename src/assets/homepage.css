@@ -190,11 +190,20 @@
     .info-section h2, .info-section-reverse h2 {
         font-size: 2rem;
     }
+
     .info-section, .info-section-reverse {
+        flex-direction: row;
         font-size: 1.2rem;
         line-height: 140%;
     }
+    .info-image {
+        flex: 1;
+        max-width: 50%;
+    }
 
+    .info-text {
+        flex: 1;
+    }
 
 
 }
