@@ -17,7 +17,6 @@
   </div>
 </template>
 
-
 <script>
 import Hammer from 'hammerjs';
 
@@ -37,7 +36,7 @@ export default {
     return {
       isOpen: true,
       currentImageIndex: this.initialIndex,
-      isMobile: false,
+      isMobile: false,  // Define isMobile here
       initialDistance: null,
       initialScale: 1,
       scale: 1,
@@ -88,7 +87,7 @@ export default {
     },
     handleTouchStart(event) {
       console.log('Touch start event:', event);
-      if (event.touches.length === 2) {
+      if (this.isMobile && event.touches.length === 2) {
         this.initialDistance = this.getDistance(event.touches);
         this.initialScale = this.scale;
         this.setTransformOrigin(event.touches);
@@ -97,7 +96,7 @@ export default {
     },
     handleTouchMove(event) {
       console.log('Touch move event:', event);
-      if (event.touches.length === 2 && this.initialDistance) {
+      if (this.isMobile && event.touches.length === 2 && this.initialDistance) {
         const currentDistance = this.getDistance(event.touches);
         const scaleChange = currentDistance / this.initialDistance;
         this.scale = this.initialScale * scaleChange;
@@ -137,10 +136,10 @@ export default {
     window.addEventListener('resize', this.checkMobileView);
     this.setupHammer();
 
-    // Add event listeners for touch events directly on the lightbox container
-    this.$refs.lightboxContainer.addEventListener('touchstart', this.handleTouchStart);
-    this.$refs.lightboxContainer.addEventListener('touchmove', this.handleTouchMove);
-    this.$refs.lightboxContainer.addEventListener('touchend', this.handleTouchEnd);
+    const lightboxImage = this.$refs.lightboxImage;
+    lightboxImage.addEventListener('touchstart', this.handleTouchStart);
+    lightboxImage.addEventListener('touchmove', this.handleTouchMove);
+    lightboxImage.addEventListener('touchend', this.handleTouchEnd);
 
     document.body.style.overflow = 'hidden'; // Prevent scrolling
   },
@@ -148,11 +147,6 @@ export default {
     document.removeEventListener('keydown', this.handleKeydown);
     window.removeEventListener('resize', this.checkMobileView);
     document.body.style.overflow = ''; // Reset overflow to default
-
-    // Remove event listeners for touch events
-    this.$refs.lightboxContainer.removeEventListener('touchstart', this.handleTouchStart);
-    this.$refs.lightboxContainer.removeEventListener('touchmove', this.handleTouchMove);
-    this.$refs.lightboxContainer.removeEventListener('touchend', this.handleTouchEnd);
   }
 };
 </script>
