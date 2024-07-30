@@ -7,23 +7,29 @@
         <p>{{ $t('home.intro') }}</p>
       </div>
     </div>
+
+    <div class="info-section">
+      <div class="info-text">
+        <h2>{{ $t('home.houseTitle') }}</h2>
+        <p>{{ $t('home.houseDescription') }}</p>
+      </div>
+      <div class="info-image">
+        <img src="/homepage_images/homepage_main.jpg" alt="House Image" class="house-image">
+      </div>
+    </div>
+    <div class="info-button">
+      <a @click="goToContacts" class="details-button">{{ $t('bookingInfo.contactUs') }}</a>
+    </div>
   </div>
-<!--  <div class="container">-->
-<!--    <p> We have owned the house since 2015. Have done a full renovation.-->
-<!--    </p>-->
-<!--  </div>-->
 </template>
+
 <script>
 export default {
-  name: 'Home'
-}
+  name: 'Home',
+  methods: {
+    goToContacts() {
+      this.$router.push('/contact');
+    }
+  }
+};
 </script>
-
-
-magick ./public/cycling_images/balaton_full_lap.jpg -resize 550x ./public/cycling_images/balaton_full_lap_550.png
-
-
-magick ./public/cycling_images/balaton_full_lap.png -resize 550x ./public/cycling_images/balaton_full_lap_550.png
-magick ./public/cycling_images/balaton_full_lap.png -resize 1100x ./public/cycling_images/balaton_full_lap_1100.png
-magick ./public/cycling_images/balaton_full_lap.png -resize 1500x ./public/cycling_images/balaton_full_lap_1500.png
-

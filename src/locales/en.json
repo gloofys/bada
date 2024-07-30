@@ -2,7 +2,10 @@
   "home": {
     "home": "Home",
     "title": "Experience the Essence of Badacsony",
-    "intro": "Nestled in the heart of the Badacsony region, our Estonian-English family-owned retreat offers breathtaking views and a rich wine culture."
+    "intro": "Nestled in the heart of the Badacsony region, our Estonian-English family-owned retreat offers breathtaking views and a rich wine culture.",
+    "houseTitle": "Our House in Badacsony",
+    "houseDescription": "Nestled in the heart of Badacsony, our house offers stunning views of Lake Balaton. Enjoy the comfort of our well-furnished rooms, a serene garden, and modern amenities. Perfect for family vacations, romantic getaways, or a peaceful retreat. Explore local vineyards, hiking trails, and immerse yourself in the cultural charm of the region.",
+    "detailsButton": "DETAILS"
   },
   "footer": {
     "companyName": "Balaton Wines & Views",

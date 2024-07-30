@@ -2,7 +2,10 @@
   "home": {
     "home": "Kodu",
     "title": "Koge Badacsony olemust",
-    "intro": "Meie Eesti-Inglise pere poolt hallatav puhkepaik asub Badacsony piirkonna südames, pakkudes hingematvaid vaateid ja rikkalikku veinikultuuri."
+    "intro": "Meie Eesti-Inglise pere poolt hallatav puhkepaik asub Badacsony piirkonna südames, pakkudes hingematvaid vaateid ja rikkalikku veinikultuuri.",
+    "houseTitle": "Meie Maja Badacsonys",
+    "houseDescription": "Meie maja, mis asub Badacsony maalilise piirkonna südames, pakub täiuslikku mugavuse ja looduse segu. Nautige kauneid vaateid Balatoni järvele meie hästi sisustatud tubadest ja lõõgastuge rahulikus ümbruses. Olgu tegu nädalavahetuse puhkusereisi või pikema puhkusega, meie maja pakub kõiki mugavusi meeldejäävaks peatumiseks. Avastage kohalikke viinamarjaistandusi, matkake maalilistel radadel või lihtsalt lõõgastuge meie hubases aias.",
+    "detailsButton": "DETAILID"
   },
   "footer": {
     "companyName": "Balaton Wines & Views",
