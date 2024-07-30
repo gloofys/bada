@@ -1,5 +1,5 @@
 <template>
-  <div v-if="isOpen" class="lightbox">
+  <div v-if="isOpen" class="lightbox" @touchmove.prevent>
     <span class="close" @click="closeLightbox">&times;</span>
     <div class="lightbox-content-container" ref="lightboxContainer">
       <div class="caption">{{ images[currentImageIndex].alt }}</div>
