@@ -184,4 +184,17 @@
         align-self: center;
         margin-top: 20px;
     }
+
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .info-section h2, .info-section-reverse h2 {
+        font-size: 2rem;
+    }
+    .info-section, .info-section-reverse {
+        font-size: 1.2rem;
+        line-height: 140%;
+    }
+
+
+
 }
