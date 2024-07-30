@@ -1,9 +1,9 @@
 <template>
   <div class="container">
-    <h2 class="page-heading">{{ $t('tallinnBadacsony.title') }}</h2>
+    <h3 class="page-heading">{{ $t('tallinnBadacsony.title') }}</h3>
 
     <section class="transportation-option">
-      <h3>{{ $t('tallinnBadacsony.byCar.title') }}</h3>
+      <h4>{{ $t('tallinnBadacsony.byCar.title') }}</h4>
       <p>{{ $t('tallinnBadacsony.byCar.description') }}</p>
       <ul>
         <li>{{ $t('tallinnBadacsony.byCar.direction1') }}</li>
@@ -15,7 +15,7 @@
     </section>
 
     <section class="transportation-option">
-      <h3>{{ $t('tallinnBadacsony.byPlane.title') }}</h3>
+      <h4>{{ $t('tallinnBadacsony.byPlane.title') }}</h4>
       <p>{{ $t('tallinnBadacsony.byPlane.description') }}</p>
       <ul>
         <li>{{ $t('tallinnBadacsony.byPlane.detail1') }}</li>
@@ -25,7 +25,7 @@
     </section>
 
     <section class="transportation-option">
-      <h3>{{ $t('tallinnBadacsony.byPlaneTrain.title') }}</h3>
+      <h4>{{ $t('tallinnBadacsony.byPlaneTrain.title') }}</h4>
       <p>{{ $t('tallinnBadacsony.byPlaneTrain.description') }}</p>
       <ul>
         <li>{{ $t('tallinnBadacsony.byPlaneTrain.step1') }}</li>
