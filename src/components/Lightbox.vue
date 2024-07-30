@@ -77,7 +77,7 @@ export default {
       });
     },
     checkMobileView() {
-      this.isMobile = window.innerWidth <= 768;
+      this.isMobile = window.innerWidth <= 1024;
       console.log("isMobile:", this.isMobile);
     },
     resetZoom() {
