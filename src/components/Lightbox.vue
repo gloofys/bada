@@ -9,6 +9,9 @@
             :src="images[currentImageIndex].src"
             :alt="images[currentImageIndex].alt"
             ref="lightboxImage"
+            @touchstart="handleTouchStart"
+            @touchmove="handleTouchMove"
+            @touchend="handleTouchEnd"
         />
       </div>
     </div>
@@ -16,6 +19,7 @@
     <a class="next" @click="showNextImage" v-if="!isMobile">&#10095;</a>
   </div>
 </template>
+
 
 <script>
 import Hammer from 'hammerjs';
@@ -36,7 +40,7 @@ export default {
     return {
       isOpen: true,
       currentImageIndex: this.initialIndex,
-      isMobile: false,  // Define isMobile here
+      isMobile: false,
       initialDistance: null,
       initialScale: 1,
       scale: 1,
@@ -78,7 +82,6 @@ export default {
     },
     checkMobileView() {
       this.isMobile = window.innerWidth <= 768;
-      console.log("isMobile:", this.isMobile);
     },
     resetZoom() {
       this.scale = 1;
@@ -86,32 +89,26 @@ export default {
       this.$refs.lightboxImage.style.transformOrigin = 'center center';
     },
     handleTouchStart(event) {
-      console.log('Touch start event:', event);
-      if (this.isMobile && event.touches.length === 2) {
+      if (event.touches.length === 2) {
         this.initialDistance = this.getDistance(event.touches);
         this.initialScale = this.scale;
         this.setTransformOrigin(event.touches);
-        console.log('Touch start:', this.initialDistance);
       }
     },
     handleTouchMove(event) {
-      console.log('Touch move event:', event);
-      if (this.isMobile && event.touches.length === 2 && this.initialDistance) {
+      if (event.touches.length === 2 && this.initialDistance) {
         const currentDistance = this.getDistance(event.touches);
         const scaleChange = currentDistance / this.initialDistance;
         this.scale = this.initialScale * scaleChange;
         this.$refs.lightboxImage.style.transform = `scale(${this.scale})`;
-        console.log('Touch move:', currentDistance, this.scale);
       }
     },
-    handleTouchEnd(event) {
-      console.log('Touch end event:', event);
+    handleTouchEnd() {
       const now = new Date().getTime();
       if (now - this.lastTouchEnd <= 300) {
         this.resetZoom();
       }
       this.lastTouchEnd = now;
-      console.log('Touch end:', this.scale);
     },
     getDistance(touches) {
       const [touch1, touch2] = touches;
@@ -127,7 +124,6 @@ export default {
       const originX = ((midX - bounds.left) / bounds.width) * 100;
       const originY = ((midY - bounds.top) / bounds.height) * 100;
       this.$refs.lightboxImage.style.transformOrigin = `${originX}% ${originY}%`;
-      console.log('Transform origin:', originX, originY);
     }
   },
   mounted() {
@@ -135,12 +131,6 @@ export default {
     this.checkMobileView();
     window.addEventListener('resize', this.checkMobileView);
     this.setupHammer();
-
-    const lightboxImage = this.$refs.lightboxImage;
-    lightboxImage.addEventListener('touchstart', this.handleTouchStart);
-    lightboxImage.addEventListener('touchmove', this.handleTouchMove);
-    lightboxImage.addEventListener('touchend', this.handleTouchEnd);
-
     document.body.style.overflow = 'hidden'; // Prevent scrolling
   },
   beforeDestroy() {
