@@ -48,14 +48,12 @@
   "contact": "Kontakt",
   "hikingExperiences": {
     "heading": "Matkakogemused",
-    "description": "Badacsony's matkamine pakub hingematvaid vaateid Balatoni järvele ja lopsakatele viinamarjaistandustele, muutes selle maaliliseks ja tasuvaks väliseikluseks.",
     "main_introduction": "Balatoni järv ja Badacsony piirkond pakuvad mitmesuguseid matkaradasid, millest igaüks pakub ainulaadseid kogemusi loodusehuvilistele. Kuna meie maja asub mugavalt Badacsony mäe küljel, on Badacsony mäe matkarada kõige lähemal ja ligipääsetavam valik. See rada võimaldab teil sukelduda piirkonna looduse ilu, pakkudes vapustavaid vaateid järvele ja lopsakatele viinamarjaistandustele. Lisaks on Balatoni järve ümbruses mitmeid teisi märkimisväärseid marsruute, millest igaüks pakub mitmekesiseid maastikke ja maalilisi vaateid, muutes selle ideaalseks sihtkohaks igas tasemel matkajatele. Olenemata sellest, kas otsite väljakutset pakkuvat matka või lõõgastavat jalutuskäiku, leiate kindlasti raja, mis vastab teie eelistustele.",
     "main_content": "Meie majast algab rada loode suunas, tõustes järk-järgult Badacsony mäe künklikul maastikul. Matkajad naudivad varjulisi metsaradu ja avatud alasid, mis pakuvad vapustavaid panoraamvaateid. Kõrgeim punkt on tipp, mille kõrgus on 437 meetrit ja mis pakub hingematvaid vaateid. Rada lookleb mägisel maastikul, kus on erinevad tõusud ja langused, selgelt tähistatud lihtsaks navigeerimiseks. Lõpus laskub rada läbi maaliliste viinamarjaistanduste, tuues esile piirkonna põllumajandusliku pärandi. Matk lõpeb tagasi meie majas, moodustades mugava ja nauditava ringi.",
     "heading_trail": "Badacsony mäe rada"
   },
   "cyclingExperiences": {
     "heading": "Jalgrattasõidu Elamused",
-    "description": "Jalgrattasõit Badacsonys ja Balatoni järve ümbruses pakub kauneid vaateid ja maalilist rattaseiklust.",
     "main_introduction": {
       "part1_title": "Badacsony mäerajad:",
       "part1": "Badacsony vulkaaniline mägi pakub ratturitele väljakutsuvat, kuid tasuvat kogemust. Rattarajad looklevad läbi lopsakate viinamarjaistanduste ja võluvate külade, pakkudes hingematvaid vaateid Balatoni järvele. Maastik võib olla järsk ja karm, muutes selle ideaalseks mägirattasõidu entusiastidele, kes otsivad adrenaliinilaksu.",
@@ -192,15 +190,15 @@
   },
   "bookingPolicies": {
     "title": "Tingimused",
-    "reservationPolicy": "Broneerimise poliitika",
+    "reservationPolicy": "Broneerimine",
     "reservationPolicyText1": "Kõik broneeringud kinnitatakse pärast kogu makse laekumist.",
     "reservationPolicyText2": "Saate kinnituskirja oma viibimise üksikasjadega.",
     "reservationPolicyText3": "Me aktsepteerime makseid krediitkaardiga, deebetkaardiga ja pangaülekandega. Makse tuleb tasuda täielikult broneerimise hetkel.",
-    "cancellationPolicy": "Tühistamise poliitika",
+    "cancellationPolicy": "Tühistamine",
     "cancellationPolicyText1": "Tühistamisel kuni 14 päeva enne sisseregistreerimise kuupäeva tagastatakse kogu summa.",
     "cancellationPolicyText2": "Tühistamisel 7 kuni 14 päeva enne sisseregistreerimise kuupäeva tagastatakse 50% summast.",
     "cancellationPolicyText3": "Tühistamisel vähem kui 7 päeva enne sisseregistreerimise kuupäeva ei ole tagasimakse võimalik.",
-    "noShowPolicy": "Ilmumata jätmise poliitika",
+    "noShowPolicy": "Ilmumata jätmine",
     "noShowPolicyText": "Kui te ei ilmu kokkulepitud sisseregistreerimise kuupäeval ilma eelneva teavituseta, võetakse kogu broneeringu summa ja broneering tühistatakse.",
     "additionalServices": "Täiendavad teenused",
     "additionalServicesText1": "Täiendavad teenused (näiteks ekskursioonid, eritoidud või transport) on saadaval ainult siis, kui peremees on kohal.",
@@ -209,10 +207,10 @@
     "childrenPolicy": "Lapsed ja lisavoodid",
     "childrenPolicyText1": "Alla 12-aastased lapsed saavad olemasolevaid voodeid kasutades tasuta ööbida.",
     "childrenPolicyText2": "Lisavoodid on saadaval lisatasu eest. Imikute voodid on saadaval eelneval kokkuleppel ja on tasuta.",
-    "petsPolicy": "Lemmikloomade poliitika",
+    "petsPolicy": "Lemmikloomad",
     "petsPolicyText1": "Lemmikloomad on eelneval kokkuleppel lubatud.",
     "petsPolicyText2": "Teenistusloomad on lubatud eelneva teavitamise ja dokumenteerimise korral.",
-    "damagePolicy": "Kahjustuste ja vastutuse poliitika",
+    "damagePolicy": "Kahjustused ja vastutus",
     "damagePolicyText1": "Külalised vastutavad oma viibimise ajal kinnistule tekitatud kahju eest.",
     "damagePolicyText2": "Remondi või asendamise kulud võetakse külaliselt. Kinnistu ei vastuta isiklike asjade kaotsimineku või kahjustumise eest. Külalisi soovitatakse oma väärtuslikke esemeid turvaliselt hoida."
   },

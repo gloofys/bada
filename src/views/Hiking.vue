@@ -23,7 +23,6 @@
     />
     <div class="banner-content">
       <h1>{{ $t('hikingExperiences.heading') }}</h1>
-      <p>{{ $t('hikingExperiences.description') }}</p>
     </div>
   </div>
   <div class="container">

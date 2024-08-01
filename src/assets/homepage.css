@@ -6,7 +6,7 @@
 .hero-image-wrapper {
     position: relative;
     width: 100%;
-    height: 80vh; /* Make it full screen height */
+    height: 70vh; /* Make it full screen height */
     overflow: hidden;
 }
 
