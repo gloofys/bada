@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h1>small wine producers Page</h1>
+  <div class="container">
+    <h4>The information about small wineries near us will be added soon</h4>
   </div>
 </template>
 

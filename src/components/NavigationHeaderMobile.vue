@@ -7,7 +7,7 @@
         <div class="menu-icon"></div>
       </div>
     </div>
-    <div class="logo-container">
+    <div class="logo-container" @click="closeDropdown">
       <router-link to="/">
         <img src="/LOGO.png" alt="logo" class="logo-image" />
       </router-link>
