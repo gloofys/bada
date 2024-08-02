@@ -1,4 +1,14 @@
 <template>
+  <div class="banner-container">
+    <img
+        src="/hiking_images/event.jpg"
+        alt="Badacsony events pictures"
+        class="banner-image"
+    />
+    <div class="banner-content">
+      <h1>{{ $t('eventDescription') }}</h1>
+    </div>
+  </div>
   <div class="container">
     <div v-for="event in events" :key="event.title" class="events">
       <h3>{{ event.title }}</h3>
