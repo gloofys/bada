@@ -1,8 +1,17 @@
 <template>
+  <div class="banner-container">
+    <img
+        src="/lake_balaton_images/balaton_map.jpg"
+        alt="Balaton lake picture"
+        class="banner-image"
+    />
+    <div class="banner-content">
+      <h1>{{ $t('lakeBalaton.introTitle') }}</h1>
+    </div>
+  </div>
     <div class="container">
       <!-- Introduction Section -->
       <section class="intro-section-lake">
-        <h3>{{ $t('lakeBalaton.introTitle') }}</h3>
         <p>{{ $t('lakeBalaton.introText1') }}</p>
         <p>{{ $t('lakeBalaton.introText2') }}</p>
       </section>
