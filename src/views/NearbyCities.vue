@@ -1,4 +1,15 @@
 <template>
+  <div class="banner-container">
+    <img
+        src="/nearbycities_images/nearby_cities.png"
+        alt="nearby cities picture"
+        class="banner-image"
+    />
+    <div class="banner-content">
+      <h1>{{ $t('nearbyCitiesPageTitle') }}</h1>
+    </div>
+  </div>
+
   <div class="container">
     <div class="cities">
       <h3>Szigliget</h3>
