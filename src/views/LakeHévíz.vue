@@ -1,8 +1,17 @@
 <template>
+  <div class="banner-container">
+    <img
+        src="/nearbycities_images/heviz.png"
+        alt="lake heviz picture"
+        class="banner-image"
+    />
+    <div class="banner-content">
+      <h1>{{ $t('lakeHevizPageTitle') }}</h1>
+    </div>
+  </div>
   <div class="container">
     <div class="title">
-    <h3>{{ $t('lakeHevizPageTitle') }}</h3>
-    <img src="/nearbycities_images/heviz.png" alt="image of heviz" class="basic-image">
+      <p><strong>{{ $t('lakeHeviz.distance') }}</strong></p>
     <p>{{ $t('lakeHeviz.description') }}</p>
     </div>
     <div class = booking-info>
