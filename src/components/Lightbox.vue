@@ -12,8 +12,8 @@
         />
       </div>
     </div>
-    <a class="prev" @click="showPrevImage" v-if="!isMobile">&#10094;</a>
-    <a class="next" @click="showNextImage" v-if="!isMobile">&#10095;</a>
+    <a class="prev" @click="showPrevImage">&#10094;</a>
+    <a class="next" @click="showNextImage">&#10095;</a>
   </div>
 </template>
 
@@ -261,5 +261,18 @@ export default {
     font-weight: bold;
     cursor: pointer;
   }
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
 }
 </style>
