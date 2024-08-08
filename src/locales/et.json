@@ -292,7 +292,8 @@
     "bar11Title": "11. Pláne Badacsony borterasz",
     "bar11Description": "Kõrgklassi restoran, kus on fantastiline veinikeldri. See pakub peenet söögikogemust, keskendudes kvaliteetsetele veinidele ja gurmeetoidule.",
     "bar12Title": "12. Vigadó Borozó",
-    "bar12Description": "Populaarne koht veinisõpradele, kus pakutakse degusteerimisi ja üritusi. See on tuntud oma elava atmosfääri ja suurepärase veinivaliku poolest."
+    "bar12Description": "Populaarne koht veinisõpradele, kus pakutakse degusteerimisi ja üritusi. See on tuntud oma elava atmosfääri ja suurepärase veinivaliku poolest.",
+    "favouriteMapInstruction": "Klõpsa kaardil olevatel numbritel, et näha allpool üksikasju."
   },
   "contacts": {
     "informationTitle": "Kontaktandmed",

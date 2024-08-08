@@ -293,7 +293,8 @@
     "bar11Title": "11. Pláne Badacsony borterasz",
     "bar11Description": "An upscale restaurant with a fantastic wine cellar. It provides a sophisticated dining experience with a focus on high-quality wines and gourmet food.",
     "bar12Title": "12. Vigadó Borozó",
-    "bar12Description": "A popular spot for wine lovers, offering tastings and events. It is well-known for its vibrant atmosphere and excellent selection of wines."
+    "bar12Description": "A popular spot for wine lovers, offering tastings and events. It is well-known for its vibrant atmosphere and excellent selection of wines.",
+    "favouriteMapInstruction": "Click on the numbers on the map to view details below."
   },
   "contacts": {
     "informationTitle": "Contact Information",

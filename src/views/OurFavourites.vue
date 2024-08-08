@@ -5,7 +5,7 @@
       <p>{{ $t('favourites.introText') }}</p>
     </section>
     <section class="hint-section">
-      <h5>Click on the numbers on the map to view details below.</h5>
+      <h5>{{ $t('favourites.favouriteMapInstruction') }}</h5>
     </section>
     <section class="map-section">
       <div class="map-container">
