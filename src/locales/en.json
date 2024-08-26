@@ -407,8 +407,9 @@
   "viewMoreButton": "View More Events",
 
   "categories": {
-    "living_room": "Living Room",
-    "kitchen": "Kitchen"
+    "1st_floor": "1st Floor",
+    "2nd_floor": "2nd Floor",
+    "Garden": "Garden"
   },
   "eventDescription": "Badacsony events"
 }

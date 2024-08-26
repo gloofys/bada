@@ -404,8 +404,9 @@
   },
   "viewMoreButton": "Vaata Rohkem Üritusi",
   "categories": {
-    "living_room": "Elutuba",
-    "kitchen": "Täisköök"
+    "1st_floor": "1.korrus",
+    "2nd_floor": "2.korrus",
+    "Garden": "Aed"
   },
   "eventDescription": "Badacsony sündmused"
 }
