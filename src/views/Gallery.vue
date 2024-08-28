@@ -38,10 +38,8 @@ export default {
           title: 'categories.1st_floor',
           thumbnail: '/room_images/1st_living_room.jpg',
           images: [
-            { src: '/room_images/1st_living_room.jpg', alt: 'Living Room Image 1' },
-            { src: '/nearbycities_images/heviz.png', alt: 'Living Room Image 2' },
-            { src: '/nearbycities_images/kezthely.jpg', alt: 'Living Room Image 3' },
-            { src: '/nearbycities_images/szigliget_castle.jpg', alt: 'Living Room Image 4' }
+            { src: '/room_images/1st_floor/1st_living_room.jpg', alt: 'Living Room Image 1' },
+            { src: '/room_images/1st_floor/1st_living_room_2.jpg', alt: 'Living Room Image 2' },
           ]
         },
         {
@@ -51,6 +49,7 @@ export default {
           images: [
             { src: '/room_images/2nd_floor/2nd_hallway.jpg', alt: '2nd Floor Hallway' },
             { src: '/room_images/2nd_floor/2nd_bedroom_NE.jpg', alt: '2nd Floor Northeast bedroom' },
+            { src: '/room_images/2nd_floor/2nd_bedroom_SW.jpg', alt: '2nd Floor Southwest bedroom' },
             { src: '/room_images/2nd_floor/2nd_kitchen.jpg', alt: '2nd Floor kitchen' },
             { src: '/room_images/2nd_floor/2nd_kitchen_2.jpg', alt: '2nd Floor kitchen' }
           ]
@@ -61,9 +60,6 @@ export default {
           thumbnail: '/room_images/garden/garden_upper_view.jpg',
           images: [
             { src: '/room_images/garden/garden_upper_view.jpg', alt: 'View from upper garden' },
-            { src: '/nearbycities_images/heviz.png', alt: 'Living Room Image 2' },
-            { src: '/nearbycities_images/kezthely.jpg', alt: 'Living Room Image 3' },
-            { src: '/nearbycities_images/szigliget_castle.jpg', alt: 'Living Room Image 4' }
           ]
         },
         // Add more categories as needed

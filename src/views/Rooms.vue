@@ -14,7 +14,7 @@
       <p><strong>Room fits:</strong> 1x Double Bed + 1x extra bed/Baby COT or 2x Twin + 1x extra bed/Baby COT</p>
     </div>
     <div class="room-image">
-      <img src="/room_images/1st_living_room.jpg" alt="Standard Room Image">
+      <img src="/room_images/1st_floor/1st_living_room.jpg" alt="Standard Room Image">
     </div>
     </div>
     <div class="room-container reverse-layout">
@@ -31,7 +31,7 @@
         <p><strong>Room fits:</strong> 1x Double Bed + 1x extra bed/Baby COT or 2x Twin + 1x extra bed/Baby COT</p>
       </div>
       <div class="room-image">
-        <img src="/room_images/1st_living_room.jpg" alt="Standard Room Image">
+        <img src="/room_images/1st_floor/1st_living_room.jpg" alt="Standard Room Image">
       </div>
     </div>
     <div class="room-container">
@@ -48,7 +48,7 @@
         <p><strong>Room fits:</strong> 1x Double Bed + 1x extra bed/Baby COT or 2x Twin + 1x extra bed/Baby COT</p>
       </div>
       <div class="room-image">
-        <img src="/room_images/1st_living_room.jpg" alt="Standard Room Image">
+        <img src="/room_images/1st_floor/1st_living_room.jpg" alt="Standard Room Image">
       </div>
     </div>
     <div class="room-container reverse-layout">
@@ -65,7 +65,7 @@
         <p><strong>Room fits:</strong> 1x Double Bed + 1x extra bed/Baby COT or 2x Twin + 1x extra bed/Baby COT</p>
       </div>
       <div class="room-image">
-        <img src="/room_images/1st_living_room.jpg" alt="Standard Room Image">
+        <img src="/room_images/1st_floor/1st_living_room.jpg" alt="Standard Room Image">
       </div>
     </div>
 
