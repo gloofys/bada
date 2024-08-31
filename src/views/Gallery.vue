@@ -12,7 +12,7 @@
     </div>
     <div class="gallery-content">
       <section v-for="(category, index) in categories" :key="index" :id="category.id">
-        <h2>{{ $t(category.title) }}</h2>
+        <h4>{{ $t(category.title) }}</h4>
         <div class="image-grid">
           <img v-for="(image, imgIndex) in category.images" :key="imgIndex" :src="image.src" :alt="image.alt" class="gallery-image" @click="openLightbox(categoryIndexToGlobalIndex(index, imgIndex))">
         </div>
