@@ -14,7 +14,7 @@
         <p>{{ $t('home.houseDescription') }}</p>
       </div>
       <div class="info-image">
-        <img src="/homepage_images/homepage_main.jpg" alt="House Image" class="house-image">
+        <img src="/homepage_images/house_from_driveway.jpg" alt="House Image" class="house-image">
       </div>
     </div>
 
@@ -24,7 +24,7 @@
 
     <div class="info-section info-section-reverse">
       <div class="info-image">
-        <img src="/homepage_images/homepage_main.jpg" alt="Family Image" class="house-image">
+        <img src="/homepage_images/elika_giles.jpg" alt="Family Image" class="house-image">
       </div>
       <div class="info-text">
         <h2>{{ $t('home.aboutUsTitle') }}</h2>

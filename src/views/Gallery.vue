@@ -36,7 +36,7 @@ export default {
         {
           id: '1st-floor',
           title: 'categories.1st_floor',
-          thumbnail: '/room_images/1st_living_room.jpg',
+          thumbnail: '/room_images/1st_floor/1st_living_room.jpg',
           images: [
             { src: '/room_images/1st_floor/1st_living_room.jpg', alt: 'Living Room Image 1' },
             { src: '/room_images/1st_floor/1st_living_room_2.jpg', alt: 'Living Room Image 2' },
