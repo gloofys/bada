@@ -167,9 +167,10 @@ export default {
 }
 
 .lightbox-content {
-  max-width: 80%;
-  max-height: 80%;
+  max-width: 100%;
+  max-height: 90vh;
   transition: transform 0.3s ease;
+  object-fit: contain;
 }
 
 .zoom-container {
@@ -179,6 +180,7 @@ export default {
   max-width: 100%;
   max-height: 100%;
   overflow: hidden;
+  object-fit: contain;
 }
 
 .close {
@@ -273,6 +275,7 @@ export default {
     user-select: none;
     background-color: rgba(0, 0, 0, 0.4);
   }
+
 
 }
 </style>

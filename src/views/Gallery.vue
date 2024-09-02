@@ -55,7 +55,7 @@ export default {
             { src: '/room_images/2nd_floor/2nd_bedroom_SW.jpg', alt: '2nd Floor Southwest bedroom' },
             { src: '/room_images/2nd_floor/2nd_kitchen.jpg', alt: '2nd Floor kitchen' },
             { src: '/room_images/2nd_floor/2nd_kitchen_2.jpg', alt: '2nd Floor kitchen' },
-            { src: '/room_images/2nd_floor/2nd_toiletshower.jpg', alt: '2nd Floor kitchen' }
+            { src: '/room_images/2nd_floor/2nd_toiletshower.jpg', alt: '2nd Floor toilet' }
           ]
         },
         {

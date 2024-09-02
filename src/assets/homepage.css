@@ -82,6 +82,7 @@
     width: 100%;
     min-width: 300px; /* Set a minimum width to avoid shrinking too much */
     height: auto;
+    border-radius: 8px;
 }
 
 .info-button {
