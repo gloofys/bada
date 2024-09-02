@@ -40,6 +40,9 @@ export default {
           images: [
             { src: '/room_images/1st_floor/1st_living_room.jpg', alt: 'Living Room Image 1' },
             { src: '/room_images/1st_floor/1st_living_room_2.jpg', alt: 'Living Room Image 2' },
+            { src: '/room_images/1st_floor/1st_floor_kitchen.jpg', alt: '1st floor kitchen' },
+            { src: '/room_images/1st_floor/1st_floor_toilet.jpg', alt: '1st floor toilet' },
+            { src: '/room_images/1st_floor/wine_cellar.jpg', alt: 'wine cellar' },
           ]
         },
         {
@@ -51,7 +54,8 @@ export default {
             { src: '/room_images/2nd_floor/2nd_bedroom_NE.jpg', alt: '2nd Floor Northeast bedroom' },
             { src: '/room_images/2nd_floor/2nd_bedroom_SW.jpg', alt: '2nd Floor Southwest bedroom' },
             { src: '/room_images/2nd_floor/2nd_kitchen.jpg', alt: '2nd Floor kitchen' },
-            { src: '/room_images/2nd_floor/2nd_kitchen_2.jpg', alt: '2nd Floor kitchen' }
+            { src: '/room_images/2nd_floor/2nd_kitchen_2.jpg', alt: '2nd Floor kitchen' },
+            { src: '/room_images/2nd_floor/2nd_toiletshower.jpg', alt: '2nd Floor kitchen' }
           ]
         },
         {
@@ -60,9 +64,26 @@ export default {
           thumbnail: '/room_images/garden/garden_upper_view.jpg',
           images: [
             { src: '/room_images/garden/garden_upper_view.jpg', alt: 'View from upper garden' },
+            { src: '/room_images/garden/garden_back.jpg', alt: 'Upper garden' },
+            { src: '/room_images/garden/garden_back_2.jpg', alt: 'Upper garden' },
+            { src: '/room_images/garden/garden_front.jpg', alt: 'Garden in front of the house' },
           ]
         },
         // Add more categories as needed
+        {
+          id: 'Other',
+          title: 'categories.Other',
+          thumbnail: '/gallery_other_images/badacsony_hill.jpg',
+          images: [
+            { src: '/gallery_other_images/badacsony_hill.jpg', alt: 'Badacsony hill' },
+            { src: '/gallery_other_images/Vineyard.jpg', alt: 'Vineyard' },
+            { src: '/gallery_other_images/ferry_trip_with_bikes.jpg', alt: 'ferry trip with bikes' },
+            { src: '/gallery_other_images/hills.jpg', alt: 'View of badacsony across balaton' },
+            { src: '/gallery_other_images/view_from_badacsony_hill_watchtower.jpg', alt: 'View from Badacsony hill watchtower' },
+
+          ]
+        },
+
       ],
       isLightboxOpen: false,
       selectedImages: [],

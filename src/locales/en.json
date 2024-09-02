@@ -409,7 +409,8 @@
   "categories": {
     "1st_floor": "1st Floor",
     "2nd_floor": "2nd Floor",
-    "Garden": "Garden"
+    "Garden": "Garden",
+    "Other": "Other"
   },
   "eventDescription": "Badacsony events"
 }

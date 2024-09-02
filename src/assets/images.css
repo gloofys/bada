@@ -231,6 +231,7 @@ section {
     }
     .image-grid img{
         height: 100%;
+        max-height: 16rem;
     }
     .image-grid img:nth-child(1) {
         grid-column: 1 / -1; /* Spans the full width */
@@ -252,5 +253,6 @@ section {
 @media (min-width: 769px) {
     .image-grid {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
     }
 }
