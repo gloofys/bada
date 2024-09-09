@@ -80,6 +80,7 @@ export default {
             { src: '/gallery_other_images/ferry_trip_with_bikes.jpg', alt: 'ferry trip with bikes' },
             { src: '/gallery_other_images/hills.jpg', alt: 'View of badacsony across balaton' },
             { src: '/gallery_other_images/view_from_badacsony_hill_watchtower.jpg', alt: 'View from Badacsony hill watchtower' },
+            { src: '/gallery_other_images/wine_festival_1.jpg', alt: 'Badacsony Wine Festival' },
 
           ]
         },
