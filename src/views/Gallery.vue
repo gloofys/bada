@@ -67,6 +67,8 @@ export default {
             { src: '/room_images/garden/garden_back.jpg', alt: 'Upper garden' },
             { src: '/room_images/garden/garden_back_2.jpg', alt: 'Upper garden' },
             { src: '/room_images/garden/garden_front.jpg', alt: 'Garden in front of the house' },
+            { src: '/room_images/garden/lower_garden_1.jpg', alt: 'lower garden with grapes and fruit trees' },
+            { src: '/room_images/garden/garden_grapes.jpg', alt: 'our homegrown grapes' },
           ]
         },
         // Add more categories as needed
