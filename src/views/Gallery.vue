@@ -67,8 +67,9 @@ export default {
             { src: '/room_images/garden/garden_back.jpg', alt: 'Upper garden' },
             { src: '/room_images/garden/garden_back_2.jpg', alt: 'Upper garden' },
             { src: '/room_images/garden/garden_front.jpg', alt: 'Garden in front of the house' },
-            { src: '/room_images/garden/lower_garden_1.jpg', alt: 'lower garden with grapes and fruit trees' },
-            { src: '/room_images/garden/garden_grapes.jpg', alt: 'our homegrown grapes' },
+            { src: '/room_images/garden/lower_garden_1.jpg', alt: 'Lower garden with grapes and fruit trees' },
+            { src: '/room_images/garden/garden_grapes.jpg', alt: 'Our homegrown grapes' },
+            { src: '/room_images/garden/garden_from_balcony.jpg', alt: 'View of garden from balcony' },
           ]
         },
         // Add more categories as needed
@@ -79,7 +80,7 @@ export default {
           images: [
             { src: '/gallery_other_images/badacsony_hill.jpg', alt: 'Badacsony hill' },
             { src: '/gallery_other_images/Vineyard.jpg', alt: 'Vineyard' },
-            { src: '/gallery_other_images/ferry_trip_with_bikes.jpg', alt: 'ferry trip with bikes' },
+            { src: '/gallery_other_images/ferry_trip_with_bikes.jpg', alt: 'Ferry trip with bikes' },
             { src: '/gallery_other_images/hills.jpg', alt: 'View of badacsony across balaton' },
             { src: '/gallery_other_images/view_from_badacsony_hill_watchtower.jpg', alt: 'View from Badacsony hill watchtower' },
             { src: '/gallery_other_images/wine_festival_1.jpg', alt: 'Badacsony Wine Festival' },
