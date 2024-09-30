@@ -98,6 +98,48 @@
       "content": "Each of the first two floors is equipped with a modern kitchen and a full bathroom with a shower. The kitchen on the upper floor also includes a dining area, perfect for family meals and gatherings."
     }
   },
+  "rooms": {
+    "downstairs_living_room": {
+      "title": "Downstairs Living Room",
+      "room_size": "Room size: 25 m²",
+      "features": {
+        "wifi": "Free Wi-Fi",
+        "safe": "Safe"
+      },
+      "room_fits": "Room fits: 1x Double Bed + 1x extra bed/Baby COT or 2x Twin + 1x extra bed/Baby COT",
+      "image_alt": "Standard Room Image"
+    },
+    "second_floor_ne_bedroom": {
+      "title": "2nd floor NE bedroom",
+      "room_size": "Room size: 25 m²",
+      "features": {
+        "wifi": "Free Wi-Fi",
+        "safe": "Safe"
+      },
+      "room_fits": "Room fits: 1x Double Bed + 1x extra bed/Baby COT or 2x Twin + 1x extra bed/Baby COT",
+      "image_alt": "Standard Room Image"
+    },
+    "second_floor_sw_bedroom": {
+      "title": "2nd floor SW bedroom",
+      "room_size": "Room size: 25 m²",
+      "features": {
+        "wifi": "Free Wi-Fi",
+        "safe": "Safe"
+      },
+      "room_fits": "Room fits: 1x Double Bed + 1x extra bed/Baby COT or 2x Twin + 1x extra bed/Baby COT",
+      "image_alt": "Standard Room Image"
+    },
+    "second_floor_bedroom_balcony": {
+      "title": "2nd floor bedroom with balcony",
+      "room_size": "Room size: 25 m²",
+      "features": {
+        "wifi": "Free Wi-Fi",
+        "safe": "Safe"
+      },
+      "room_fits": "Room fits: 1x Double Bed + 1x extra bed/Baby COT or 2x Twin + 1x extra bed/Baby COT",
+      "image_alt": "Standard Room Image"
+    }
+  },
   "wineries": {
     "laposa_estate": {
       "name": "Laposa Estate",
@@ -403,9 +445,7 @@
       "location": "Ábrahámhegy"
     }
   },
-
   "viewMoreButton": "View More Events",
-
   "categories": {
     "1st_floor": "1st Floor",
     "2nd_floor": "2nd Floor",

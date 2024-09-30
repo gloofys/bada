@@ -98,6 +98,50 @@
       "content": "Mõlemal esimesel kahel korrusel on kaasaegne köök ja täielik vannituba dušiga. Ülemise korruse köögis on ka söögituba, mis on ideaalne peretoidukordade ja koosviibimiste jaoks."
     }
   },
+  "rooms": {
+
+  "downstairs_living_room": {
+    "title": "Elutuba Esimesel Korrusel",
+    "room_size": "Toa suurus: 25 m²",
+    "features": {
+      "wifi": "Tasuta Wi-Fi",
+      "safe": "Seif"
+    },
+    "room_fits": "Tuppa mahub: 1x Kaheinimesevoodi + 1x lisavoodi/lastevoodi või 2x Üheinimesevoodi + 1x lisavoodi/lastevoodi",
+    "image_alt": "Tavalise Toa Pilt"
+  },
+  "second_floor_ne_bedroom": {
+    "title": "Teise Korruse kirde Magamistuba",
+    "room_size": "Toa suurus: 25 m²",
+    "features": {
+      "wifi": "Tasuta Wi-Fi",
+      "safe": "Seif"
+    },
+    "room_fits": "Tuppa mahub: 1x Kaheinimesevoodi + 1x lisavoodi/lastevoodi või 2x Üheinimesevoodi + 1x lisavoodi/lastevoodi",
+    "image_alt": "Tavalise Toa Pilt"
+  },
+  "second_floor_sw_bedroom": {
+    "title": "Teise Korruse edela Magamistuba",
+    "room_size": "Toa suurus: 25 m²",
+    "features": {
+      "wifi": "Tasuta Wi-Fi",
+      "safe": "Seif"
+    },
+    "room_fits": "Tuppa mahub: 1x Kaheinimesevoodi + 1x lisavoodi/lastevoodi või 2x Üheinimesevoodi + 1x lisavoodi/lastevoodi",
+    "image_alt": "Tavalise Toa Pilt"
+  },
+  "second_floor_bedroom_balcony": {
+    "title": "Teise Korruse Magamistuba Rõduga",
+    "room_size": "Toa suurus: 25 m²",
+    "features": {
+      "wifi": "Tasuta Wi-Fi",
+      "safe": "Seif"
+    },
+    "room_fits": "Tuppa mahub: 1x Kaheinimesevoodi + 1x lisavoodi/lastevoodi või 2x Üheinimesevoodi + 1x lisavoodi/lastevoodi",
+    "image_alt": "Tavalise Toa Pilt"
+  }
+
+  },
   "wineries": {
     "laposa_estate": {
       "name": "Laposa Estate",
