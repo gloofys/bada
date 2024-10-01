@@ -29,6 +29,28 @@
     "how_to_get_here": "How to get here",
     "tallinn_badacsony": "Tallinn -> Badacsony"
   },
+  "location_info": {
+    "closest_airport": {
+      "strong": "Closest Airport:",
+      "text": " Budapest Ferenc Liszt International Airport (BUD) - approximately 200 km"
+    },
+    "closest_train_station": {
+      "strong": "Closest Train Station:",
+      "text": " Badacsony Train Station - 2.5 km"
+    },
+    "distance_budapest": {
+      "strong": "Distance to Budapest:",
+      "text": " 180 km"
+    },
+    "distance_vienna": {
+      "strong": "Distance to Vienna:",
+      "text": " 210 km"
+    },
+    "distance_tallinn": {
+      "strong": "Distance to Tallinn:",
+      "text": " 1,900 km"
+    }
+  },
   "wineRegion": {
     "wine_region": "Wine Region",
     "biggest_wine_producers": "Biggest wine producers",

@@ -29,6 +29,29 @@
     "how_to_get_here": "Kuidas kohale jõuda",
     "tallinn_badacsony": "Tallinn -> Badacsony"
   },
+  "location_info": {
+    "closest_airport": {
+      "strong": "Lähim Lennujaam:",
+      "text": " Budapesti Ferenc Liszti Rahvusvaheline Lennujaam (BUD) - umbes 200 km"
+    },
+    "closest_train_station": {
+      "strong": "Lähim Rongijaam:",
+      "text": " Badacsony Rongijaam - 2,5 km"
+    },
+    "distance_budapest": {
+      "strong": "Kaugus Budapestist:",
+      "text": " 180 km"
+    },
+    "distance_vienna": {
+      "strong": "Kaugus Viinist:",
+      "text": " 210 km"
+    },
+    "distance_tallinn": {
+      "strong": "Kaugus Tallinnast:",
+      "text": " 1,900 km"
+    }
+  },
+
   "wineRegion": {
     "wine_region": "Veinipiirkond",
     "biggest_wine_producers": "Suurimad veinivalmistajad",

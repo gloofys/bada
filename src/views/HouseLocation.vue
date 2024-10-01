@@ -12,11 +12,11 @@
 
       <div class="house-location">
         <ul>
-          <li><strong>Closest Airport:</strong> Budapest Ferenc Liszt International Airport (BUD) - approximately 200 km</li>
-          <li><strong>Closest Train Station:</strong> Badacsony Train Station - 2.5 km</li>
-          <li><strong>Distance to Budapest:</strong> 180 km</li>
-          <li><strong>Distance to Vienna:</strong> 210 km</li>
-          <li><strong>Distance to Tallinn:</strong> 1,900 km</li>
+          <li><strong>{{ $t('location_info.closest_airport.strong') }}</strong>{{ $t('location_info.closest_airport.text') }}</li>
+          <li><strong>{{ $t('location_info.closest_train_station.strong') }}</strong>{{ $t('location_info.closest_train_station.text') }}</li>
+          <li><strong>{{ $t('location_info.distance_budapest.strong') }}</strong>{{ $t('location_info.distance_budapest.text') }}</li>
+          <li><strong>{{ $t('location_info.distance_vienna.strong') }}</strong>{{ $t('location_info.distance_vienna.text') }}</li>
+          <li><strong>{{ $t('location_info.distance_tallinn.strong') }}</strong>{{ $t('location_info.distance_tallinn.text') }}</li>
         </ul>
       </div>
   </div>
