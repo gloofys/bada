@@ -93,10 +93,8 @@
     </div>
     <div class="language-selector-container">
       <div class="language-selector">
-        <select @change="changeLanguage($event.target.value)">
-          <option value="en">🇬🇧 English</option>
-          <option value="et">🇪🇪 Eesti</option>
-        </select>
+        <img @click="changeLanguage('en')" src="/gb.png" alt="English" width="48" height="32">
+        <img @click="changeLanguage('et')" src="/ee.png" alt="Estonian" width="48" height="32">
       </div>
     </div>
   </header>

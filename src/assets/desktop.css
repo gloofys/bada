@@ -314,4 +314,22 @@
         text-align: center;
         margin: 2rem;
     }
+
+    .language-selector {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 120px; /* Adjust the width as needed */
+    }
+
+    .language-selector img {
+        cursor: pointer;
+        transition: transform 0.2s ease;
+        width: 48px;
+        height: 32px;
+    }
+
+    .language-selector img:hover {
+        transform: scale(1.2); /* Zoom effect on hover */
+    }
 }
