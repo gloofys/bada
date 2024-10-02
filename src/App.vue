@@ -19,8 +19,12 @@ export default {
   components: {
     Footer,
     NavigationHeader
+  },
+  mounted() {
+    window.scrollTo(0, 0); // Scroll to top on mount
   }
 }
+
 </script>
 
 

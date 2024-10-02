@@ -165,7 +165,16 @@ const routes = [
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.VITE_BASE_URL),
-    routes
-})
+    routes,
+    scrollBehavior(to, from, savedPosition) {
+        // if there is a saved position, return it (usually when navigating back/forward)
+        if (savedPosition) {
+            return savedPosition;
+        } else {
+            // otherwise, scroll to the top of the page
+            return { top: 0 };
+        }
+    }
+});
 
-export default router
+export default router;
