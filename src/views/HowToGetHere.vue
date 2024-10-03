@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h2 class="page-heading">{{ $t('howToGetHere.title') }}</h2>
+<!--    <h2 class="page-heading">{{ $t('howToGetHere.title') }}</h2>-->
 
     <section class="transportation-option">
       <h3>{{ $t('howToGetHere.byCar.title') }}</h3>
