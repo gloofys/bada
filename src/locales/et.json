@@ -237,7 +237,8 @@
   },
   "bookingInfo": {
     "message": "Broneeringu tegemiseks võtke meiega ühendust e-posti või telefoni teel. Oleme hea meelega valmis pakkuma teile kohandatud hinnapakkumist pikemaks peatumiseks.",
-    "contactUs": "Võtke meiega ühendust"
+    "contactUs": "Võtke meiega ühendust",
+    "eventsWebsite": "külasta Badacsony ürituste veebilehte"
   },
   "extraServices": {
     "intro": "Pakume mitmesuguseid täiendavaid teenuseid, et teie viibimist veelgi paremaks muuta. Palun pange tähele, et need teenused on saadaval ainult siis, kui peremees on kohal.",
