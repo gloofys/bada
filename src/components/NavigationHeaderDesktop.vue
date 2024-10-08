@@ -107,6 +107,27 @@ export default {
     changeLanguage(lang) {
       this.$i18n.locale = lang;
     }
+  },
+  mounted() {
+    // Select all dropdown contents
+    const dropdowns = document.querySelectorAll('.dropdown-content');
+
+    dropdowns.forEach(dropdownContent => {
+      // Select the first list item within each dropdown
+      const firstItem = dropdownContent.querySelector('li:first-child');
+
+      if (firstItem && dropdownContent) {
+        // Add event listener for when the user hovers over the first item
+        firstItem.addEventListener('mouseenter', () => {
+          dropdownContent.style.setProperty('--arrow-bg-color', '#daddda'); // Change arrow background color
+        });
+
+        // Add event listener for when the user moves the mouse away from the first item
+        firstItem.addEventListener('mouseleave', () => {
+          dropdownContent.style.setProperty('--arrow-bg-color', '#f9f9f9'); // Reset arrow background color
+        });
+      }
+    });
   }
 }
 </script>
