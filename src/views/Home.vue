@@ -1,7 +1,7 @@
 <template>
   <div class="main-container">
     <div class="hero-image-wrapper">
-      <img src="/homepage_images/homepage_main.jpg" alt="Welcome Image" class="hero-image">
+      <img src="/homepage_images/homepage_main.jpg" alt="Welcome Image" class="hero-image" loading="lazy">
       <div class="hero-text">
         <h1>{{ $t('home.title') }}</h1>
         <p>{{ $t('home.intro') }}</p>
@@ -14,7 +14,7 @@
         <p>{{ $t('home.houseDescription') }}</p>
       </div>
       <div class="info-image">
-        <img src="/homepage_images/house_from_driveway.jpg" alt="House Image" class="house-image">
+        <img src="/homepage_images/house_from_driveway.jpg" alt="House Image" class="house-image" loading="lazy">
       </div>
     </div>
 
@@ -24,7 +24,7 @@
 
     <div class="info-section info-section-reverse">
       <div class="info-image">
-        <img src="/homepage_images/elika_giles.jpg" alt="Family Image" class="house-image">
+        <img src="/homepage_images/elika_giles.jpg" alt="Family Image" class="house-image" loading="lazy">
       </div>
       <div class="info-text">
         <h2>{{ $t('home.aboutUsTitle') }}</h2>
