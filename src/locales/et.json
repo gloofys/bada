@@ -475,7 +475,7 @@
     "1st_floor": "1.korrus",
     "2nd_floor": "2.korrus",
     "Garden": "Aed",
-    "other": "Muu"
+    "Other": "Muu"
   },
   "eventDescription": "Badacsony sündmused"
 }
