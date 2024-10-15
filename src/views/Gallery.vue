@@ -68,8 +68,8 @@ export default {
             { src: '/room_images/garden/garden_back_2.jpg', alt: 'Upper garden', loading: 'lazy' },
             { src: '/room_images/garden/garden_front.jpg', alt: 'Garden in front of the house', loading: 'lazy' },
             { src: '/room_images/garden/lower_garden_1.jpg', alt: 'Lower garden with grapes and fruit trees', loading: 'lazy' },
+            { src: '/room_images/garden/garden_from_balcony.jpg', alt: 'View of garden from balcony', loading: 'lazy' },
             { src: '/room_images/garden/garden_grapes.jpg', alt: 'Our homegrown grapes', loading: 'lazy' },
-            { src: '/room_images/garden/garden_from_balcony.jpg', alt: 'View of garden from balcony', loading: 'lazy' }
           ]
         },
         {

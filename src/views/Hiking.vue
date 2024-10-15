@@ -56,32 +56,6 @@
           class="content-image"
       />
     </div>
-<!--    <div class="text-image-wrapper">-->
-<!--      <div class="text-content">-->
-<!--        <h4>View from top of the hill</h4>-->
-<!--      </div>-->
-<!--      <img-->
-<!--          src="/hiking_images/badahikingview_1500.jpg"-->
-<!--          srcset="-->
-<!--          /hiking_images/badahikingview_375.jpg 375w,-->
-<!--          /hiking_images/badahikingview_550.jpg 550w,-->
-<!--          /hiking_images/badahikingview_750.jpg 750w,-->
-<!--          /hiking_images/badahikingview_1100.jpg 1100w,-->
-<!--          /hiking_images/badahikingview_1500.jpg 1500w,-->
-<!--          /hiking_images/badahikingview_2000.jpg 2000w,-->
-<!--          /hiking_images/badahikingview_3000.jpg 3000w-->
-<!--        "-->
-<!--          sizes="(max-width: 375px) 375w,-->
-<!--               (max-width: 550px) 550w,-->
-<!--               (max-width: 750px) 750w,-->
-<!--               (max-width: 1100px) 1100w,-->
-<!--               (max-width: 1500px) 1500w,-->
-<!--               (max-width: 2000px) 2000w,-->
-<!--               100vw"-->
-<!--          alt="Badacsony hiking trail pictures"-->
-<!--          class="content-image"-->
-<!--      />-->
-<!--    </div>-->
   </div>
 </template>
 
