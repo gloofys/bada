@@ -132,7 +132,7 @@
       "image_alt": "downstairs living room Image"
     },
     "second_floor_ne_bedroom": {
-      "title": "2nd floor NE bedroom",
+      "title": "Upstairs NE bedroom",
       "room_size": "Room size: 25 m²",
       "features": {
         "wifi": "Free Wi-Fi",
@@ -142,7 +142,7 @@
       "image_alt": "Second floor northeast bedroom Image"
     },
     "second_floor_sw_bedroom": {
-      "title": "2nd floor SW bedroom",
+      "title": "Upstairs SW bedroom",
       "room_size": "Room size: 25 m²",
       "features": {
         "wifi": "Free Wi-Fi",
@@ -152,7 +152,7 @@
       "image_alt": "second floor south-west bedroom"
     },
     "second_floor_bedroom_balcony": {
-      "title": "2nd floor bedroom with balcony",
+      "title": "Upstairs bedroom with balcony",
       "room_size": "Room size: 25 m²",
       "features": {
         "wifi": "Free Wi-Fi",
