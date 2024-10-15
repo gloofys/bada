@@ -20,7 +20,7 @@
     .room-content,
     .room-image {
         max-width: 100%;
-        margin: 0;
+        margin-bottom: 4rem;
         order: initial; /* Reset order for mobile view */
     }
 

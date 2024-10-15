@@ -128,8 +128,8 @@
         "wifi": "Free Wi-Fi",
         "safe": "Safe"
       },
-      "room_fits": "Room fits: 1x Double Bed + 1x extra bed/Baby COT or 2x Twin + 1x extra bed/Baby COT",
-      "image_alt": "Standard Room Image"
+      "room_fits": "Room fits: Convertible sofa bed, an additional extra bed or baby cot, with the option to place extra mattresses on the floor for increased capacity",
+      "image_alt": "downstairs living room Image"
     },
     "second_floor_ne_bedroom": {
       "title": "2nd floor NE bedroom",
@@ -138,8 +138,8 @@
         "wifi": "Free Wi-Fi",
         "safe": "Safe"
       },
-      "room_fits": "Room fits: 1x Double Bed + 1x extra bed/Baby COT or 2x Twin + 1x extra bed/Baby COT",
-      "image_alt": "Standard Room Image"
+      "room_fits": "Room fits: Queen bed with the option to add Baby COT",
+      "image_alt": "Second floor northeast bedroom Image"
     },
     "second_floor_sw_bedroom": {
       "title": "2nd floor SW bedroom",
@@ -149,7 +149,7 @@
         "safe": "Safe"
       },
       "room_fits": "Room fits: 1x Double Bed + 1x extra bed/Baby COT or 2x Twin + 1x extra bed/Baby COT",
-      "image_alt": "Standard Room Image"
+      "image_alt": "second floor south-west bedroom"
     },
     "second_floor_bedroom_balcony": {
       "title": "2nd floor bedroom with balcony",
@@ -158,8 +158,8 @@
         "wifi": "Free Wi-Fi",
         "safe": "Safe"
       },
-      "room_fits": "Room fits: 1x Double Bed + 1x extra bed/Baby COT or 2x Twin + 1x extra bed/Baby COT",
-      "image_alt": "Standard Room Image"
+      "room_fits": "Room fits: Queen bed with the option to add Baby COT",
+      "image_alt": "Second floor bedroom with balcony image"
     }
   },
   "wineries": {

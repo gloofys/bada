@@ -56,7 +56,7 @@
         <p><strong>{{ $t('rooms.second_floor_bedroom_balcony.room_fits') }}</strong></p>
       </div>
       <div class="room-image">
-        <img src="/room_images/1st_floor/1st_living_room.jpg" alt="{{ $t('rooms.second_floor_bedroom_balcony.image_alt') }}">
+        <img src="/room_images/2nd_floor/balcony_bedroom.jpg" alt="{{ $t('rooms.second_floor_bedroom_balcony.image_alt') }}">
       </div>
     </div>
 
