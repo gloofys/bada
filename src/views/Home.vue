@@ -18,6 +18,17 @@
       </div>
     </div>
 
+
+    <div class="info-section">
+      <div class="info-text">
+        <h2>{{ $t('home.houseTitle') }}</h2>
+        <p>{{ $t('home.houseDescription') }}</p>
+      </div>
+      <div class="info-image">
+        <ImageSlider />
+      </div>
+    </div>
+
     <!--    <div class="info-button">-->
     <!--      <a @click="goToContacts" class="details-button">{{ $t('bookingInfo.contactUs') }}</a>-->
     <!--    </div>-->
@@ -35,8 +46,12 @@
 </template>
 
 <script>
+import ImageSlider from "@/components/ImageSlider.vue";
 export default {
   name: 'Home',
+  components: {
+    ImageSlider,
+  },
   methods: {
     goToContacts() {
       this.$router.push('/contact');
