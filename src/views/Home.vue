@@ -21,22 +21,22 @@
 
     <div class="info-section info-section-reverse">
       <div class="info-image">
-        <ImageSlider :images="wineImages"/>
+        <ImageSlider :images="activityImages"/>
       </div>
       <div class="info-text">
-        <h2>{{ $t('home.aboutUsTitle') }}</h2>
-        <p>{{ $t('home.aboutUsDescription') }}</p>
+        <h2>{{ $t('home.badaTitle') }}</h2>
+        <p>{{ $t('home.badaDescription') }}</p>
       </div>
     </div>
 
 
     <div class="info-section">
       <div class="info-text">
-        <h2>{{ $t('home.houseTitle') }}</h2>
-        <p>{{ $t('home.houseDescription') }}</p>
+        <h2>{{ $t('home.vineyardsTitle') }}</h2>
+        <p>{{ $t('home.vineyardsDescription') }}</p>
       </div>
       <div class="info-image">
-        <ImageSlider :images="activityImages"/>
+        <ImageSlider :images="wineImages"/>
       </div>
     </div>
 
