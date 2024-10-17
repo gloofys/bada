@@ -19,13 +19,24 @@
     </div>
 
 
+    <div class="info-section info-section-reverse">
+      <div class="info-image">
+        <ImageSlider :images="wineImages"/>
+      </div>
+      <div class="info-text">
+        <h2>{{ $t('home.aboutUsTitle') }}</h2>
+        <p>{{ $t('home.aboutUsDescription') }}</p>
+      </div>
+    </div>
+
+
     <div class="info-section">
       <div class="info-text">
         <h2>{{ $t('home.houseTitle') }}</h2>
         <p>{{ $t('home.houseDescription') }}</p>
       </div>
       <div class="info-image">
-        <ImageSlider />
+        <ImageSlider :images="activityImages"/>
       </div>
     </div>
 
@@ -47,15 +58,24 @@
 
 <script>
 import ImageSlider from "@/components/ImageSlider.vue";
+
 export default {
   name: 'Home',
   components: {
     ImageSlider,
   },
-  methods: {
-    goToContacts() {
-      this.$router.push('/contact');
-    }
-  }
+  data() {
+    return {
+      activityImages: [
+        '/gallery_other_images/hills.jpg',
+        '/gallery_other_images/ferry_trip_with_bikes.jpg',
+        '/gallery_other_images/view_from_badacsony_hill_watchtower.jpg',
+      ],
+      wineImages: [
+        '/gallery_other_images/wine_festival_1.jpg',
+        '/gallery_other_images/Vineyard.jpg',
+      ],
+    };
+  },
 };
 </script>

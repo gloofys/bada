@@ -28,13 +28,14 @@
 import Hammer from 'hammerjs';
 
 export default {
+  props: {
+    images: {
+      type: Array,
+      required: true
+    }
+  },
   data() {
     return {
-      images: [
-        '/gallery_other_images/wine_festival_1.jpg',
-        '/gallery_other_images/ferry_trip_with_bikes.jpg',
-        '/gallery_other_images/hills.jpg',
-      ],
       currentSlide: 0,
       totalSlides: 0,
     };
