@@ -22,7 +22,8 @@
 
     .container {
         padding: 3rem 9rem 3rem;
-        margin: 2rem 18rem;
+        margin: 2rem auto;
+        max-width: 90rem;
     }
 
     body {
