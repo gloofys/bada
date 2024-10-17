@@ -9,8 +9,8 @@
     </div>
 
     <!-- Slider controls -->
-    <button @click="prevSlide" class="control prev">Prev</button>
-    <button @click="nextSlide" class="control next">Next</button>
+    <a class="prev" @click="prevSlide">&#10094;</a>
+    <a class="next" @click="nextSlide">&#10095;</a>
 
     <!-- Slider dots (optional) -->
     <div class="slider-dots">
@@ -90,25 +90,6 @@ img {
   display: block;
 }
 
-.control {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  z-index: 10;
-}
-
-.prev {
-  left: 10px;
-}
-
-.next {
-  right: 10px;
-}
 
 .slider-dots {
   text-align: center;
