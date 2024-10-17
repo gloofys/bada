@@ -1,5 +1,5 @@
 <template>
-  <div class="slider">
+  <div class="slider" @touchstart="handleTouchStart" @touchmove="handleTouchMove" @touchend="handleTouchEnd">
     <div class="slider-window">
       <div class="slider-track" :style="trackStyle">
         <div v-for="(image, index) in images" :key="index" class="slider-item">
@@ -35,6 +35,8 @@ export default {
       ],
       currentSlide: 0,
       totalSlides: 0,
+      touchStartX: 0,
+      touchEndX: 0,
     };
   },
   computed: {
@@ -56,6 +58,24 @@ export default {
     },
     goToSlide(index) {
       this.currentSlide = index;
+    },
+
+    // Handle touch events for swipe functionality
+    handleTouchStart(event) {
+      this.touchStartX = event.touches[0].clientX;
+    },
+    handleTouchMove(event) {
+      this.touchEndX = event.touches[0].clientX;
+    },
+    handleTouchEnd() {
+      const swipeDistance = this.touchStartX - this.touchEndX;
+
+      // If swipe distance is significant enough, navigate slides
+      if (swipeDistance > 50) {
+        this.nextSlide(); // Swipe left
+      } else if (swipeDistance < -50) {
+        this.prevSlide(); // Swipe right
+      }
     }
   }
 };
@@ -89,7 +109,6 @@ img {
   width: 100%;
   display: block;
 }
-
 
 .slider-dots {
   text-align: center;
