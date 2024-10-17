@@ -108,6 +108,7 @@ export default {
 img {
   width: 100%;
   display: block;
+  border-radius: 8px;
 }
 
 .slider-dots {
