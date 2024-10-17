@@ -375,6 +375,7 @@ section {
     }
 
     .prev, .next {
+        transform: translateY(-50%);
         cursor: pointer;
         position: absolute;
         top: 50%;
@@ -382,7 +383,7 @@ section {
         padding: 8px;
         color: white;
         font-weight: bold;
-        font-size: 2rem;
+        font-size: 1rem;
         user-select: none;
         background-color: rgba(0, 0, 0, 0.4);
     }

@@ -78,7 +78,6 @@ export default {
     },
     checkMobileView() {
       this.isMobile = window.innerWidth <= 1024;
-      console.log("isMobile:", this.isMobile);
     },
     resetZoom() {
       this.scale = 1;
@@ -86,12 +85,10 @@ export default {
       this.$refs.lightboxImage.style.transformOrigin = 'center center';
     },
     handleTouchStart(event) {
-      console.log('Touch start event:', event);
       if (this.isMobile && event.touches.length === 2) {
         this.initialDistance = this.getDistance(event.touches);
         this.initialScale = this.scale;
         this.setTransformOrigin(event.touches);
-        console.log('Touch start:', this.initialDistance);
       }
     },
     handleTouchMove(event) {

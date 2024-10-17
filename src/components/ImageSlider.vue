@@ -1,5 +1,5 @@
 <template>
-  <div class="slider" @touchstart="handleTouchStart" @touchmove="handleTouchMove" @touchend="handleTouchEnd">
+  <div class="slider" ref="sliderContainer">
     <div class="slider-window">
       <div class="slider-track" :style="trackStyle">
         <div v-for="(image, index) in images" :key="index" class="slider-item">
@@ -8,9 +8,9 @@
       </div>
     </div>
 
-    <!-- Slider controls -->
-    <a class="prev" @click="prevSlide">&#10094;</a>
-    <a class="next" @click="nextSlide">&#10095;</a>
+    <!-- Slider controls with higher z-index -->
+    <a class="prev" @click="prevSlideByButton">&#10094;</a>
+    <a class="next" @click="nextSlideByButton">&#10095;</a>
 
     <!-- Slider dots (optional) -->
     <div class="slider-dots">
@@ -25,6 +25,8 @@
 </template>
 
 <script>
+import Hammer from 'hammerjs';
+
 export default {
   data() {
     return {
@@ -35,8 +37,6 @@ export default {
       ],
       currentSlide: 0,
       totalSlides: 0,
-      touchStartX: 0,
-      touchEndX: 0,
     };
   },
   computed: {
@@ -48,35 +48,42 @@ export default {
   },
   mounted() {
     this.totalSlides = this.images.length;
+    this.setupHammer();
+  },
+  beforeDestroy() {
+    this.hammer.destroy(); // Clean up Hammer.js events when the component is destroyed
   },
   methods: {
-    nextSlide() {
+    setupHammer() {
+      const sliderContainer = this.$refs.sliderContainer;
+      this.hammer = new Hammer(sliderContainer);
+
+      // Handle swipe left (next slide)
+      this.hammer.on('swipeleft', () => {
+        this.nextSlideBySwipe();
+      });
+
+      // Handle swipe right (previous slide)
+      this.hammer.on('swiperight', () => {
+        this.prevSlideBySwipe();
+      });
+    },
+
+    nextSlideByButton() {
       this.currentSlide = (this.currentSlide + 1) % this.totalSlides;
     },
-    prevSlide() {
+    prevSlideByButton() {
+      this.currentSlide = (this.currentSlide - 1 + this.totalSlides) % this.totalSlides;
+    },
+    nextSlideBySwipe() {
+      this.currentSlide = (this.currentSlide + 1) % this.totalSlides;
+    },
+    prevSlideBySwipe() {
       this.currentSlide = (this.currentSlide - 1 + this.totalSlides) % this.totalSlides;
     },
     goToSlide(index) {
       this.currentSlide = index;
     },
-
-    // Handle touch events for swipe functionality
-    handleTouchStart(event) {
-      this.touchStartX = event.touches[0].clientX;
-    },
-    handleTouchMove(event) {
-      this.touchEndX = event.touches[0].clientX;
-    },
-    handleTouchEnd() {
-      const swipeDistance = this.touchStartX - this.touchEndX;
-
-      // If swipe distance is significant enough, navigate slides
-      if (swipeDistance > 50) {
-        this.nextSlide(); // Swipe left
-      } else if (swipeDistance < -50) {
-        this.prevSlide(); // Swipe right
-      }
-    }
   }
 };
 </script>
@@ -110,6 +117,10 @@ img {
   display: block;
   border-radius: 8px;
 }
+
+/* Increased z-index to ensure buttons are clickable */
+
+
 
 .slider-dots {
   text-align: center;
