@@ -7,7 +7,11 @@
     "houseDescription": "2015. aastal ostetud ja täielikult renoveeritud maja asub Badacsony mäe nõlval, otse turismi- ja veinikeskuse südames. Maja pakub hingematvaid vaateid Balatoni järvele ning seal on hästi sisustatud toad, rahulik aed ja kaasaegsed mugavused.",
     "detailsButton": "DETAILID",
     "aboutUsTitle": "Meist",
-    "aboutUsDescription": "Oleme Elika ja Giles, rahvusvaheline paar, kes on kirglik veini ja külalislahkuse vastu. Elika on pärit Eestist ja Giles Inglismaalt ning mõlemad jagavad armastust Badacsony vastu. Vaatamata sellele, et elame ja töötame Eestis, veedame suurema osa oma vabast ajast siin, nautides piirkonna rikkalikku kultuuri ja kauneid maastikke. Ootame põnevusega külalisi meie koju ja jagame oma armastust selle ainulaadse piirkonna vastu."
+    "aboutUsDescription": "Oleme Elika ja Giles, rahvusvaheline paar, kes on kirglik veini ja külalislahkuse vastu. Elika on pärit Eestist ja Giles Inglismaalt ning mõlemad jagavad armastust Badacsony vastu. Vaatamata sellele, et elame ja töötame Eestis, veedame suurema osa oma vabast ajast siin, nautides piirkonna rikkalikku kultuuri ja kauneid maastikke. Ootame põnevusega külalisi meie koju ja jagame oma armastust selle ainulaadse piirkonna vastu.",
+    "vineyardsTitle": "Badacsony Veinid",
+    "vineyardsDescription": "Badacsony on tuntud oma võluvate viinamarjaistanduste ja veinibaaride poolest, kus külastajad saavad nautida kohalikke veine koos lummavate vaadetega Balatoni järvele. Paljud piirkonna veinibaarid pakuvad degustatsioone hubastel terrassidel, samal ajal kui viinamarjaistandused korraldavad ekskursioone, kus tutvustatakse sajanditevanuseid veinivalmistamise traditsioone.Olgu teie sihtkohaks väikesed veinikeldrid või suuremad veinimõisad, Badacsony on ideaalne paik lõõgastavaks ja ehedaks veinielamuseks.",
+    "badaTitle": "Badacsony Regioon",
+    "badaDescription": "Badacsony, mis asub Balatoni järve põhjakaldal, on tuntud oma vulkaaniliste küngaste poolest, pakkudes lummavaid vaateid ja matkaradu maaliliste viinamarjaistanduste vahel. Külastajad saavad avastada ajaloolisi veinikeldreidd, osaleda paadiretkedel või matkata Badacsony mäetippu, et nautida panoraamvaateid järvele ja ümbritsevale maastikule. Lähedal asuvad termilised allikad ja ajaloolised vaatamisväärsused lisavad piirkonnale veelgi atraktiivsust."
   },
   "footer": {
     "companyName": "Balaton Wines & Views",
@@ -51,7 +55,6 @@
       "text": " 1,900 km"
     }
   },
-
   "wineRegion": {
     "wine_region": "Veinipiirkond",
     "biggest_wine_producers": "Suurimad veinivalmistajad",
@@ -122,48 +125,46 @@
     }
   },
   "rooms": {
-
-  "downstairs_living_room": {
-    "title": "Elutuba Esimesel Korrusel",
-    "room_size": "Toa suurus: 25 m²",
-    "features": {
-      "wifi": "Tasuta Wi-Fi",
-      "safe": "Seif"
+    "downstairs_living_room": {
+      "title": "Elutuba Esimesel Korrusel",
+      "room_size": "Toa suurus: 25 m²",
+      "features": {
+        "wifi": "Tasuta Wi-Fi",
+        "safe": "Seif"
+      },
+      "room_fits": "Tuppa mahub: 1x Kaheinimesevoodi + 1x lisavoodi/lastevoodi või 2x Üheinimesevoodi + 1x lisavoodi/lastevoodi",
+      "image_alt": "Tavalise Toa Pilt"
     },
-    "room_fits": "Tuppa mahub: 1x Kaheinimesevoodi + 1x lisavoodi/lastevoodi või 2x Üheinimesevoodi + 1x lisavoodi/lastevoodi",
-    "image_alt": "Tavalise Toa Pilt"
-  },
-  "second_floor_ne_bedroom": {
-    "title": "Teise Korruse kirde Magamistuba",
-    "room_size": "Toa suurus: 25 m²",
-    "features": {
-      "wifi": "Tasuta Wi-Fi",
-      "safe": "Seif"
+    "second_floor_ne_bedroom": {
+      "title": "Teise Korruse kirde Magamistuba",
+      "room_size": "Toa suurus: 25 m²",
+      "features": {
+        "wifi": "Tasuta Wi-Fi",
+        "safe": "Seif"
+      },
+      "room_fits": "Tuppa mahub: 1x Kaheinimesevoodi + 1x lisavoodi/lastevoodi või 2x Üheinimesevoodi + 1x lisavoodi/lastevoodi",
+      "image_alt": "Tavalise Toa Pilt"
     },
-    "room_fits": "Tuppa mahub: 1x Kaheinimesevoodi + 1x lisavoodi/lastevoodi või 2x Üheinimesevoodi + 1x lisavoodi/lastevoodi",
-    "image_alt": "Tavalise Toa Pilt"
-  },
-  "second_floor_sw_bedroom": {
-    "title": "Teise Korruse edela Magamistuba",
-    "room_size": "Toa suurus: 25 m²",
-    "features": {
-      "wifi": "Tasuta Wi-Fi",
-      "safe": "Seif"
+    "second_floor_sw_bedroom": {
+      "title": "Teise Korruse edela Magamistuba",
+      "room_size": "Toa suurus: 25 m²",
+      "features": {
+        "wifi": "Tasuta Wi-Fi",
+        "safe": "Seif"
+      },
+      "room_fits": "Tuppa mahub: 1x Kaheinimesevoodi + 1x lisavoodi/lastevoodi või 2x Üheinimesevoodi + 1x lisavoodi/lastevoodi",
+      "image_alt": "Tavalise Toa Pilt"
     },
-    "room_fits": "Tuppa mahub: 1x Kaheinimesevoodi + 1x lisavoodi/lastevoodi või 2x Üheinimesevoodi + 1x lisavoodi/lastevoodi",
-    "image_alt": "Tavalise Toa Pilt"
-  },
-  "second_floor_bedroom_balcony": {
-    "title": "Teise Korruse Magamistuba Rõduga",
-    "room_size": "Toa suurus: 25 m²",
-    "features": {
-      "wifi": "Tasuta Wi-Fi",
-      "safe": "Seif"
-    },
-    "room_fits": "Tuppa mahub: 1x Kaheinimesevoodi + 1x lisavoodi/lastevoodi või 2x Üheinimesevoodi + 1x lisavoodi/lastevoodi",
-    "image_alt": "Tavalise Toa Pilt"
-  }
-
+    "second_floor_bedroom_balcony": {
+      "title": "Teise Korruse Magamistuba Rõduga",
+      "room_size": "Toa suurus: 25 m²",
+      "features": {
+        "wifi": "Tasuta Wi-Fi",
+        "safe": "Seif"
+      },
+      "room_fits": "Tuppa mahub: 1x Kaheinimesevoodi + 1x lisavoodi/lastevoodi või 2x Üheinimesevoodi + 1x lisavoodi/lastevoodi",
+      "image_alt": "Tavalise Toa Pilt"
+    }
   },
   "wineries": {
     "laposa_estate": {

@@ -67,13 +67,19 @@ export default {
   data() {
     return {
       activityImages: [
+        '/homepage_images/bada_vine_drone.jpg',
         '/gallery_other_images/hills.jpg',
         '/gallery_other_images/ferry_trip_with_bikes.jpg',
         '/gallery_other_images/view_from_badacsony_hill_watchtower.jpg',
+        '/homepage_images/bada_hill_top.jpg',
+        '/homepage_images/katri.jpg'
       ],
       wineImages: [
-        '/gallery_other_images/wine_festival_1.jpg',
-        '/gallery_other_images/Vineyard.jpg',
+        '/homepage_images/bada_dinner_ps.png',
+        '/homepage_images/laposa_view.jpg',
+        '/homepage_images/Elika_Giles_Winebar.jpg',
+        '/homepage_images/winekiosk.jpg',
+        '/homepage_images/Elika_wine_mountains.jpg'
       ],
     };
   },

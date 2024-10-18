@@ -14,12 +14,12 @@
 
     <!-- Slider dots (optional) -->
     <div class="slider-dots">
-      <span
-          v-for="(image, index) in images"
-          :key="index"
-          :class="['dot', { active: currentSlide === index }]"
-          @click="goToSlide(index)"
-      ></span>
+  <span
+      v-for="index in images.length"
+      :key="index"
+      :class="['dot', { active: currentSlide === index - 1 }]"
+      @click="goToSlide(index - 1)"
+  ></span>
     </div>
   </div>
 </template>
@@ -114,9 +114,11 @@ export default {
 }
 
 img {
-  width: 100%;
+  width: 100%;         /* Ensures the image stretches to the width of the container */
+  height: 400px;       /* Set a fixed height */
+  object-fit: cover;   /* Ensures the image covers the container while keeping the aspect ratio */
   display: block;
-  border-radius: 8px;
+  border-radius: 8px;  /* Keeps the rounded corners */
 }
 
 /* Increased z-index to ensure buttons are clickable */
