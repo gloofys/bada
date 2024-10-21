@@ -1,7 +1,7 @@
 <template>
   <div class="main-container">
     <div class="hero-image-wrapper">
-      <img src="/homepage_images/homepage_main.webp" alt="Welcome Image" class="hero-image" loading="lazy">
+      <img src="/homepage_images/homepage_main.webp" alt="Welcome Image" class="hero-image">
       <div class="hero-text">
         <h1>{{ $t('home.title') }}</h1>
         <p>{{ $t('home.intro') }}</p>

@@ -1,7 +1,7 @@
 <template>
   <div class="banner-container">
     <img
-        src="/nearbycities_images/heviz.png"
+        src="/nearbycities_images/heviz.webp"
         alt="lake heviz picture"
         class="banner-image"
     />

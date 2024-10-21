@@ -36,13 +36,14 @@ export default {
         {
           id: '1st-floor',
           title: 'categories.1st_floor',
-          thumbnail: '/room_images/1st_floor/1st_living_room.jpg',
+          thumbnail: '/room_images/1st_floor/1st_living_room.webp',
           images: [
-            { src: '/room_images/1st_floor/1st_living_room.jpg', alt: 'Living Room Image 1', loading: 'lazy' },
+            { src: '/room_images/1st_floor/1st_living_room.webp', alt: 'Living Room Image 1', loading: 'lazy' },
             { src: '/room_images/1st_floor/1st_living_room_2.jpg', alt: 'Living Room Image 2', loading: 'lazy' },
             { src: '/room_images/1st_floor/1st_floor_kitchen.jpg', alt: '1st floor kitchen', loading: 'lazy' },
             { src: '/room_images/1st_floor/1st_floor_toilet.jpg', alt: '1st floor toilet', loading: 'lazy' },
-            { src: '/room_images/1st_floor/wine_cellar.jpg', alt: 'wine cellar', loading: 'lazy' }
+            { src: '/room_images/1st_floor/wine_cellar.webp', alt: 'wine cellar', loading: 'lazy' },
+            { src: '/room_images/1st_floor/downstairs_stairway.webp', alt: 'wine cellar', loading: 'lazy' }
           ]
         },
         {
@@ -53,9 +54,9 @@ export default {
             { src: '/room_images/2nd_floor/2nd_hallway.jpg', alt: '2nd Floor Hallway', loading: 'lazy' },
             { src: '/room_images/2nd_floor/2nd_bedroom_NE.jpg', alt: '2nd Floor Northeast bedroom', loading: 'lazy' },
             { src: '/room_images/2nd_floor/2nd_bedroom_SW.jpg', alt: '2nd Floor Southwest bedroom', loading: 'lazy' },
-            { src: '/room_images/2nd_floor/2nd_kitchen.jpg', alt: '2nd Floor kitchen', loading: 'lazy' },
+            { src: '/room_images/2nd_floor/2nd_kitchen.webp', alt: '2nd Floor kitchen', loading: 'lazy' },
             { src: '/room_images/2nd_floor/2nd_kitchen_2.jpg', alt: '2nd Floor kitchen', loading: 'lazy' },
-            { src: '/room_images/2nd_floor/2nd_toiletshower.jpg', alt: '2nd Floor toilet', loading: 'lazy' }
+            { src: '/room_images/2nd_floor/2nd_toiletshower.webp', alt: '2nd Floor toilet', loading: 'lazy' }
           ]
         },
         {
@@ -64,24 +65,24 @@ export default {
           thumbnail: '/room_images/garden/garden_upper_view.jpg',
           images: [
             { src: '/room_images/garden/garden_upper_view.jpg', alt: 'View from upper garden', loading: 'lazy' },
-            { src: '/room_images/garden/garden_back.jpg', alt: 'Upper garden', loading: 'lazy' },
+            { src: '/room_images/garden/garden_back.webp', alt: 'Upper garden', loading: 'lazy' },
             { src: '/room_images/garden/garden_back_2.jpg', alt: 'Upper garden', loading: 'lazy' },
             { src: '/room_images/garden/garden_front.jpg', alt: 'Garden in front of the house', loading: 'lazy' },
-            { src: '/room_images/garden/lower_garden_1.jpg', alt: 'Lower garden with grapes and fruit trees', loading: 'lazy' },
-            { src: '/room_images/garden/garden_from_balcony.jpg', alt: 'View of garden from balcony', loading: 'lazy' },
-            { src: '/room_images/garden/garden_grapes.jpg', alt: 'Our homegrown grapes', loading: 'lazy' },
+            { src: '/room_images/garden/lower_garden_1.webp', alt: 'Lower garden with grapes and fruit trees', loading: 'lazy' },
+            { src: '/room_images/garden/garden_from_balcony.webp', alt: 'View of garden from balcony', loading: 'lazy' },
+
           ]
         },
         {
           id: 'Other',
           title: 'categories.Other',
-          thumbnail: '/gallery_other_images/badacsony_hill.jpg',
+          thumbnail: '/gallery_other_images/badacsony_hill.webp',
           images: [
-            { src: '/gallery_other_images/badacsony_hill.jpg', alt: 'Badacsony hill', loading: 'lazy' },
-            { src: '/gallery_other_images/Vineyard.jpg', alt: 'Vineyard', loading: 'lazy' },
-            { src: '/gallery_other_images/ferry_trip_with_bikes.jpg', alt: 'Ferry trip with bikes', loading: 'lazy' },
-            { src: '/gallery_other_images/hills.jpg', alt: 'View of badacsony across balaton', loading: 'lazy' },
-            { src: '/gallery_other_images/view_from_badacsony_hill_watchtower.jpg', alt: 'View from Badacsony hill watchtower', loading: 'lazy' },
+            { src: '/gallery_other_images/badacsony_hill.webp', alt: 'Badacsony hill', loading: 'lazy' },
+            { src: '/gallery_other_images/Vineyard.webp', alt: 'Vineyard', loading: 'lazy' },
+            { src: '/gallery_other_images/ferry_trip_with_bikes.webp', alt: 'Ferry trip with bikes', loading: 'lazy' },
+            { src: '/gallery_other_images/hills.webp', alt: 'View of badacsony across balaton', loading: 'lazy' },
+            { src: '/gallery_other_images/view_from_badacsony_hill_watchtower.webp', alt: 'View from Badacsony hill watchtower', loading: 'lazy' },
             { src: '/gallery_other_images/wine_festival_1.jpg', alt: 'Badacsony Wine Festival', loading: 'lazy' }
           ]
         }

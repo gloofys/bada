@@ -11,7 +11,7 @@
         <p><strong>{{ $t('rooms.downstairs_living_room.room_fits') }}</strong></p>
       </div>
       <div class="room-image">
-        <img src="/room_images/1st_floor/1st_living_room.jpg" alt="{{ $t('rooms.downstairs_living_room.image_alt') }}">
+        <img src="/room_images/1st_floor/1st_living_room.webp" alt="{{ $t('rooms.downstairs_living_room.image_alt') }}">
       </div>
     </div>
 
