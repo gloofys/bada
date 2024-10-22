@@ -37,9 +37,9 @@
               <li>
                 <router-link to="/wineRegion/biggest-wine-producers">{{ $t('wineRegion.biggest_wine_producers') }}</router-link>
               </li>
-              <li>
-                <router-link to="/wineRegion/small-wine-producers">{{ $t('wineRegion.small_wine_producers') }}</router-link>
-              </li>
+<!--              <li>-->
+<!--                <router-link to="/wineRegion/small-wine-producers">{{ $t('wineRegion.small_wine_producers') }}</router-link>-->
+<!--              </li>-->
               <li>
                 <router-link to="/wineRegion/our-favourites">{{ $t('wineRegion.our_favourites') }}</router-link>
               </li>
