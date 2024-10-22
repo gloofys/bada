@@ -38,12 +38,12 @@ export default {
           title: 'categories.1st_floor',
           thumbnail: '/room_images/1st_floor/1st_living_room.webp',
           images: [
-            { src: '/room_images/1st_floor/1st_living_room.webp', alt: 'Living Room Image 1', loading: 'lazy' },
-            { src: '/room_images/1st_floor/1st_living_room_2.jpg', alt: 'Living Room Image 2', loading: 'lazy' },
+            { src: '/room_images/1st_floor/1st_living_room.webp', alt: 'Living room Image 1', loading: 'lazy' },
+            { src: '/room_images/1st_floor/1st_living_room_2.jpg', alt: 'Living room Image 2', loading: 'lazy' },
             { src: '/room_images/1st_floor/1st_floor_kitchen.jpg', alt: '1st floor kitchen', loading: 'lazy' },
             { src: '/room_images/1st_floor/1st_floor_toilet.jpg', alt: '1st floor toilet', loading: 'lazy' },
-            { src: '/room_images/1st_floor/wine_cellar.webp', alt: 'wine cellar', loading: 'lazy' },
-            { src: '/room_images/1st_floor/downstairs_stairway.webp', alt: 'wine cellar', loading: 'lazy' }
+            { src: '/room_images/1st_floor/wine_cellar.webp', alt: 'Wine cellar', loading: 'lazy' },
+            { src: '/room_images/1st_floor/downstairs_stairway.webp', alt: 'Staircase to 2nd floor', loading: 'lazy' }
           ]
         },
         {
