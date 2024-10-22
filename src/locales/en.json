@@ -125,7 +125,7 @@
   "rooms": {
     "downstairs_living_room": {
       "title": "Downstairs Living Room",
-      "room_size": "Room size: 25 m²",
+      "room_size": "Room size: 32 m²",
       "features": {
         "wifi": "Free Wi-Fi",
         "safe": "Safe"
@@ -135,7 +135,7 @@
     },
     "second_floor_ne_bedroom": {
       "title": "Upstairs NE bedroom",
-      "room_size": "Room size: 25 m²",
+      "room_size": "Room size: 15 m²",
       "features": {
         "wifi": "Free Wi-Fi",
         "safe": "Safe"
@@ -145,7 +145,7 @@
     },
     "second_floor_sw_bedroom": {
       "title": "Upstairs SW bedroom",
-      "room_size": "Room size: 25 m²",
+      "room_size": "Room size: 16 m²",
       "features": {
         "wifi": "Free Wi-Fi",
         "safe": "Safe"
@@ -155,7 +155,7 @@
     },
     "second_floor_bedroom_balcony": {
       "title": "Upstairs bedroom with balcony",
-      "room_size": "Room size: 25 m²",
+      "room_size": "Room size: 16 m²",
       "features": {
         "wifi": "Free Wi-Fi",
         "safe": "Safe"
