@@ -7,7 +7,7 @@
     </section>
 
     <!-- Section 1: Room Prices -->
-    <section class="pricing-section">
+    <section>
       <table>
         <tr>
           <th>{{ $t('extraServices.service') }}</th>
