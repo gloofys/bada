@@ -1,7 +1,7 @@
 <template>
   <div class="banner-container">
     <img
-        src="/hiking_images/event.jpg"
+        src="/hiking_images/event.webp"
         alt="Badacsony events pictures"
         class="banner-image"
     />

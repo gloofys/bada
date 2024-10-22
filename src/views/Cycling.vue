@@ -1,15 +1,15 @@
 <template>
   <div class="banner-container">
     <img
-        src="/cycling_images/badabike_1500.jpg"
+        src="/cycling_images/badabike_1500.webp"
         srcset="
         /cycling_images/badabike_375.jpg 375w,
         /cycling_images/badabike_550.jpg 550w,
         /cycling_images/badabike_750.jpg 750w,
         /cycling_images/badabike_1100.jpg 1100w,
-        /cycling_images/badabike_1500.jpg 1500w,
-        /cycling_images/badabike_2000.jpg 2000w,
-        /cycling_images/badabike_3000.jpg 3000w
+        /cycling_images/badabike_1500.webp 1500w,
+        /cycling_images/badabike_2000.webp 2000w,
+        /cycling_images/badabike_3000.webp 3000w
       "
         sizes="(max-width: 375px) 375w,
              (max-width: 550px) 550w,
@@ -40,11 +40,11 @@
 
       </div>
       <img
-          src="/cycling_images/balaton_full_lap_1500.png"
+          src="/cycling_images/balaton_full_lap_1500.webp"
           srcset="
-    /cycling_images/balaton_full_lap_550.png 550w,
-    /cycling_images/balaton_full_lap_1100.png 1100w,
-    /cycling_images/balaton_full_lap_1500.png 1500w
+    /cycling_images/balaton_full_lap_550.webp 550w,
+    /cycling_images/balaton_full_lap_1100.webp 1100w,
+    /cycling_images/balaton_full_lap_1500.webp 1500w
   "
           sizes="(max-width: 550px) 550w,
          (max-width: 1100px) 1100w,
