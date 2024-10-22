@@ -36,7 +36,6 @@
         <h3>{{ $t('cyclingExperiences.main_balaton_route_header') }}</h3>
         <p><strong>{{ $t('cyclingExperiences.main_balaton_route.part1_title') }}</strong> {{ $t('cyclingExperiences.main_balaton_route.part1') }}</p>
         <p><strong>{{ $t('cyclingExperiences.main_balaton_route.part2_title') }}</strong> {{ $t('cyclingExperiences.main_balaton_route.part2') }}</p>
-        <p><strong>{{ $t('cyclingExperiences.main_balaton_route.part3_title') }}</strong> {{ $t('cyclingExperiences.main_balaton_route.part3') }}</p>
         <p><strong>{{ $t('cyclingExperiences.main_balaton_route.part4_title') }}</strong> {{ $t('cyclingExperiences.main_balaton_route.part4') }}</p>
 
       </div>
@@ -56,7 +55,9 @@
       />
 
     </div>
-    <h3>{{ $t('cyclingExperiences.main_3days') }}</h3>
+    <div class="cycle-alternate">
+    <h4>{{ $t('cyclingExperiences.main_3days') }}</h4>
+    </div>
     <div class="image-gallery">
       <img src="/cycling_images/cycle_day_left.png" alt="Cycling Image 1" class="gallery-image" />
       <img src="/cycling_images/cycle_day_center.png" alt="Cycling Image 2" class="gallery-image" />

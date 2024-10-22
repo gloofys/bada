@@ -133,7 +133,6 @@
     }
 
 
-
     .transportation-option ul li::marker {
         color: #d2a679; /* Change this to your desired bullet color */
         font-size: 1.2em; /* Adjust the size if necessary */
@@ -303,8 +302,16 @@
     .intro-section-lake h3 {
         text-align: center;
     }
-    .gallery-container h2{
+
+    .gallery-container h2 {
         font-size: 2rem;
     }
 
+    .cycle-alternate h4 {
+        font-size: 1.5rem;
+    }
+
+    .cycle-alternate {
+        margin-top: 20px;
+    }
 }
