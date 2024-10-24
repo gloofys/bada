@@ -32,11 +32,6 @@
           <img src="/lake_balaton_images/sailing.jpg" alt="image of sailing" class="basic-image">
         </div>
 
-        <!-- Water Skiing & Wakeboarding Section -->
-        <div class="activity">
-          <h4>{{ $t('lakeBalaton.waterSkiingTitle') }}</h4>
-          <p>{{ $t('lakeBalaton.waterSkiingDescription') }}</p>
-        </div>
       </section>
     </div>
 </template>
