@@ -248,6 +248,14 @@ section {
         grid-column: 1 / -1; /* Spans the full width */
     }
 
+    .image-grid img:nth-child(5),
+    .image-grid img:nth-child(6) {
+        grid-column: span 1; /* Each spans one column */
+    }
+    .image-grid img:nth-child(7) {
+        grid-column: 1 / -1; /* Spans the full width */
+    }
+
     .category-image {
         width: 20vw; /* Adjusted width */
         height: 12vw; /* Adjusted height */

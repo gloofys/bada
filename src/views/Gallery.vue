@@ -83,7 +83,8 @@ export default {
             { src: '/gallery_other_images/ferry_trip_with_bikes.webp', alt: 'Ferry trip with bikes', loading: 'lazy' },
             { src: '/gallery_other_images/hills.webp', alt: 'View of badacsony across balaton', loading: 'lazy' },
             { src: '/gallery_other_images/view_from_badacsony_hill_watchtower.webp', alt: 'View from Badacsony hill watchtower', loading: 'lazy' },
-            { src: '/gallery_other_images/wine_festival_1.jpg', alt: 'Badacsony Wine Festival', loading: 'lazy' }
+            { src: '/gallery_other_images/wine_festival_1.jpg', alt: 'Badacsony Wine Festival', loading: 'lazy' },
+            { src: '/gallery_other_images/view_near_folly_arboretum.webp', alt: 'View of badacsony hill from folly arboretum', loading: 'lazy' }
           ]
         }
       ],
