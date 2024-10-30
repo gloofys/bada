@@ -102,5 +102,12 @@ details[open] > .dropdown-subcontent {
     .dropdown-content::before {
         display: none;
     }
+
+    .dropdown-content {
+        border-radius: 0 0 1rem 1rem;
+
+    }
+
+
 }
 
