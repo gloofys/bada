@@ -16,9 +16,9 @@
       <p>{{ event.description }}</p>
       <p><em>{{ event.location }}</em></p>
     </div>
-    <div class = booking-info>
-    <a :href="'https://badacsony.com/en/events'" target="_blank">{{ $t('bookingInfo.eventsWebsite') }}</a>
-    </div>
+<!--    <div class = booking-info>-->
+<!--    <a :href="'https://badacsony.com/en/events'" target="_blank">{{ $t('bookingInfo.eventsWebsite') }}</a>-->
+<!--    </div>-->
   </div>
 </template>
 
